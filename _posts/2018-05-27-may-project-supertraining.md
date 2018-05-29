@@ -5,7 +5,7 @@ cover:  assets/images/may-supertraining-header.jpg
 navigation: True
 title: May Project Supertraining
 date: 2018-05-27 20:50:00
-tags: [Rides]
+tags: rides
 class: post-template
 subclass: 'post tag-rides'
 author: john
