@@ -1,0 +1,12 @@
+---
+layout: post
+current: post
+cover:  https://img.youtube.com/vi/EzPumPkVekM/maxresdefault.jpg
+navigation: True
+title: 2018 Koppenberg SM4
+date: 2018-04-30 20:50:00
+tags: races
+class: post-template
+subclass: 'post tag-rides'
+author: john
+---
