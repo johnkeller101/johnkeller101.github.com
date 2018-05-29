@@ -13,7 +13,7 @@
 {% endif %}
 {% if title %}
   {% assign title = title | append: ' - ' | append: site.title  %}
-{% elsif page.url == "https://john.coffee" %}
+{% elsif page.title == "john.coffee" %}
   {% assign title = 'Home - ' | append: site.title | append: ' - ' | append: site.description  %}
 {% elsif page.title %}
   {% assign title = page.title | append: ' - ' | append: site.description  %}
