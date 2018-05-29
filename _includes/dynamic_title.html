@@ -13,6 +13,6 @@
 {% endif %}
 {% if title %}
   {% assign title = title | append: ' - ' | append: site.title  %}
-{% else %}
-  {% assign title = title | append: ' - ' | append: site.description  %}
+{% elsif page.title %}
+  {% assign title = page.title | append: ' - ' | append: site.description  %}
 {% endif %}
