@@ -1,7 +1,8 @@
 ---
-layout: post
-current: post
+layout: video-post
+current: video-post
 cover:  https://img.youtube.com/vi/EzPumPkVekM/maxresdefault.jpg
+videourl:  https://img.youtube.com/vi/EzPumPkVekM/maxresdefault.jpg
 navigation: True
 title: 2018 Koppenberg SM4
 date: 2018-04-30 20:50:00
