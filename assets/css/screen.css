@@ -614,6 +614,13 @@ The first (most recent) post in the list is styled to be bigger than the others 
     /*border-radius: 5px;*/
 }
 
+.fluid-width-video-container {
+    left: 0;
+    right: 0;
+    width: 100%;
+    padding: 0, 0, 0;
+}
+
 /* end video page big video */
 
 
