@@ -1,0 +1,8 @@
+rides:
+  name: rides
+  description: A collection of some of my favorite rides
+  cover: assets/images/rides-bg.jpg
+getting-started:
+  name: getting-started
+  description: False
+  cover: False
