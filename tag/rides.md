@@ -1,7 +1,0 @@
----
-layout: tag
-title: "Tag: rides"
-tag: rides
-description: A collection of my favorite rides
-cover: assets/images/rides-bg.jpg
----
