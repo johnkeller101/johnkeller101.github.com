@@ -49,8 +49,7 @@ disqus: false
                 </div>
             </div>
 
-            {% endif %}
-            {% if page.cover %}
+            {% elif page.cover %}
             <figure class="post-full-image" style="background-image: url({{ site.baseurl }}{{ page.cover }})">
             </figure>
             {% endif %}
