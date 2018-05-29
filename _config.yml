@@ -26,6 +26,22 @@ twitter: johnkeller101 # replace by your username
 strava: johnkeller
 # facebook: ghost # replace by your username
 
+
+# remove white lines
+# http://jch.penibelst.de/
+
+compress_html:
+  clippings: []
+  comments: []
+  endings: []
+  ignore:
+    envs: []
+  blanklines: true
+  profile: false
+  startings: []
+
+
+
 # Disqus
 disqus: False
 # disqus_shortname: jekyller # replace with your disqus username
