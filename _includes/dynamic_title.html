@@ -18,3 +18,11 @@
 {% elsif page.title %}
   {% assign title = page.title | append: ' - ' | append: site.description  %}
 {% endif %}
+
+{% if title %}
+  {% assign title = title %}
+{% elsif page.title %}
+  {% assign title = page.title %}
+{% else %}
+  {% assign title = 'Home - ' | append: site.title | append: ' - ' | append: site.description %}
+{% endif %}
