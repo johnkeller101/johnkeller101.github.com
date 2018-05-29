@@ -1,14 +1,16 @@
 ---
 layout: post
 current: post
-cover:  /assets/images/may-supertraining-header.jpg
 navigation: True
-title: May Project Supertraining
-date: 2018-05-27 20:50:00
 tags: group-rides
 class: post-template
 subclass: 'post tag-rides'
 author: john
+
+title: May Project Supertraining
+date: 2018-05-27 20:50:00
+cover: /assets/images/may-supertraining-header.jpg
+description: The route this month was a lung busting 12,000 ft. of climbing and over 90 miles. The ride started at Flatirons Subaru who were generous enough to provide a support vehicle to follow us with food and water. We then headed west up Boulder Canyon to Sugarloaf.
 ---
 
 Another month, another [Project Supertraining](https://projectsupertraining.com/) ride
