@@ -27,7 +27,7 @@ If you don't know what [Project Supertraining](https://projectsupertraining.com/
 The route this month was a lung busting 12,000 ft. of climbing and over 90 miles. The ride started at [Flatirons Subaru](https://www.coloradosubaru.com/) who were generous enough to provide a support vehicle to follow us with food and water. We then headed west up Boulder Canyon to Sugarloaf. This ride reminded me just how much I hate this climb, which is 4.7 miles and nearly 1,900 ft of climbing for an average gradient of 8%. We stopped at the top and regrouped, while everyone got some much needed water after the hot and sweaty climb *(I really need to get aclimated for the summer heat)*.
 
 <img src="assets/images/may-supertraining-flatirons-subaru.jpg" width="80%">
-*Photo by [Evan Stade](https://www.strava.com/athletes/69329)*
+<small>Photo by [Evan Stade](https://www.strava.com/athletes/69329)</small>
 
 The group then split into two rides, with the A group leaving first. We headed down through Nederland and descended into Central City. We cruised by a BBQ cookout and the smell of bugers and hotdogs only made me more hungry. The folks cooking and blasting music gave us a friendly cheer and we all waved back. We then started the dirt climb called [Alps Hill Road](https://www.strava.com/segments/1262516). This one was absolutely brutal, with what felt like pitches up to 15%. It was one I'm glad to have ticked off the list, but I will never do again. The most dissapointing part? At the top the follow car was nowhere to be found. 
 

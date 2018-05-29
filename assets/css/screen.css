@@ -698,9 +698,11 @@ The first (most recent) post in the list is styled to be bigger than the others 
     margin: 0;
 }
 
+/* test comment! */
+
 .post-template .kg-card-markdown > p:first-child {
-    font-size: 1.25em;
-    line-height: 1.5em;
+    font-size: 1em;
+    line-height: 1em;
 }
 
 .post-full-content a {
