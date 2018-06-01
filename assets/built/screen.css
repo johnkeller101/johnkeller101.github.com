@@ -1975,6 +1975,14 @@ body {
 	margin-top: 70px;
 }
 
+@media (max-width:900px) {
+	.error-message {
+		text-align: center;
+		margin-bottom: 0px;
+		margin-top: 50px;
+	}
+}
+
 .error-code {
 	margin: 0;
 	font-size: 12vw;
