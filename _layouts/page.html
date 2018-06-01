@@ -11,6 +11,14 @@ disqus: false
     </div>
 </header>
 
+<!-- css info to change header height based on what is set in page guidelines -->
+{% if page.cover-height %}
+<style>
+post-full-image {
+    height: {{ page.cover-height }} !important;
+}
+</style>
+{% endif %}
 <!-- #post -->
 
 <main id="site-main" class="site-main outer" role="main">
