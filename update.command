@@ -10,10 +10,8 @@ python script.py
 echo "Updating the github repo for https://john.coffee"
 
 # generate timestamp variable
-timestamp() {
-  date +"%T"
-}
+current_time=$(date "+%Y.%m.%d-%H.%M.%S")
 
 git add .
-git commit -m timestamp
+git commit -m "$current_time"
 git push -u origin master
