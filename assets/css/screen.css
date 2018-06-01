@@ -1696,6 +1696,7 @@ Usage (In Ghost editor):
 
 .error-message {
     text-align: center;
+    margin-bottom: 150px;
 }
 
 .error-code {
