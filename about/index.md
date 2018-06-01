@@ -1,7 +1,7 @@
 ---
 layout: page
 current: about
-title: About John
+title: About John Keller
 navigation: true
 class: page-template
 subclass: 'post page'
