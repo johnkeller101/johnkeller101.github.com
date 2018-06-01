@@ -14,4 +14,4 @@ description: Colorado’s Queen of the Spring Classics - The Koppenberg!!! Is a 
 video-id: EzPumPkVekM
 ---
 
-Test content for video post
+Colorado’s Queen of the Spring Classics - The Koppenberg!!! Is a 5.5mile road race circuit, with 300ft of elevation gain per lap, and includes 2 miles on a packed dirt road.
