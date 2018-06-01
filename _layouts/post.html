@@ -16,6 +16,26 @@ disqus: false
 {% if page.video-id %}
 
 <style>
+.videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    padding-top: 25px;
+    height: 0;
+}
+.videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.post-full-image {
+    margin: 0 -10vw -165px;
+    height: 600px;
+    background: var(--lightgrey) center center;
+    background-size: cover;
+    border-radius: 5px;
+}
 .post-full-image {
     margin: 0 -4vw 0px;
     padding-bottom: 56.25%;
@@ -57,8 +77,9 @@ disqus: false
             </header>
 
             {% if page.video-id %}
-            <figure class="post-full-image" style="background-image: url(https://img.youtube.com/vi/{{ page.video-id }}/maxresdefault.jpg)">
-            </figure>
+            <div class="videoWrapper">
+                <iframe width="560" height="349" src="http://www.youtube.com/embed/{{ page.video-id }}?rel=0&hd=1" frameborder="0" allowfullscreen></iframe>
+            </div>
             {% elsif page.cover %}
             <figure class="post-full-image" style="background-image: url({{ site.baseurl }}{{ page.cover }})">
             </figure>
