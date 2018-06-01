@@ -2,7 +2,7 @@
 layout: post
 current: post
 navigation: True
-tags: race
+tags: races
 class: post-template
 subclass: 'post tag-rides'
 author: john
