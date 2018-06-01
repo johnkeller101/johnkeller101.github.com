@@ -42,7 +42,10 @@ disqus: false
                 <h1 class="post-full-title">{{ page.title }}</h1>
             </header>
 
-            {% if page.cover %}
+            {% if page.video-id %}
+            <figure class="post-full-image" style="background-image: url(https://img.youtube.com/vi/{{ page.video-id }}/maxresdefault.jpg)">
+            </figure>
+            {% elsif page.cover %}
             <figure class="post-full-image" style="background-image: url({{ site.baseurl }}{{ page.cover }})">
             </figure>
             {% endif %}
