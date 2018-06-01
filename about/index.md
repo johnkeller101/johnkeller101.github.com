@@ -3,9 +3,9 @@ layout: page
 current: about
 title: About
 navigation: true
-logo: 'assets/images/ghost.png'
 class: page-template
 subclass: 'post page'
+cover: /assets/images/about-header.jpg
 ---
 
 John is an undergraduate computer science student at the University of Colorado Boulder, where he competes at a collegiate level. Join him on his journey through the ranks of local and higher level cycling.
