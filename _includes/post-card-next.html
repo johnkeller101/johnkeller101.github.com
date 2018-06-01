@@ -1,6 +1,10 @@
 
     <article class="post-card {{ page.next.class }}{% unless page.next.cover %} no-image{% endunless %}">
-        {% if page.next.cover %}
+        {% if page.next.video-id %}
+        <a class="post-card-image-link" href="{{ site.baseurl }}/{{ page.next.url | remove_first: '/' }}">
+                <div class="post-card-image" style="background-image: url(https://img.youtube.com/vi/{{ page.next.video-id }}/maxresdefault.jpg)"></div>
+            </a>
+        {% elsif page.next.cover %}
             <a class="post-card-image-link" href="{{ site.baseurl }}/{{ page.next.url | remove_first: '/' }}">
                 <div class="post-card-image" style="background-image: url({{ site.baseurl }}{{ page.next.cover }})"></div>
             </a>
