@@ -3,9 +3,13 @@
     {% assign count = count | plus: 1 %}
     {% if count <= 3 %}
         <article class="post-card {{ page.class }}{% unless post.cover %} no-image{% endunless %}">
-            {% if post.cover %}
+             {% if post.video-id %}
                 <a class="post-card-image-link" href="{{ site.baseurl }}/{{ post.url | remove_first: '/' }}">
-                    <div class="post-card-image" style="background-image: url({{ site.baseurl }}/{{ post.cover }})"></div>
+                    <div class="post-card-image" style="background-image: url(https://img.youtube.com/vi/{{ post.video-id }}/maxresdefault.jpg)"></div>
+                </a>
+            {% elsif post.cover %}
+                <a class="post-card-image-link" href="{{ site.baseurl }}/{{ post.url | remove_first: '/' }}">
+                    <div class="post-card-image" style="background-image: url({{ site.baseurl }}{{ post.cover }})"></div>
                 </a>
             {% endif %}
             <div class="post-card-content">
@@ -14,9 +18,9 @@
                         {% if post.tags.size > 0 %}
                             {% for tag in post.tags %}
                                 {% if forloop.index == post.tags.size %}
-                                    <span class="post-card-tags">{{ tag | capitalize }}</span>
+                                    <span class="post-card-tags">{{ tag | capitalize | replace:'-',' '}}</span>
                                 {% else %}
-                                   <span class="post-card-tags">{{ tag | capitalize }}</span>
+                                   <span class="post-card-tags">{{ tag | capitalize | replace:'-',' '}}</span>
                                 {% endif %}
                             {% endfor %}
                         {% endif %}
@@ -24,7 +28,11 @@
                         <h2 class="post-card-title">{{ post.title }}</h2>
                     </header>
                     <section class="post-card-excerpt">
-                        <p>{{ post.content | strip_html | truncatewords: 33, "" }}</p>
+                       {% if post.description %}
+                        <p>{{ post.description | strip_html | truncatewords: 33, "" }}</p>
+                        {% else %}
+                            <p>{{ post.content | strip_html | truncatewords: 33, "" }}</p>
+                        {% endif %}
                     </section>
                 </a>
                 <footer class="post-card-meta">
