@@ -12,10 +12,10 @@ disqus: false
 </header>
 
 <!-- css info to change header height based on what is set in page guidelines -->
-{% if page.cover-height %}
+{% if page.cover-height > 300 %}
 <style>
 .post-full-image {
-    height: {{ page.cover-height }} !important;
+    height: {{ page.cover-height }}px !important;
 }
 </style>
 {% endif %}

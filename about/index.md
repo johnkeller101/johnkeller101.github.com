@@ -6,7 +6,7 @@ navigation: true
 class: page-template
 subclass: 'post page'
 cover: /assets/images/about-header.jpg
-cover-height: 200px
+cover-height: 400
 ---
 
 John is an undergraduate computer science student at the University of Colorado Boulder, where he competes at a collegiate level. Join him on his journey through the ranks of local and higher level cycling.
