@@ -1970,7 +1970,9 @@ body {
 }
 
 .error-message {
-	text-align: center
+	text-align: center;
+	margin-bottom: 150px;
+	margin-top: 70px;
 }
 
 .error-code {
