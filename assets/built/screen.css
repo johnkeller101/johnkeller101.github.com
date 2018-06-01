@@ -798,6 +798,10 @@ body {
 	text-transform: uppercase
 }
 
+.post-card-author a {
+	color: #15171a;
+}
+
 @media (min-width:795px) {
 	.home-template .post-feed .post-card:nth-child(6n+1):not(.no-image) {
 		-ms-flex: 1 1 100%;
