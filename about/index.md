@@ -9,7 +9,7 @@ cover: /assets/images/about-header.jpg
 cover-height: 400
 ---
 
-John is an undergraduate computer science student at the University of Colorado Boulder, where he competes at a collegiate level. Join him on his journey through the ranks of local and higher level cycling.
+John Keller is an undergraduate computer science student at the University of Colorado Boulder, where he competes at a collegiate level. Join him on his journey through the ranks of local and higher level cycling.
 
 #### General
 - Racing Age: 21
