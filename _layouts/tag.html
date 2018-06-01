@@ -13,14 +13,13 @@ navigation: True
 <header class="site-header outer {% if page.cover or site.cover %}" style="background-image:  url({{ site.baseurl }}/{% if page.cover %}{{ page.cover }}{% elsif site.cover %}{{ site.cover }}{% endif %}) {% else %}no-cover{% endif %}">
     <div class="inner">
         <div class="site-header-content">
-            <h1 class="site-title">{{ page.tag | capitalizeall}}</h1>
-            <h2 class="site-description">
-                {% if page.description %}
-                    {{ page.description }}
-                {% elsif page.tag %}
-                    A collection of {{ paginator.total_posts }} posts
-                {% endif %}
-            </h2>
+            {% if page.description %}
+                <h1 class="site-title">{{ page.tag | capitalizeall}}</h1>
+                <h2 class="site-description">{{ page.description }}</h2>
+            {% else %}
+                <img class="site-logo" src="{{ site.baseurl }}/{{ site.logo }}" alt="{{ site.title }}"/>
+                <h2 class="site-description">{{ page.tag | replace:'-',' '}}</h2>
+            {% endif %}
         </div>
         {% include site-nav.html %}
     </div>
