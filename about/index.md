@@ -8,7 +8,7 @@ class: page-template
 subclass: 'post page'
 ---
 
-My name is John. I like to ride bikes.
+John is an undergraduate computer science student at the University of Colorado Boulder, where he competes at a collegiate level. Join him on his journey through the ranks of local and higher level cycling.
 
 #### About Me
 - Racing Age: 21
@@ -32,6 +32,5 @@ My name is John. I like to ride bikes.
 - 1st- Front Range Cycling Classic Crit (Category 4/5)
 
 <!-- - 22nd- CSU Oval Critereum (Collegiate B) -->
-
 - 4th- DU Cycling City Park Crit (Collegiate C)
 - 7th- DU Cycling City Park Crit (Category 5)
