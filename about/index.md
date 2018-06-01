@@ -17,9 +17,8 @@ My name is John. I like to ride bikes.
 - Team: CU Cycling Team
 - Coach: Jeff Winkler [winklercycling.com](http://winklercycling.com)
 
-#### Race Results
+#### 2018 Results
 
-**2018 Results**
 - 1st- Supurior Morgul Road Race (Cat 4)
 - 7th- The Koppenberg (Cat 4)
 
