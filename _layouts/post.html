@@ -198,7 +198,7 @@ disqus: false
                         <footer class="read-next-card-footer">
                             <a href="{{ site.baseurl }}/tag/{{ primary | downcase | replace: ' ', '-' }}/">
                                 {% if related_posts > 1 %}
-                                    See all {{ related_posts | minus: 1 }} posts  →
+                                    See all {{ related_posts }} posts  →
                                 {% elsif related_posts == 1 %}
                                     {{ related_posts }} post  →
                                 {% else %}
