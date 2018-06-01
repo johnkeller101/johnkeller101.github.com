@@ -23,6 +23,7 @@ John is an undergraduate computer science student at the University of Colorado 
 
 - 1st- Supurior Morgul Road Race (Category 4)
 - 7th- The Koppenberg (Category 4)
+- 3rd Overall- [RMCCC Standings](http://winklercycling.com/rmccc/rmccc-individual-standings.html) (Collegiate B)
 - 3rd- Squawker Road Classic RR (Collegiate B)
 - 2nd- Squawker Road Classic Crit (Collegiate B)
 <!-- - 10th- Squawker Road Classic Crit (Category 4/5) -->
