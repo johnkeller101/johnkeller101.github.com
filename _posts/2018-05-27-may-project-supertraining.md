@@ -13,8 +13,6 @@ cover: /assets/images/may-supertraining-header.jpg
 description: The route this month was a lung busting 12,000 ft. of climbing and over 90 miles. The ride started at Flatirons Subaru who were generous enough to provide a support vehicle to follow us with food and water. We then headed west up Boulder Canyon to Sugarloaf.
 ---
 
-Another month, another [Project Supertraining](https://projectsupertraining.com/) ride
-
 ### About the Ride
 
 If you don't know what [Project Supertraining](https://projectsupertraining.com/) is, let me sum it up. It is a ride which strives to allow riders to further their fitness and wellbeing by donating to charities. It is a fully supported group ride which prides itself on long base miles in the winter, and hard climbing rides in the summer. A highly elite group of riders join the fun, including current and retired pros like [Taylor Phinney](https://twitter.com/taylorphinney), [Alex Howes](https://twitter.com/alex_howes), [Matt Cooke](https://www.strava.com/athletes/821695), and many others depending on who's in town.
@@ -23,8 +21,7 @@ If you don't know what [Project Supertraining](https://projectsupertraining.com/
 
 <blockquote class="embedly-card" data-card-controls="0" data-card-key="f1631a41cb254ca5b035dc5747a5bd75"><h4><a href="https://www.relive.cc/view/1600628123?r=embed-site">Relive 'Supertraining'</a></h4></blockquote><script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script><br/>
 
-
-[*View the ride on Strava*](https://www.strava.com/activities/1600628123/)
+<small>[View the ride on Strava](https://www.strava.com/activities/1600628123/)</small>
 
 The route this month was a lung busting 12,000 ft. of climbing and over 90 miles. The ride started at [Flatirons Subaru](https://www.coloradosubaru.com/) who were generous enough to provide a support vehicle to follow us with food and water. We then headed west up Boulder Canyon to Sugarloaf. This ride reminded me just how much I hate this climb, which is 4.7 miles and nearly 1,900 ft of climbing for an average gradient of 8%. We stopped at the top and regrouped, while everyone got some much needed water after the hot and sweaty climb *(I really need to get aclimated for the summer heat)*.
 
