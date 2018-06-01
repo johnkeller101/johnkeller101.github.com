@@ -11,7 +11,7 @@ cover-height: 400
 
 John is an undergraduate computer science student at the University of Colorado Boulder, where he competes at a collegiate level. Join him on his journey through the ranks of local and higher level cycling.
 
-#### About John
+#### General
 - Racing Age: 21
 - Category: 4
 - Height: 6'0"
