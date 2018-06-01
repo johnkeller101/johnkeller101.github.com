@@ -12,25 +12,26 @@ My name is John. I like to ride bikes.
 
 #### About Me
 - Racing Age: 21
+- Category: 4
 - Height: 6'0"
 - Weight: 145 lbs
-- Team: CU Cycling Team
+- Team: [CU Cycling Team](https://www.colorado.edu/sportsclub/cycling/)
 - Coach: Jeff Winkler [winklercycling.com](http://winklercycling.com)
 
 #### 2018 Results
 
-- 1st- Supurior Morgul Road Race (Cat 4)
-- 7th- The Koppenberg (Cat 4)
+- 1st- Supurior Morgul Road Race (Category 4)
+- 7th- The Koppenberg (Category 4)
 
 - 3rd- Squawker Road Classic RR (Collegiate B)
 - 2nd- Squawker Road Classic Crit (Collegiate B)
-- 10th- Squawker Road Classic Crit (Cat 4/5)
+<!-- - 10th- Squawker Road Classic Crit (Category 4/5) -->
 
 - 5th- Front Range Cycling Classic RR (Collegiate B)
-- 14th- Front Range Cycling Classic Crit (Collegiate B)
-- 1st- Front Range Cycling Classic Crit (Cat 4/5)
+<!-- - 14th- Front Range Cycling Classic Crit (Collegiate B) -->
+- 1st- Front Range Cycling Classic Crit (Category 4/5)
 
-- 22nd- CSU Oval Critereum (Collegiate B)
+<!-- - 22nd- CSU Oval Critereum (Collegiate B) -->
 
 - 4th- DU Cycling City Park Crit (Collegiate C)
-- 7th- DU Cycling City Park Crit (Cat 5)
+- 7th- DU Cycling City Park Crit (Category 5)
