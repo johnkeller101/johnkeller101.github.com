@@ -21,7 +21,8 @@
                             {% endif %}
                         {% endfor %}
                     {% endif %}
-
+                     <span class="post-card-tags"><time datetime="{{ post.date | date:'%B %e, %Y' }}">{{ post.date | date:'%B %e, %Y'' }}</time></span>
+                     
                     <h2 class="post-card-title">{{ post.title }}</h2>
                 </header>
                 <section class="post-card-excerpt">
