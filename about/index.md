@@ -32,5 +32,5 @@ John Keller is an undergraduate computer science student at the University of Co
 <!-- - 14th- Front Range Cycling Classic Crit (Collegiate B) -->
 - 1st- Front Range Cycling Classic Crit (Category 4/5)
 <!-- - 22nd- CSU Oval Critereum (Collegiate B) -->
-- 4th- DU Cycling City Park Crit (Collegiate C)
-- 7th- DU Cycling City Park Crit (Category 5)
+<!-- - 4th- DU Cycling City Park Crit (Collegiate C) -->
+<!-- - 7th- DU Cycling City Park Crit (Category 5) -->
