@@ -21,6 +21,7 @@ John Keller is an undergraduate computer science student at the University of Co
 
 #### 2018 Results
 
+- 1st- Guanella Pass HC State Championship (Category 4)
 - 1st- Supurior Morgul Road Race (Category 4)
 - 7th- The Koppenberg (Category 4)
 - 3rd Overall- [RMCCC Road Standings](http://winklercycling.com/rmccc/rmccc-individual-standings.html) (Collegiate B)
