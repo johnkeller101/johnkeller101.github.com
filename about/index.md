@@ -13,7 +13,7 @@ John Keller is an undergraduate computer science student at the University of Co
 
 #### General
 - Racing Age: 21
-- Category: 4
+- USAC Category: 4
 - Height: 6'0"
 - Weight: 145 lbs
 - Team: [CU Cycling Team](https://www.colorado.edu/sportsclub/cycling/)
