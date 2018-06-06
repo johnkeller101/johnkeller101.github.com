@@ -42,11 +42,11 @@ write_str = """<!DOCTYPE html>
           margin:0px;
        }
     </style>
-    <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
-    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.css" />
-    <!--[if lte IE 8]><link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.ie.css" /><![endif]-->
+    <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="https://cdn.leafletjs.com/leaflet-0.7.2/leaflet.css" />
+    <!--[if lte IE 8]><link rel="stylesheet" href="https://cdn.leafletjs.com/leaflet-0.7.2/leaflet.ie.css" /><![endif]-->
 
-    <script type="text/javascript" src="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.js"></script>
+    <script type="text/javascript" src="https://cdn.leafletjs.com/leaflet-0.7.2/leaflet.js"></script>
     <!-- <script type="text/javascript" src="./leaflet.elevation-0.0.4.min.js"></script> -->
     <script type="text/javascript" src="/assets/js/L.Control.Elevation.js"></script>
 </head>
@@ -60,7 +60,7 @@ write_str = """<!DOCTYPE html>
     <script type="text/javascript">
         var map = new L.Map('map');
 
-        var url = 'http://a.tile.openstreetmap.org/{z}/{x}/{y}.png',
+        var url = 'https://a.tile.openstreetmap.org/{z}/{x}/{y}.png',
             attr ='Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>',
             service = new L.TileLayer(url, {subdomains:"1234",attribution: attr});
 
