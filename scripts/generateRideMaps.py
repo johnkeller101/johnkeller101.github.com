@@ -78,11 +78,16 @@ for filename in filenames:
         print("Couldn't open the input GPX file. Ensure it's in the 'data' dir.")
         raise()
     # now to formulate the data part of the html file to generate
+    cutoff = 6
+    count = 0
     for track in gpx.tracks:
         for segment in track.segments:
             for point in segment.points:
-                write_str = write_str + '[' + str(point.latitude) + ',' + str(point.longitude) + ','+str(point.elevation)+'],'
+                if count == cutoff:
+                    write_str = write_str + '[' + str(point.latitude) + ',' + str(point.longitude) + ','+str(point.elevation)+'],'
+                    count = 0
                 # gps_data.append([point.latitude, point.longitude, point.elevation])
+                count = count + 1
     write_str = write_str[:-1] #remove comma
     html_filename = map_dir + 'test.html'
     f = open(html_filename, 'a')
