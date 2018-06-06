@@ -32,7 +32,6 @@ if len(filenames) == 0:
 write_str = """<!DOCTYPE html>
 <html>
 <head>
-    <title>Coordinate viewing test page</title>
     <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
      <style>
        html, body, #map {
@@ -111,27 +110,6 @@ for filename in filenames:
         }).addTo(map);
 
         map.addLayer(service).fitBounds(bounds);
-
-var marker = L.marker(geojson.features[0].geometry.coordinates[0]);
-marker.addTo(map);
-
-
-
-var coords_i = 1;
-
-var moveMarker = function() {
-    if(coords_i == geojson.features[0].geometry.coordinates.length) {
-        coords_i = 0;
-    }
-    var coords = geojson.features[0].geometry.coordinates[coords_i];
-    var latlng = new L.LatLng(coords[1], coords[0]);
-    marker.setLatLng(latlng);
-    coords_i++;
-}
-
-var interval = setInterval(moveMarker, 1000);
-
-el.addMarker(marker);
     </script>
 </body>
 </html>
