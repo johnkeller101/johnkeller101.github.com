@@ -13,7 +13,7 @@ L.Control.Elevation = L.Control.extend({
         useHeightIndicator: true,
         interpolation: "linear",
         hoverNumber: {
-            decimalsX: 3,
+            decimalsX: 2,
             decimalsY: 0,
             formatter: undefined
         },
@@ -27,7 +27,7 @@ L.Control.Elevation = L.Control.extend({
             iconCssClass: "elevation-toggle-icon",
             title: "Elevation"
         },
-        imperial: false
+        imperial: true
     },
     __mileFactor: 0.621371,
     __footFactor: 3.28084,
