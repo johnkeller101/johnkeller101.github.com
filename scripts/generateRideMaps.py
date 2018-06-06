@@ -64,13 +64,25 @@ write_str = """<!DOCTYPE html>
             attr ='Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>',
             service = new L.TileLayer(url, {subdomains:"1234",attribution: attr});
 
-        var bounds = new L.LatLngBounds(new L.LatLng(-44.6, 170), new L.LatLng(-45, 168));
+        var bounds = new L.LatLngBounds(new L.LatLng(39.6, -105), new L.LatLng(40.6, -105.5));
 
         var geojson = {"name":"NewFeatureType","type":"FeatureCollection"
 ,"features":[
 {"type":"Feature","geometry":{"type":"LineString","coordinates":["""
 
 for filename in filenames:
+    # check if the file already exists
+    name = filename.replace(gpx_dir,'').replace('.gpx','')
+    filenames2 = glob.glob(map_dir + '*html')
+
+    file_htm = map_dir + name + ".html"
+    if file_htm in filenames2:
+        # delete the old file
+        print("Deleting old  ",name)
+        os.remove(file_htm)
+
+    print("Generating map file for ",name)
+
     # now to iterate through each of the files
     gps_data = []
     try:
@@ -91,7 +103,7 @@ for filename in filenames:
                 # gps_data.append([point.latitude, point.longitude, point.elevation])
                 count = count + 1
     write_str = write_str[:-1] #remove comma
-    html_filename = map_dir + 'test.html'
+    html_filename = map_dir + name + '.html'
     f = open(html_filename, 'a')
     write_str = write_str + """]},"properties":null}
 ]}
