@@ -3,9 +3,9 @@
 # go to the correct directory
 cd "/Users/john/Sync/Important Documents/johnkeller101.github.io"
 
-echo "Running python script to generate tags and authors"
+echo "Generating tags and authors"
 echo "----------------------------------"
-python script.py
+python scripts/script.py
 echo "----------------------------------"
 echo "Updating the github repo for https://john.coffee"
 echo "----------------------------------"
