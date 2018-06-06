@@ -42,12 +42,10 @@ write_str = """<!DOCTYPE html>
           margin:0px;
        }
     </style>
-    <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
-    <link rel="stylesheet" href="https://cdn.leafletjs.com/leaflet-0.7.2/leaflet.css" />
+    <script src="/assets/js/d3.v3.min.js" charset="utf-8"></script>
     <!--[if lte IE 8]><link rel="stylesheet" href="https://cdn.leafletjs.com/leaflet-0.7.2/leaflet.ie.css" /><![endif]-->
 
-    <script type="text/javascript" src="https://cdn.leafletjs.com/leaflet-0.7.2/leaflet.js"></script>
-    <!-- <script type="text/javascript" src="./leaflet.elevation-0.0.4.min.js"></script> -->
+    <script type="text/javascript" src="/assets/js/leaflet.js"></script>
     <script type="text/javascript" src="/assets/js/L.Control.Elevation.js"></script>
 </head>
 <body>
