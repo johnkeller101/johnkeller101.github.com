@@ -19,6 +19,8 @@ If you don't know what [Project Supertraining](https://projectsupertraining.com/
 
 ### The Route
 
+<iframe src="/maps/Supertraining.html" width="800px" height="700px"></iframe>
+
 <blockquote class="embedly-card" data-card-controls="0" data-card-key="f1631a41cb254ca5b035dc5747a5bd75"><h4><a href="https://www.relive.cc/view/1600628123?r=embed-site">Relive 'Supertraining'</a></h4></blockquote><script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script><br/>
 
 <small>[View the ride on Strava](https://www.strava.com/activities/1600628123/)</small>
