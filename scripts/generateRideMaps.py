@@ -108,7 +108,7 @@ for filename in filenames:
     write_str = write_str + """]},"properties":null}
 ]}
 ;
-        var el = L.control.elevation({width: 600,imperial:true,hoverNumber{decimalsX: 1}});
+        var el = L.control.elevation({width: 600,imperial:true});
         el.addTo(map);
         var gjl = L.geoJson(geojson,{
             onEachFeature: el.addData.bind(el)
