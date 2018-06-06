@@ -86,7 +86,7 @@ for filename in filenames:
         for segment in track.segments:
             for point in segment.points:
                 if count == cutoff:
-                    write_str = write_str + '[' + str(point.latitude) + ',' + str(point.longitude) + ','+str(point.elevation)+'],'
+                    write_str = write_str + '[' + str(point.longitude) + ',' + str(point.latitude) + ','+str(point.elevation)+'],'
                     count = 0
                 # gps_data.append([point.latitude, point.longitude, point.elevation])
                 count = count + 1
