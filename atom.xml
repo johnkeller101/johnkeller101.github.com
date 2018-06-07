@@ -12,8 +12,8 @@ layout: null
       {% unless post.link %}
       <item>
         <title>{{ post.title | xml_escape }}</title>
-        {% if post.excerpt %}
-          <description>{{ post.excerpt | xml_escape }}</description>
+        {% if post.cover %}
+          <content type="html"><img alt="{{ post.title }}" src="{{ site.url "/" post.cover }}" />{{ post.excerpt | xml_escape }}</content>
         {% else %}
           <description>{{ post.content | xml_escape }}</description>
         {% endif %}
