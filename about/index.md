@@ -24,6 +24,7 @@ John Keller is an undergraduate computer science student at the University of Co
 - 1st- Guanella Pass HC State Championships (Category 4)
 - 1st- Supurior Morgul Road Race (Category 4)
 - 1st- Front Range Cycling Classic Crit (Category 4/5)
+- 2nd- Lookout Mountain Hill Climb (Category 4)
 - 2nd- [Squawker Road Classic Crit](/2018/04/24/flc-mens-b-criterium/) (Collegiate B)
 - 3rd Overall- [RMCCC Road Standings](http://winklercycling.com/rmccc/rmccc-individual-standings.html) (Collegiate B)
 - 3rd- Squawker Road Classic RR (Collegiate B)
