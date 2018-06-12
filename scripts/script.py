@@ -66,9 +66,9 @@ for tag in total_tags:
     write_str = write_str + '\n---\n'
     f.write(write_str)
     f.close()
-    prt_txt = prt_txt + tag + ","
+    prt_txt = prt_txt + tag + ", "
 
-print("Generated", total_tags.__len__(), "tags: ",prt_txt)
+print("Generated", total_tags.__len__(), "tags:",prt_txt[:-2])
 
 
 # attempted custom author pages using no plugins
