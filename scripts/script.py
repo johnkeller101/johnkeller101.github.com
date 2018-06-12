@@ -105,6 +105,8 @@ for tag in old_tags:
 if not os.path.exists(tag_dir):
     os.makedirs(tag_dir)
 
+prt_txt = ""
+
 for tag in total_tags:
     tag_filename = tag_dir + tag + '.md'
     f = open(tag_filename, 'a')
@@ -116,9 +118,9 @@ for tag in total_tags:
     write_str = write_str + '\n---\n'
     f.write(write_str)
     f.close()
-print("Tags generated, count", total_tags.__len__())
+    prt_txt = prt_txt + tag + ", "
 
-
+print("Generated", total_tags.__len__(), "authors:",prt_txt[:-2])
 
 
 
