@@ -254,10 +254,14 @@ for filename in filenames:
 
     # check if the file already exists
     name = filename.replace(gpx_dir,'').replace('.gpx','')
+
     filenames2 = glob.glob(map_dir + '*html')
 
     file_htm = map_dir + name + ".html"
     if file_htm in filenames2:
+        # TODO: create option to toggle this continue
+        # since the file already exists, let's skip this file
+        continue
         # delete the old file
         print("Deleting old  ",name)
         os.remove(file_htm)
