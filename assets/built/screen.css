@@ -868,7 +868,7 @@ body {
 }
 
 .page-template .site-main, .post-template .site-main {
-	padding-bottom: 4vw;
+	padding-bottom: 70px;
 	background: #fff
 }
 
@@ -1447,7 +1447,7 @@ body {
 	-ms-flex-pack: justify;
 	justify-content: space-between;
 	margin: 0 auto;
-	padding: 3vw 0 6vw;
+	padding: 10px;
 	max-width: 840px
 }
 
