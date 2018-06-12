@@ -261,6 +261,7 @@ for filename in filenames:
     if file_htm in filenames2:
         # TODO: create option to toggle this continue
         # since the file already exists, let's skip this file
+        print(name,"already exists in",map_dir)
         continue
         # delete the old file
         print("Deleting old  ",name)

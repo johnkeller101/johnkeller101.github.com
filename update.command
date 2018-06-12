@@ -5,10 +5,10 @@ cd "/Users/john/Sync/Important Documents/johnkeller101.github.io"
 
 echo "Generating tags and authors"
 echo "----------------------------------"
-python scripts/script.py
+python3 scripts/script.py
 echo "Generating map files for posts"
 echo "----------------------------------"
-python scripts/generateRideMaps.py
+python3 scripts/generateRideMaps.py
 echo "----------------------------------"
 echo "Updating the github repo for https://john.coffee"
 echo "----------------------------------"
