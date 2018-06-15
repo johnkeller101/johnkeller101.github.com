@@ -50,8 +50,8 @@
         "@type": "ImageObject",
         "url": "{% if page.video-id %}https://img.youtube.com/vi/{{ page.video-id }}/maxresdefault.jpg{% else %}{{ site.url }}/{{ site.baseurl }}{% if page.cover %}{{ page.cover }}{% else %}{{ site.cover }}{% endif %}{% endif %}",
         {% if page.video-id %}
-        "width": 1920,
-        "height": 1080
+        "width": 1280,
+        "height": 720
         {% else %}
         "width": 2000,
         "height": 666
