@@ -14,16 +14,16 @@
     <div class="site-nav-right">
         <div class="social-links">
             {% if site.facebook %}
-                <a class="social-link social-link-fb" href="https://facebook.com/{{ site.facebook }}" target="_blank" rel="noopener">{% include facebook.html %}</a>
+                <a class="social-link" href="https://facebook.com/{{ site.facebook }}" target="_blank" rel="noopener">{% include facebook.html %}</a>
             {% endif %}
             {% if site.strava %}
-                <a class="social-link social-link-tw" href="https://www.strava.com/athletes/{{ site.strava }}" target="_blank" rel="noopener">{% include strava.html %}</a>
+                <a class="social-link" href="https://www.strava.com/athletes/{{ site.strava }}" target="_blank" rel="noopener">{% include strava.html %}</a>
             {% endif %}
             {% if site.twitter %}
-                <a class="social-link social-link-tw" href="https://twitter.com/{{ site.twitter }}" target="_blank" rel="noopener">{% include twitter.html %}</a>
+                <a class="social-link" href="https://twitter.com/{{ site.twitter }}" target="_blank" rel="noopener">{% include twitter.html %}</a>
             {% endif %}
             {% if site.instagram %}
-                <a class="social-link social-link-fb" href="https://instagram.com/{{ site.facebook }}" target="_blank" rel="noopener">{% include instagram.html %}</a>
+                <a class="social-link" href="https://instagram.com/{{ site.facebook }}" target="_blank" rel="noopener">{% include instagram.html %}</a>
             {% endif %}
         </div>
         {% if site.subscribers %}
