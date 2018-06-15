@@ -14,19 +14,18 @@
     <div class="site-nav-right">
         <ul class="nav">
             {% if site.facebook %}
-                <li class="social-link" role="menuitem"><a href="https://facebook.com/{{ site.facebook }}" target="_blank" rel="noopener">{% include facebook.html %}</a></li>
+                <li role="menuitem"><a href="https://facebook.com/{{ site.facebook }}" class="social-link" target="_blank" rel="noopener">{% include facebook.html %}</a></li>
             {% endif %}
             {% if site.strava %}
-                <li class="social-link" role="menuitem"><a href="https://www.strava.com/athletes/{{ site.strava }}" target="_blank" rel="noopener">{% include strava.html %}</a></li>
+                <li role="menuitem"><a href="https://www.strava.com/athletes/{{ site.strava }}" class="social-link" target="_blank" rel="noopener">{% include strava.html %}</a></li>
             {% endif %}
             {% if site.twitter %}
-                <li class="social-link" role="menuitem"><a href="https://twitter.com/{{ site.twitter }}" target="_blank" rel="noopener">{% include twitter.html %}</a></li>
+                <li role="menuitem"><a href="https://twitter.com/{{ site.twitter }}" class="social-link" target="_blank" rel="noopener">{% include twitter.html %}</a></li>
             {% endif %}
             {% if site.instagram %}
-                <li class="social-link" role="menuitem"><a href="https://instagram.com/{{ site.instagram }}" target="_blank" rel="noopener">{% include instagram.html %}</a></li>
+                <li role="menuitem"><a href="https://instagram.com/{{ site.instagram }}" class="social-link" target="_blank" rel="noopener">{% include instagram.html %}</a></li>
             {% endif %}
         </ul>
-
         {% if site.subscribers %}
             <a class="subscribe-button" href="#subscribe">Subscribe</a>
         {% endif %}
