@@ -6,7 +6,7 @@
         <ul class="nav" role="menu">
             <li class="nav-home" role="menuitem"><a href="https://www.strava.com/athletes/{{ site.strava }}" target="_blank">{% include strava.html %}</a></li>
             <li class="nav-home" role="menuitem"><a href="{{site.url}}">Home</a></li>
-            <li class="nav-about" role="menuitem"><a href="{{site.url}}/about/">{% include instagram.html %}</a></li>
+            <li class="nav-about" role="menuitem"><a href="{{site.url}}/about/"><img src="{% include instagram.html %}" height="10px" width="10px"></a></li>
         </ul>
         {% if site.subscribers %}
             <a class="subscribe-button" href="#subscribe">Subscribe</a>
