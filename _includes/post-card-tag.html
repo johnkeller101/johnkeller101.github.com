@@ -5,7 +5,7 @@
                 <div class="post-card-image" style="background-image: url(https://img.youtube.com/vi/{{ post.video-id }}/maxresdefault.jpg)"></div>
             </a>
         {% elsif post.cover %}
-            <a class="post-card-image-link" href="{{ site.baseurl }}{{ post.url | remove_first: '/' }}">
+            <a class="post-card-image-link" href="{{ site.url }}{{ post.url | remove_first: '/' }}">
                 <div class="post-card-image" style="background-image: url({{ site.baseurl }}{{ post.cover }})"></div>
             </a>
         {% endif %}
