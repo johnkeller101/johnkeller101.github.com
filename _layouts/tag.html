@@ -14,7 +14,6 @@ navigation: True
 <!-- The big featured header, it uses blog cover image as a BG if available -->
 <header class="site-header outer {% if page.cover or site.cover %}" style="background-image:  url({{ site.baseurl }}/{% if page.cover %}{{ page.cover }}{% elsif site.cover %}{{ site.cover }}{% endif %}) {% else %}no-cover{% endif %}">
     <div class="inner">
-        {% include site-nav.html %}
         <div class="site-header-content">
             {% if page.description %}
                 <h1 class="site-title">{{ page.tag | capitalizeall}}</h1>
@@ -24,7 +23,7 @@ navigation: True
                 <h2 class="site-description">{{ page.tag | capitalize | replace:'-',' '}}</h2>
             {% endif %}
         </div>
-        
+        {% include site-nav.html %}
     </div>
 </header>
 
