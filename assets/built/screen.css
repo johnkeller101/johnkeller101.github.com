@@ -780,7 +780,8 @@ body {
 }
 
 .post-card-meta {
-	padding: 0 25px 25px
+	visibility: hidden;
+	/*padding: 0 25px 25px*/
 }
 
 .author-profile-image {
