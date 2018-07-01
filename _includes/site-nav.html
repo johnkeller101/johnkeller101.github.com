@@ -3,20 +3,17 @@
         {% include navigation.html %}
     </div>
     <div class="site-nav-right">
-        <ul class="nav">
+        <ul class="nav" role="menu">
             {% if site.facebook %}
-                <li role="menuitem"><a href="https://facebook.com/{{ site.facebook }}" class="social-link" target="_blank" rel="noopener">{% include facebook.html %}</a></li>
+                <li><a href="https://facebook.com/{{ site.facebook }}" class="social-link" target="_blank" rel="noopener">{% include facebook.html %}</a></li>
             {% endif %}
             {% if site.strava %}
                 <li role="menuitem"><a href="https://www.strava.com/athletes/{{ site.strava }}" class="social-link" target="_blank" rel="noopener">{% include strava.html %}</a></li>
             {% endif %}
-            {% if site.twitter %}
-                <li role="menuitem"><a href="https://twitter.com/{{ site.twitter }}" class="social-link" target="_blank" rel="noopener">{% include twitter.html %}</a></li>
-            {% endif %}
-            {% if site.instagram %}
-                <li role="menuitem"><a href="https://instagram.com/{{ site.instagram }}" class="social-link" target="_blank" rel="noopener">{% include instagram.html %}</a></li>
-            {% endif %}
+            <li class="nav-home" role="menuitem"><a href="{{site.url}}">Home</a></li>
+            <li class="nav-about" role="menuitem"><a href="{{site.url}}/about/">About</a></li>
         </ul>
+
         {% if site.subscribers %}
             <a class="subscribe-button" href="#subscribe">Subscribe</a>
         {% endif %}
