@@ -21,9 +21,9 @@ John Keller is an undergraduate computer science student at the University of Co
 
 #### 2018 Results
 
-- 1st- Guanella Pass HC State Championships (Category 4)
-- 1st- Supurior Morgul Road Race (Category 4)
-- 1st- Front Range Cycling Classic Crit (Category 4/5)
+- 1st- [Guanella Pass HC State Championships](https://www.coloradocycling.org/results/road#year=2018&eventId=2304&resultsetId=27291) (Category 4)
+- 1st- [Supurior Morgul Road Race](https://www.coloradocycling.org/results/road#year=2018&eventId=2202&resultsetId=27096) (Category 4)
+- 1st- [Front Range Cycling Classic Crit](https://www.coloradocycling.org/results/road#year=2018&eventId=2192&resultsetId=26234) (Category 4/5)
 - 2nd- [Lookout Mountain Hill Climb](/2018/06/09/lookout-mountain-hill-climb/) (Category 4)
 - 2nd- [Squawker Road Classic Crit](/2018/04/24/flc-mens-b-criterium/) (Collegiate B)
 - 3rd Overall- [RMCCC Road Standings](http://winklercycling.com/rmccc/rmccc-individual-standings.html) (Collegiate B)
