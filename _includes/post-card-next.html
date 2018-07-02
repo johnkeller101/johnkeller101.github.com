@@ -15,7 +15,7 @@
                     {% if page.next.tags.size > 0 %}
                         {% for tag in page.next.tags %}
                             {% if forloop.index == page.next.tags.size %}
-                                <span class="post-card-tags">{{ tag | capitalize | replace:'-',' '}}</span>
+                                <span class="post-card-tags"><time datetime="{{ page.previous.date | date:'%B %e, %Y' }}">{{ page.previous.date | date:'%B %e, %Y'' }}</time> / {{ tag | capitalize | replace:'-',' ' }}</span>
                             {% else %}
                                 <span class="post-card-tags">{{ tag | capitalize | replace:'-',' '}}</span>
                             {% endif %}
