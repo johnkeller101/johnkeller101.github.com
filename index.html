@@ -14,6 +14,8 @@ into the {body} of the default.hbs template -->
     <div class="inner">
         <div class="site-header-content">
             <h1 class="site-title">
+                <!-- load fancy coffee annimation -->
+                <div style="width: 200px; height: 200px;">{% include coffee.html %}</div>
                 {% if site.logo %}
                     <img class="site-logo" src="{{ site.baseurl }}{{ site.logo }}" alt="{{ site.title }}"/>
                 {% else %}
