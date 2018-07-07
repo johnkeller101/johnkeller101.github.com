@@ -16,11 +16,11 @@ into the {body} of the default.hbs template -->
             <h1 class="site-title">
                 <!-- load fancy coffee annimation -->
                 <div style="width: 200px; height: 200px;">{% include coffee.html %}</div>
-                {% if site.logo %}
+                <!-- {% if site.logo %}
                     <img class="site-logo" src="{{ site.baseurl }}{{ site.logo }}" alt="{{ site.title }}"/>
                 {% else %}
                     {{ site.title }}
-                {% endif %}
+                {% endif %} -->
             </h1>
             <h2 class="site-description">{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}</h2>
         </div>
