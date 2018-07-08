@@ -21,6 +21,7 @@ John Keller is an undergraduate computer science student at the University of Co
 
 #### 2018 Results
 
+- 1st- Sunshine Hill Climb (Category 3)
 - 1st- [Guanella Pass HC State Championships](https://www.coloradocycling.org/results/road#year=2018&eventId=2304&resultsetId=27291) (Category 4)
 - 1st- [Supurior Morgul Road Race](https://www.coloradocycling.org/results/road#year=2018&eventId=2202&resultsetId=27096) (Category 4)
 - 1st- [Front Range Cycling Classic Crit](https://www.coloradocycling.org/results/road#year=2018&eventId=2192&resultsetId=26234) (Category 4/5)
