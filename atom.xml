@@ -14,7 +14,7 @@ layout: null
         {% if post.cover %}
         <media:content 
         xmlns:media="http://search.yahoo.com/mrss/" 
-        url="{{ site.url / post.cover }}" 
+        url="{{ post.cover }}" 
         medium="image" 
         type="image/jpeg" 
         width="{% if post.cover_width %}{{ post.cover_width }}{% else %}1280px{% endif %}" 
