@@ -5,7 +5,7 @@ layout: null
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>{{ site.name | xml_escape }} - Articles</title>
-    <description>{% if site.description %}{{ site.description | strip_html }}{% endif %}</description>
+    <description>{% if site.description %}{{ site.description | xml_escape }}{% endif %}</description>
     <link>
     {{ site.url }}</link>
     {% for post in site.posts %}
@@ -31,8 +31,12 @@ layout: null
         width="1280px" 
         height="720px" />
         {% endif %}
-        <title>{{ post.title | strip_html }}</title>
-        <description>{{ post.content | strip_html }}</description>
+        <title>{{ post.title | xml_escape }}</title>
+        {% if post.description %}
+          <description>{{ post.description | xml_escape }}</description>
+        {% else %}
+          <description>{{ post.content | strip_html }}</description>
+        {% endif %}
         <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
         <link>
         {{ site.url }}{{ post.url }}</link>
