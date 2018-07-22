@@ -32,8 +32,8 @@ layout: null
         height="720px" />
         {% endif %}
         <title>{{ post.title | xml_escape }}</title>
-        {% if post.cover %}
-          <content type="html"><img alt="{{ post.title }}" src="{{ site.url "/" post.cover }}" />{{ post.content | xml_escape }}</content>
+        {% if post.description %}
+          <description>{{ post.description | xml_escape }}</description>
         {% else %}
           <description>{{ post.content | xml_escape }}</description>
         {% endif %}
