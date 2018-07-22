@@ -15,7 +15,7 @@ layout: null
         <!-- content for the cover photo in rss feeds -->
         <media:content 
         xmlns:media="http://search.yahoo.com/mrss/" 
-        url="{{ post.cover }}" 
+        url="{{ site.url }}{{ post.cover }}" 
         medium="image" 
         type="image/jpeg" 
         width="{% if post.cover_width %}{{ post.cover_width }}{% else %}1280px{% endif %}" 
