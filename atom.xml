@@ -11,6 +11,15 @@ layout: null
     {% for post in site.posts %}
       {% unless post.link %}
       <item>
+        {% if post.cover %}
+        <media:content 
+        xmlns:media="http://search.yahoo.com/mrss/" 
+        url="{{ site.url "/" post.cover }}" 
+        medium="image" 
+        type="image/jpeg" 
+        width="300" 
+        height="300" />
+        {% endif %}
         <title>{{ post.title | xml_escape }}</title>
         {% if post.cover %}
           <content type="html"><img alt="{{ post.title }}" src="{{ site.url "/" post.cover }}" />{{ post.content | xml_escape }}</content>
