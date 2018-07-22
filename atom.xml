@@ -12,6 +12,7 @@ layout: null
       {% unless post.link %}
       <item>
         {% if post.cover %}
+        <!-- content for the cover photo in rss feeds -->
         <media:content 
         xmlns:media="http://search.yahoo.com/mrss/" 
         url="{{ post.cover }}" 
@@ -19,6 +20,16 @@ layout: null
         type="image/jpeg" 
         width="{% if post.cover_width %}{{ post.cover_width }}{% else %}1280px{% endif %}" 
         height="{% if post.cover_height %}{{ post.cover_height }}{% else %}720px{% endif %}" />
+        {% endif %}
+        {% if post.video-id %} 
+        <!-- content for the cover thumbnail in rss feeds -->
+        <media:content 
+        xmlns:media="http://search.yahoo.com/mrss/" 
+        url="https://img.youtube.com/vi/{{ post.video-id }}/maxresdefault.jpg" 
+        medium="image" 
+        type="image/jpeg" 
+        width="1280px" 
+        height="720px" />
         {% endif %}
         <title>{{ post.title | xml_escape }}</title>
         {% if post.cover %}
