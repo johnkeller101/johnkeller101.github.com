@@ -10,6 +10,11 @@ layout: null
     {{ site.url }}</link>
     {% for post in site.posts %}
       {% unless post.link %}
+      <image>
+        <url>{% if post.video-id %}https://img.youtube.com/vi/{{ post.video-id }}/maxresdefault.jpg{% else %}{{ site.url }}{{ post.cover }}{% endif %}</url>
+        <title>{{ post.title | xml_escape }}</title>
+        <link>{{ site.url }}{{ post.url }}</link>
+      </image>
       <item>
         {% if post.cover %}
         <media:content 
@@ -31,13 +36,12 @@ layout: null
         {% endif %}
         <title>{{ post.title | xml_escape }}</title>
         {% if post.description %}
-          <description><img src="{% if post.video-id %}https://img.youtube.com/vi/{{ post.video-id }}/maxresdefault.jpg{% else %}{{ site.url }}{{ post.cover }}{% endif %}">{{ post.description | xml_escape }}</description>
+          <description>{{ post.description | xml_escape }}</description>
         {% else %}
-          <description><img src="{% if post.video-id %}https://img.youtube.com/vi/{{ post.video-id }}/maxresdefault.jpg{% else %}{{ site.url }}{{ post.cover }}{% endif %}">{{ post.content | strip_html | replace: '\n',''}}</description>
+          <description>{{ post.content | strip_html | replace: '\n',''}}</description>
         {% endif %}
         <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
-        <link>
-        {{ site.url }}{{ post.url }}</link>
+        <link>{{ site.url }}{{ post.url }}</link>
         <guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
       </item>
       {% endunless %}
