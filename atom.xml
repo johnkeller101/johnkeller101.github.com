@@ -33,7 +33,7 @@ layout: null
         {% if post.description %}
           <description><img src="{% if post.video-id %}https://img.youtube.com/vi/{{ post.video-id }}/maxresdefault.jpg{% else %}{{ site.url }}{{ post.cover }}{% endif %}">{{ post.description | xml_escape }}</description>
         {% else %}
-          <description><img src="{% if post.video-id %}https://img.youtube.com/vi/{{ post.video-id }}/maxresdefault.jpg{% else %}{{ site.url }}{{ post.cover }}{% endif %}">{{ post.content | strip_html }}</description>
+          <description><img src="{% if post.video-id %}https://img.youtube.com/vi/{{ post.video-id }}/maxresdefault.jpg{% else %}{{ site.url }}{{ post.cover }}{% endif %}">{{ post.content | strip_html | replace: '\n',''}}</description>
         {% endif %}
         <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
         <link>
