@@ -17,8 +17,8 @@ layout: null
         url="{{ site.url / post.cover }}" 
         medium="image" 
         type="image/jpeg" 
-        width="300" 
-        height="300" />
+        width="{% if post.cover_width %}{{ post.cover_width }}{% else %}1280px{% endif %}" 
+        height="{% if post.cover_height %}{{ post.cover_height }}{% else %}720px{% endif %}" />
         {% endif %}
         <title>{{ post.title | xml_escape }}</title>
         {% if post.cover %}
