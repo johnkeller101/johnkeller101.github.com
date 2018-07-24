@@ -21,7 +21,7 @@ John Keller is an undergraduate computer science student at the University of Co
 
 #### 2018 Results
 
-- 1st- Bob Cook Memorial Mt. Evans Hill Climb (Category 3)
+- 1st- [Bob Cook Memorial Mt. Evans Hill Climb](https://www.coloradocycling.org/results/road#year=2018&eventId=2224&resultsetId=27658) (Category 3)
 - 1st- [Sunshine Hill Climb](/2018/07/08/sunshine-hill-climb/) (Category 3)
 - 1st- [Guanella Pass HC State Championships](https://www.coloradocycling.org/results/road#year=2018&eventId=2304&resultsetId=27291) (Category 4)
 - 1st- [Supurior Morgul Road Race](https://www.coloradocycling.org/results/road#year=2018&eventId=2202&resultsetId=27096) (Category 4)
