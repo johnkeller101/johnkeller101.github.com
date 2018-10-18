@@ -63,8 +63,14 @@ disqus: false
                         <!-- updated tag section for github pages -->
                         <span>
                           {% for tag in page.tags %}
-                            {% capture tag_name %}{{ tag }}{% endcapture %}
-                            <a href="/tag/{{ tag_name }}"><nobr>{{ tag_name | replace:'-',' '}}</nobr></a>
+                            {% if tag == "cycling" %}
+                                <!-- do nothing -->
+                            {% if tag == "projects" %}
+                                <!-- do nothing -->
+                            {% else %}
+                                {% capture tag_name %}{{ tag }}{% endcapture %}
+                                <a href="/tag/{{ tag_name }}"><nobr>{{ tag_name | replace:'-',' '}}</nobr></a>
+                            {% endif %}
                           {% endfor %}
                         </span>
 
