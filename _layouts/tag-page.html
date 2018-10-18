@@ -22,14 +22,26 @@ navigation: True
 <main id="site-main" class="site-main outer" role="main">
     <div class="inner">
 
-        {% if page.tag == "cycling" or page.tag == "projects" %}
-        <section class="post-full-content">
-            {% capture my_include %}{% include {{ page.tag }}.md %}{% endcapture %}
-            {{ my_include | markdownify }}
-        </section>
-        {% endif %}
+        <article class="post-full {{ page.subclass }} {% unless page.cover %}no-image{% endunless %}">
 
-        <div class="post-feed">
+            <header class="post-full-header">
+                <h1 class="post-full-title">{{ page.title }}</h1>
+            </header>
+
+            {% if page.cover %}
+            <figure class="post-full-image" style="background-image: url({{ site.baseurl }}{{ page.cover }})">
+            </figure>
+            {% endif %}
+
+            {% if page.tag == "cycling" or page.tag == "projects" %}
+            <section class="post-full-content">
+                {% capture my_include %}{% include {{ page.tag }}.md %}{% endcapture %}
+                {{ my_include | markdownify }}
+            </section>
+            {% endif %}
+         </article>
+
+        <div class="post-feed" style="margin-top: 10px; !important">
             <!-- The tag below includes the markup for each post - partials/post-card.hbs -->
             {%  include post-card-tag.html %}
         </div>
