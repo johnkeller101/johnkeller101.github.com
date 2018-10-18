@@ -16,6 +16,7 @@ echo "----------------------------------"
 current_time=$(date "+%Y.%m.%d-%H.%M.%S")
 
 git add .
+git reset -- _drafts/
 git commit -m "$current_time"
 git push -u origin master
 echo "----------------------------------"

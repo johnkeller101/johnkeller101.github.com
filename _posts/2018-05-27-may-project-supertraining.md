@@ -2,7 +2,7 @@
 layout: post
 current: post
 navigation: True
-tags: group-rides
+tags: group-rides cycling
 class: post-template
 subclass: 'post tag-rides'
 author: john
