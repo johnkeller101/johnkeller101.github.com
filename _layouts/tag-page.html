@@ -28,10 +28,8 @@ navigation: True
                 <h1 class="post-full-title">{{ page.title }}</h1>
             </header>
 
-            {% if page.cover %}
-            <figure class="post-full-image" style="background-image: url({{ site.baseurl }}{{ page.cover }})">
+            <figure class="post-full-image" style="background-image: url('/assets/images/about-header.jpg');">
             </figure>
-            {% endif %}
 
             {% if page.tag == "cycling" or page.tag == "projects" %}
             <section class="post-full-content">
