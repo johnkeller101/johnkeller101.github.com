@@ -59,9 +59,9 @@ for tag in total_tags:
     tag_filename = tag_dir + tag + '.md'
     f = open(tag_filename, 'a')
     if tag == 'cycling' or tag == 'projects':
-        write_str = '---\nlayout: tag\ntitle: \"Tag: ' + tag + '\"\ntag: ' + tag
-    else:
         write_str = '---\nlayout: tag-page\ntitle: \"Tag: ' + tag + '\"\ntag: ' + tag
+    else:
+        write_str = '---\nlayout: tag\ntitle: \"Tag: ' + tag + '\"\ntag: ' + tag
     if len(tag_desc) > 1:
       write_str = write_str + '\ndescription: ' + tag_desc
     if len(tag_img) > 1:
