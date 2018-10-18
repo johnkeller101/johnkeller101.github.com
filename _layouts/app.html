@@ -11,7 +11,7 @@ disqus: false
 }
 div.app-main {
     width: 100%;
-    background: url(/assets/images/apps/dsa/main_top_bg.jpg) no-repeat center top;
+    background: url({{ page.image_url }}main_top_bg.jpg) no-repeat center top;
     background-size: cover;
     text-align: center;
     margin-top: -30px;
@@ -78,13 +78,15 @@ div.app-main {
 }
 .banner_phone {
     text-align: center;
-    background: url(/assets/images/apps/dsa/banner_device.png) top center no-repeat;
+    background: url({{ page.image_url }}banner_device.png) top center no-repeat;
     height: 400px;
 }
 .col-md-6 {
     width: 50%;
 }
-
+.col-md-3 {
+    width: 25%;
+}
 
 
 
