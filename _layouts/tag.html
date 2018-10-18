@@ -33,7 +33,7 @@ navigation: True
 
         {% if page.tag == "cycling" | page.tag == "projects" %}
         <section class="post-full-content">
-            {% include {{ page.tag }}.html %}
+            {% include {{ page.tag }}.md %}
         </section>
         {% endif %}
 
