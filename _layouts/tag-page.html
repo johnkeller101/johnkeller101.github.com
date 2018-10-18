@@ -33,7 +33,7 @@ navigation: True
 
         {% if page.tag == "cycling" | page.tag == "projects" %}
         <section class="post-full-content">
-            {% capture my_include %}{% {{ page.tag }}.md %}{% endcapture %}
+            {% capture my_include %}{% include {{ page.tag }}.md %}{% endcapture %}
             {{ my_include | markdownify }}
         </section>
         {% endif %}
