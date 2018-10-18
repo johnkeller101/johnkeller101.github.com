@@ -31,11 +31,12 @@ navigation: True
 <main id="site-main" class="site-main outer" role="main">
     <div class="inner">
 
-
+        {% if page.tag == "cycling" | page.tag == "projects" %}
         <section class="post-full-content">
-            {{ page.description }}
+            {% include {{ page.tag }}.html %}
         </section>
-            
+        {% endif %}
+
         <div class="post-feed">
             <!-- The tag below includes the markup for each post - partials/post-card.hbs -->
             {%  include post-card-tag.html %}
