@@ -5,8 +5,13 @@ class: post-template
 disqus: false
 ---
 
-<!-- included css for app landing page -->
-<link href="/assets/css/new-age.css" rel="stylesheet">
+<script type="text/javascript">
+    var linkElement = document.createElement("link");
+    linkElement.rel = "stylesheet";
+    linkElement.href = "/assets/css/new-age.css"; //Replace here
+
+    document.head.appendChild(linkElement);
+</script>
 
 <header class="site-header outer">
     <div class="inner">
