@@ -57,9 +57,11 @@ div.app-main {
     margin-top: 70px;
 }
 .phone_preview .regular_text_left {
+    float: left;
     text-align: right;
 }
 .phone_preview .regular_text_right {
+    float: right;
     text-align: left;
 }
 
@@ -80,6 +82,7 @@ div.app-main {
     text-align: center;
     background: url({{ page.image_url }}banner_device.png) top center no-repeat;
     height: 400px;
+    width: 100%;
 }
 .col-md-6 {
     width: 50%;
@@ -87,7 +90,9 @@ div.app-main {
 .col-md-3 {
     width: 25%;
 }
-
+.container {
+    max-width: 1000px;
+}
 
 
 </style>
@@ -104,13 +109,13 @@ div.app-main {
         <a href="https://itunes.apple.com/us/app/denver-school-of-the-arts/id739611885?mt=8" class="download-btn">download now</a>
 
         <div class="container phone_preview">
-            <div class="col-md-3 hidden-xs hidden-sm col-sm-4 regular_text_left">
+            <div class="regular_text_left">
               <h3>Simple and Beautiful</h3>
               <p>This app is built using the latest iOS standards and looks stunning.</p>
               <h3>Performances & Box Office</h3>
               <p>Purchase performance tickets right from your phone.</p>
             </div>  
-            <div class="col-md-6 col-sm-8 banner_phone">
+            <div class="banner_phone">
             </div>  <!-- /banner_phone | Background of Phone -->
             <div class="col-md-3 hidden-xs regular_text_right">
               <h3>Teacher Websites</h3>
