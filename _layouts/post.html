@@ -63,12 +63,12 @@ disqus: false
                         <!-- updated tag section for github pages -->
                         <span>
                           {% for tag in page.tags %}
-                            {% if tag == "cycling" %}
+                            {% capture tag_name %}{{ tag }}{% endcapture %}
+                            {% if tag_name == "cycling" %}
                                 <!-- do nothing -->
-                            {% if tag == "projects" %}
+                            {% if tag_name == "projects" %}
                                 <!-- do nothing -->
                             {% else %}
-                                {% capture tag_name %}{{ tag }}{% endcapture %}
                                 <a href="/tag/{{ tag_name }}"><nobr>{{ tag_name | replace:'-',' '}}</nobr></a>
                             {% endif %}
                           {% endfor %}
