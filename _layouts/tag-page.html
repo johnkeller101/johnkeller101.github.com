@@ -31,7 +31,7 @@ navigation: True
 <main id="site-main" class="site-main outer" role="main">
     <div class="inner">
 
-        {% if page.tag == "cycling" | page.tag == "projects" %}
+        {% if page.tag == "cycling" or page.tag == "projects" %}
         <section class="post-full-content">
             {% capture my_include %}{% include {{ page.tag }}.md %}{% endcapture %}
             {{ my_include | markdownify }}
