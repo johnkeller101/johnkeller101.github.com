@@ -1,5 +1,29 @@
-Nullam sed consequat turpis, vel vehicula erat. Donec suscipit tortor non nisl efficitur suscipit. Maecenas tincidunt vel urna eget cursus. Nullam convallis euismod neque sed elementum. In at posuere nibh. Donec malesuada euismod turpis, ut pulvinar dui pretium quis. Aliquam sagittis eget lacus sit amet pellentesque. Nulla et ullamcorper sapien. Maecenas in est at est laoreet egestas. Sed imperdiet fringilla nisl, et molestie est venenatis sed. Duis dictum in augue eu dignissim. Maecenas condimentum lacus at enim semper varius.
+John Keller is an undergraduate computer science student at the University of Colorado Boulder, where he competes at a collegiate level. Join him on his journey through the ranks of local and higher level cycling.
 
-Vivamus mattis aliquam ex vel varius. Curabitur dictum dignissim nisl, et molestie lectus. Quisque venenatis lorem a tincidunt feugiat. In erat enim, convallis ut aliquam a, interdum nec ex. Sed gravida est tortor, eu consectetur nulla placerat eu. Aliquam turpis libero, accumsan ac sapien ac, tincidunt tincidunt metus. Etiam sem orci, auctor a porttitor at, venenatis eget sem. Vivamus non facilisis velit. Praesent sagittis nisl massa, tincidunt cursus diam semper ut. Vestibulum at vestibulum quam, in viverra ipsum. Vestibulum ut nunc ullamcorper, hendrerit nisl eu, lobortis magna. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam lacinia quis tellus ut aliquam. Suspendisse vitae ornare felis. Nulla a sem suscipit, pellentesque nulla vel, convallis massa. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+#### General
+- Racing Age: 21
+- USAC Category: 3
+- Height: 6'0"
+- Weight: 145 lbs
+- Team: [CU Cycling Team](https://www.colorado.edu/sportsclub/cycling/)
+- Coach: Jeff Winkler [winklercycling.com](http://winklercycling.com)
 
-Mauris dapibus diam id lacus euismod, at venenatis est euismod. Integer tempus maximus laoreet. Sed pretium dolor ut libero accumsan, sit amet consectetur magna consectetur. Morbi eget ante ut arcu faucibus posuere. Etiam augue enim, semper non hendrerit a, lobortis quis elit. Duis ut ligula faucibus, ullamcorper metus nec, viverra felis. Sed convallis, metus in rhoncus placerat, justo augue malesuada sapien, vitae euismod risus orci nec felis. Pellentesque a gravida justo. Integer pellentesque sollicitudin nisi vitae porttitor. Vivamus ac nulla eget felis lacinia ultricies ut id libero. Aliquam eu sollicitudin leo. Duis sed justo eleifend, gravida leo at, pulvinar ex. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tortor ligula, vulputate eget dictum non, bibendum vitae enim. Mauris mollis, nulla ac porta pretium, augue diam placerat ipsum, ut accumsan ipsum enim eu turpis.
+#### 2018 Results
+
+- 1st- Pikes Peak Hill Climb (Category 3)
+- 1st- [Bob Cook Memorial Mt. Evans Hill Climb](https://www.coloradocycling.org/results/road#year=2018&eventId=2224&resultsetId=27658) (Category 3)
+- 1st- [Sunshine Hill Climb](/2018/07/08/sunshine-hill-climb/) (Category 3)
+- 1st- [Guanella Pass HC State Championships](https://www.coloradocycling.org/results/road#year=2018&eventId=2304&resultsetId=27291) (Category 4)
+- 1st- [Supurior Morgul Road Race](https://www.coloradocycling.org/results/road#year=2018&eventId=2202&resultsetId=27096) (Category 4)
+- 1st- [Front Range Cycling Classic Crit](https://www.coloradocycling.org/results/road#year=2018&eventId=2192&resultsetId=26234) (Category 4/5)
+- 2nd- [Lookout Mountain Hill Climb](/2018/06/09/lookout-mountain-hill-climb/) (Category 4)
+- 2nd- [Squawker Road Classic Crit](/2018/04/24/flc-mens-b-criterium/) (Collegiate B)
+- 3rd Overall- [RMCCC Road Standings](http://winklercycling.com/rmccc/rmccc-individual-standings.html) (Collegiate B)
+- 3rd- Squawker Road Classic RR (Collegiate B)
+<!-- - 5th- Front Range Cycling Classic RR (Collegiate B) -->
+<!-- - 7th- [The Koppenberg](/2018/04/30/koppenberg-sm4-last-lap/) (Category 4) -->
+<!-- - 10th- Squawker Road Classic Crit (Category 4/5) -->
+<!-- - 14th- Front Range Cycling Classic Crit (Collegiate B) -->
+<!-- - 22nd- CSU Oval Critereum (Collegiate B) -->
+<!-- - 4th- DU Cycling City Park Crit (Collegiate C) -->
+<!-- - 7th- DU Cycling City Park Crit (Category 5) -->
