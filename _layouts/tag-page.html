@@ -39,10 +39,13 @@ class: page-template
                 <h1 class="post-full-title">{{ page.tag | capitalize }}</h1>
             </header>
 
-            <figure class="post-full-image" style="background-image: url('/assets/images/about-header.jpg');">
-            </figure>
+            {% if page.tag == "cycling" %}
+            <figure class="post-full-image" style="background-image: url('/assets/images/about-header.jpg');"></figure>
+            {% elsif page.tag == "portfolio"%}
+            <figure class="post-full-image" style="background-image: url('/assets/images/about-header.jpg');"></figure>
+            {% endif %}
 
-            {% if page.tag == "cycling" or page.tag == "projects" %}
+            {% if page.tag == "cycling" or page.tag == "portfolio" %}
             <section class="post-full-content">
                 {% capture my_include %}{% include {{ page.tag }}.md %}{% endcapture %}
                 {{ my_include | markdownify }}
