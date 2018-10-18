@@ -16,7 +16,7 @@ navigation: True
     <div class="inner">
         <div class="site-header-content">
             {% if page.description %}
-                <h1 class="site-title">{{ page.tag | capitalizeall}}</h1>
+                <h1 class="site-title">{{ page.title }}</h1>
                 <h2 class="site-description">{{ page.description }}</h2>
             {% else %}
                 <img class="site-logo" src="{{ site.baseurl }}/{{ site.logo }}" alt="{{ site.title }}"/>
@@ -30,9 +30,26 @@ navigation: True
 <!-- The main content area -->
 <main id="site-main" class="site-main outer" role="main">
     <div class="inner">
+         <article class="post-full {{ page.subclass }} {% unless page.cover %}no-image{% endunless %}">
+
+            <header class="post-full-header">
+                <h1 class="post-full-title">{{ page.title }}</h1>
+            </header>
+
+            {% if page.cover %}
+            <figure class="post-full-image" style="background-image: url({{ site.baseurl }}{{ page.cover }})">
+            </figure>
+            {% endif %}
+
+            <section class="post-full-content">
+                {{ page.description }}
+            </section>
+
+        </article>
         <div class="post-feed">
             <!-- The tag below includes the markup for each post - partials/post-card.hbs -->
             {%  include post-card-tag.html %}
         </div>
     </div>
 </main>
+
