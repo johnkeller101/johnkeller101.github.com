@@ -9,10 +9,31 @@ disqus: false
     padding-left: 0px;
     padding-right: 0px;
 }
+
+div.app-main:before {
+  content: "";
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: -1;
+
+  display: block;
+  background-image: url('{{ page.image_url }}main_top_bg.jpg');
+  background-size:cover;
+  width: 100%;
+  height: 100%;
+
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+}
+
 div.app-main {
     width: 100%;
-    background: url({{ page.image_url }}main_top_bg.jpg) no-repeat center top;
-    background-size: cover;
+    /*background: url({{ page.image_url }}main_top_bg.jpg) no-repeat center top;*/
+    /*background-size: cover;*/
     text-align: center;
     margin-top: -30px;
 }
@@ -84,6 +105,7 @@ div.app-main {
     height: 400px;
     width: 100%;
     margin-top: 70px;
+    overflow: hidden;
 }
 .col-md-6 {
     width: 50%;
