@@ -10,7 +10,11 @@
             </a>
         {% endif %}
         <div class="post-card-content">
-            <a class="post-card-content-link" href="{{ site.baseurl }}/{{ post.url | remove_first: '/' }}">
+            {% if post.permalink %}
+            
+            {% else %}
+                <a class="post-card-content-link" href="{{ site.baseurl }}/{{ post.url | remove_first: '/' }}">
+            {% endif %}
                 <header class="post-card-header">
                     {% if post.tags.size > 0 %}
                     <!-- fix for posts with more than one tag, exclude certain tags -->
