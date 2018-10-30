@@ -19,7 +19,7 @@ description:
 
 [Phils's Fondo](https://www.philsfondo.com/) truly showcases just how world-class the riding in Malibu is. I've ridden all the climbs around the area, and can say that Phil picked some of the best around to include in the event. With over 1,400 participants, there is plenty of time to spend between KOM timed segments to meet new people. You can easily mix it up with pros, amateurs, and people who are just riding for the adventure! There are more than enough rest stops with plenty of food options (GF and Vegans included), which make sure you never leave hungry or without water. Speaking of the timed segments, it is much more relaxed than other Gran Fondos, as the results are exclusive to Strava and more a sense of personal achievement than anything. The visiting pros often take the segments easy, so it is up for grabs for anyone who has trained hard enough! I have always been obsessed with Strava, so I think this partnership really makes the best experience for everyone. You can easily ride it with no pressure to do well and there are only a few who take the KOM sections seriously. That being said, good luck doing well because the times are quick and lots of good climbers come ready to ride. I've included my results below, and keep in mind my lowest overall ranked time on Strava was 24/4666. It's all in good fun though!
 
-<a href="https://www.strava.com/athletes/15453860#interval?interval=201843&interval_type=week&chart_type=miles&year_offset=0"><img src="/assets/images/phils-fondo/strava-results.png" width="80%"></a>
+<a href="https://www.strava.com/athletes/15453860#interval?interval=201843&interval_type=week&chart_type=miles&year_offset=0"><img src="/assets/images/phils-fondo/strava-results.png"></a>
 
 ### Saturday
 
@@ -29,9 +29,7 @@ This year was the first year that the fondo included an official ride on Saturda
 
 <a href="https://www.strava.com/activities/1930741600"><img src="/assets/images/viewonstrava.png" style="max-width: 50%; width: 20%;"></a>
 
------
-
-<a href="https://www.strava.com/challenges/philsfondo-fernwood-2018"><img src="/assets/images/phils-fondo/fernwood.png" width="20%"></a>
+<a href="https://www.strava.com/challenges/philsfondo-fernwood-2018"><img src="/assets/images/phils-fondo/fernwood.png" style="max-width: 50%; width: 20%;"></a>
 
 I started the timed segment a few minutes behind the majority of the group, and quickly caught up to the lead group of six or so riders. They were taking it easy, and I continued my pace around them. The group quickly split into a few riders, and by the end it was just me and Phil duking it out until the top. I got dropped, but Phil was nice enough to not destroy me and stayed within a few hundred feet. 
 
@@ -42,21 +40,19 @@ There were over 1,400 people in attendance on Sunday, with people of all abiliti
 
 <a href="https://www.strava.com/activities/1933092459"><img src="/assets/images/viewonstrava.png" style="max-width: 50%; width: 20%;"></a>
 
------
-
-<a href="https://www.strava.com/challenges/philsfondo-portero-2018"><img src="/assets/images/phils-fondo/potrero.png" width="20%"></a>
+<a href="https://www.strava.com/challenges/philsfondo-portero-2018"><img src="/assets/images/phils-fondo/potrero.png" style="max-width: 50%; width: 20%;"></a>
 
 The first climb, Petero, was in my opinion the hardest of the day. It was steep, but there was a rest stop at the top. This was my lowest ranked climb of the day, but the first half was at an easy pace, until the attacks started coming. One major thing to note is that the pros took the climbs easy and let others set the pace, which was a relief and made it somewhat easier for me.
 
-<a href="https://www.strava.com/challenges/philsfondo-westlake-2018"><img src="/assets/images/phils-fondo/westlake.png" width="20%"></a>
+<a href="https://www.strava.com/challenges/philsfondo-westlake-2018"><img src="/assets/images/phils-fondo/westlake.png" style="max-width: 50%; width: 20%;"></a>
 
 The second climb, Westlake, didn't feel as challenging and was the shortest of the day. There was a rest stop just before it so I was carrying extra weight (which is overrated anyways). I got the fastest time of the day on this climb, and I didn't even "sprint" at flat finish. It was a beautiful climb with many twists and turns, and almost everyone was taking it easy and enjoying the views.
 
-<a href="https://www.strava.com/challenges/philsfondo-encinal-2018"><img src="/assets/images/phils-fondo/encinal.png" width="20%"></a>
+<a href="https://www.strava.com/challenges/philsfondo-encinal-2018"><img src="/assets/images/phils-fondo/encinal.png" style="max-width: 50%; width: 20%;"></a>
 
 The third climb felt the most brutal, with a steep kicker to start and steady grades for the rest of the climb. Phil Gaimon and Peter Stetina went hard for the first half of this one, and I was stuck chasing at a brutal pace. The adreline was flowing knowing you are behind two of the best climbers in the US, but the only was I caught them was when they basically stopped pedaling. I had pulled along an ELMT rider for the first few minutes, but my pace was too hard and he eventually fell back. 
 
-<a href="https://www.strava.com/challenges/phillsfondo-yerba-2018"><img src="/assets/images/phils-fondo/yerba.png" width="20%"></a>
+<a href="https://www.strava.com/challenges/phillsfondo-yerba-2018"><img src="/assets/images/phils-fondo/yerba.png" style="max-width: 50%; width: 20%;"></a>
 
 <img src="/assets/images/phils-fondo/sunday.jpg">
 
