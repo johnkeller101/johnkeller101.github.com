@@ -51,7 +51,7 @@ The third climb felt the most brutal, with a steep kicker to start and steady gr
 <a href="https://www.strava.com/challenges/phillsfondo-yerba-2018"><img src="/assets/images/phils-fondo/yerba.png" width="20%">
 <img src="/assets/images/phils-fondo/sunday.jpg" width="80%">
 
-The final climb was called Yerba, and the last time I rode this was [during Rally's winter training camp](http://ss). It is the roughest road of the day and really makes you question why you are going so hard. It is on the shorter end, with my time at only 12:35. The real kicker on this one is that once the KOM segment ends, you still have another 20 minutes of even steeper climbing, but with one of the best views of the day. The descent is sketchy and will leave your hands sore, but the view certainly makes up for that.
+The final climb was called Yerba, and the last time I rode this was [during Rally's winter training camp](https://www.youtube.com/watch?v=_Kzsia520NA). It is the roughest road of the day and really makes you question why you are going so hard. It is on the shorter end, with my time at only 12:35. The real kicker on this one is that once the KOM segment ends, you still have another 20 minutes of even steeper climbing, but with one of the best views of the day. The descent is sketchy and will leave your hands sore, but the view certainly makes up for that.
 
 
 ---
