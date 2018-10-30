@@ -44,12 +44,12 @@ The first climb, Petero, was in my opinion the hardest of the day. It was steep,
 
 The second climb, Westlake, didn't feel as challenging and was the shortest of the day. There was a rest stop just before it so I was carrying extra weight (which is overrated anyways). I got the fastest time of the day on this climb, and I didn't even "sprint" at flat finish. It was a beautiful climb with many twists and turns, and almost everyone was taking it easy and enjoying the views.
 
-<img src="/assets/images/phils-fondo/sunday.jpg" width="70%">
 <a href="https://www.strava.com/challenges/philsfondo-encinal-2018"><img src="/assets/images/phils-fondo/encinal.png" width="20%">
 
 The third climb felt the most brutal, with a steep kicker to start and steady grades for the rest of the climb. Phil Gaimon and Peter Stetina went hard for the first half of this one, and I was stuck chasing at a brutal pace. The adreline was flowing knowing you are behind two of the best climbers in the US, but the only was I caught them was when they basically stopped petaling. I had pulled along an ELMT rider for the first few minutes, but my pace was too hard and he eventually fell back. 
 
 <a href="https://www.strava.com/challenges/phillsfondo-yerba-2018"><img src="/assets/images/phils-fondo/yerba.png" width="20%">
+<img src="/assets/images/phils-fondo/sunday.jpg" width="80%">
 
 The final climb was called Yerba, and the last time I rode this was [during Rally's winter training camp](http://ss). It is the roughest road of the day and really makes you question why you are going so hard. It is on the shorter end, with my time at only 12:35. The real kicker on this one is that once the KOM segment ends, you still have another 20 minutes of even steeper climbing, but with one of the best views of the day. The descent is sketchy and will leave your hands sore, but the view certainly makes up for that.
 
