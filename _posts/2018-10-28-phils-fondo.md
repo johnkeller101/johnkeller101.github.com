@@ -25,9 +25,9 @@ description:
 
 <img src="/assets/images/phils-fondo/saturday.jpg">
 
-This year was the first year that the fondo included an official ride on Saturday. The longer route (49 miles, contrary to what the route says) included my favorite climb in LA: Fernwood. It's a roughly 25 minute climb which is secluded and covered by trees for the first half. There were fewer people than Sunday, but it felt much more intimate and relaxed which was nice.
-
 <a href="https://www.strava.com/activities/1930741600"><img src="/assets/images/viewonstrava.png" style="max-width: 50%; width: 20%;"></a>
+
+This year was the first year that the fondo included an official ride on Saturday. The longer route (49 miles, contrary to what the route says) included my favorite climb in LA: Fernwood. It's a roughly 25 minute climb which is secluded and covered by trees for the first half. There were fewer people than Sunday, but it felt much more intimate and relaxed which was nice.
 
 <a href="https://www.strava.com/challenges/philsfondo-fernwood-2018"><img src="/assets/images/phils-fondo/fernwood.png" style="max-width: 50%; width: 20%;"></a>
 
@@ -36,9 +36,11 @@ I started the timed segment a few minutes behind the majority of the group, and 
 
 ### Sunday
 
-There were over 1,400 people in attendance on Sunday, with people of all abilities. It was an awesome experience talking to people from amateurs to professionals, and the climbing was spectacular as expected. The ride started and finished at an airfield. It was foggy and cold, but that quickly changed as we ascended into the hills.
+<img src="/assets/images/phils-fondo/sunday.jpg">
 
 <a href="https://www.strava.com/activities/1933092459"><img src="/assets/images/viewonstrava.png" style="max-width: 50%; width: 20%;"></a>
+
+There were over 1,400 people in attendance on Sunday, with people of all abilities. It was an awesome experience talking to people from amateurs to professionals, and the climbing was spectacular as expected. The ride started and finished at an airfield. It was foggy and cold, but that quickly changed as we ascended into the hills.
 
 <a href="https://www.strava.com/challenges/philsfondo-portero-2018"><img src="/assets/images/phils-fondo/potrero.png" style="max-width: 50%; width: 20%;"></a>
 
@@ -54,7 +56,7 @@ The third climb felt the most brutal, with a steep kicker to start and steady gr
 
 <a href="https://www.strava.com/challenges/phillsfondo-yerba-2018"><img src="/assets/images/phils-fondo/yerba.png" style="max-width: 50%; width: 20%;"></a>
 
-<img src="/assets/images/phils-fondo/sunday.jpg">
+<img src="/assets/images/phils-fondo/sunday-2.jpg">
 
 The final climb was called Yerba, and the last time I rode this was [during Rally's winter training camp](https://www.youtube.com/watch?v=_Kzsia520NA). It is the roughest road of the day and really makes you question why you are going so hard. It is on the shorter end, with my time at only 12:35. The real kicker on this one is that once the KOM segment ends, you still have another 20 minutes of even steeper climbing, but with one of the best views of the day. The descent is sketchy and will leave your hands sore, but the view certainly makes up for that.
 
