@@ -23,7 +23,7 @@ Phils's Fondo truly showcases just how world-class the riding in Malibu is. I've
 
 ### Saturday
 
-<img src="/assets/images/phils-fondo/saturday.jpg" width="70%">
+<img src="/assets/images/phils-fondo/saturday.jpg">
 
 This year was the first year that the fondo included an official ride on Saturday. The longer route (49 miles, contrary to what the route says) included my favorite climb in LA: Fernwood. It's a roughly 25 minute climb which is secluded and covered by trees for the first half. There were fewer people than Sunday, but it felt much more intimate and relaxed which was nice. You can view my Strava ride [here](https://www.strava.com/activities/1930741600).
 
@@ -49,7 +49,7 @@ The second climb, Westlake, didn't feel as challenging and was the shortest of t
 The third climb felt the most brutal, with a steep kicker to start and steady grades for the rest of the climb. Phil Gaimon and Peter Stetina went hard for the first half of this one, and I was stuck chasing at a brutal pace. The adreline was flowing knowing you are behind two of the best climbers in the US, but the only was I caught them was when they basically stopped petaling. I had pulled along an ELMT rider for the first few minutes, but my pace was too hard and he eventually fell back. 
 
 <a href="https://www.strava.com/challenges/phillsfondo-yerba-2018"><img src="/assets/images/phils-fondo/yerba.png" width="20%">
-<img src="/assets/images/phils-fondo/sunday.jpg" width="80%">
+<img src="/assets/images/phils-fondo/sunday.jpg">
 
 The final climb was called Yerba, and the last time I rode this was [during Rally's winter training camp](https://www.youtube.com/watch?v=_Kzsia520NA). It is the roughest road of the day and really makes you question why you are going so hard. It is on the shorter end, with my time at only 12:35. The real kicker on this one is that once the KOM segment ends, you still have another 20 minutes of even steeper climbing, but with one of the best views of the day. The descent is sketchy and will leave your hands sore, but the view certainly makes up for that.
 
