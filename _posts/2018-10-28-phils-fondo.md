@@ -64,3 +64,5 @@ The final climb was called Yerba, and the last time I rode this was [during Rall
 ---
 
 Thanks to [Tyler Pearce (The Vegan Cyclist)](https://www.strava.com/athletes/180549) for the great header photo!
+
+Want to keep up with me on the climbs? Talk to my coach [Jeff Winkler](https://winklercycling.com/2017/coaching/).
