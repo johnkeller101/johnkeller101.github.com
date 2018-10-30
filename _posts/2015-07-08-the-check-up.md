@@ -14,3 +14,5 @@ permalink: /checkup/
 
 video-id: F1RnIHUL2Pc
 ---
+
+This movie is based on everyone's fear of going to the dentist. The main character is a young boy who shares his thoughts with the viewer about the atrocities he believes are about to be committed by the dentist.
