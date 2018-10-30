@@ -7,7 +7,7 @@ class: post-template
 subclass: 'post tag-rides'
 author: john
 
-title: Phil's Fondo
+title: Phil's Cookie Fondo
 date: 2018-10-28 20:50:00
 cover: /assets/images/phils-fondo/cover.jpg
 cover_height: 2048px
