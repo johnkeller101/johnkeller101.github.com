@@ -52,7 +52,7 @@ The second climb, Westlake, didn't feel as challenging and was the shortest of t
 
 <a href="https://www.strava.com/challenges/philsfondo-encinal-2018"><img src="/assets/images/phils-fondo/encinal.png" style="max-width: 50%; width: 20%;"></a>
 
-The third climb felt the most brutal, with a steep kicker to start and steady grades for the rest of the climb. Phil Gaimon and Peter Stetina went hard for the first half of this one, and I was stuck chasing at a brutal pace. The adreline was flowing knowing you are behind two of the best climbers in the US, but the only was I caught them was when they basically stopped pedaling. I had pulled along an ELMT rider for the first few minutes, but my pace was too hard and he eventually fell back. 
+The third climb felt the most brutal, with a steep kicker to start and steady grades for the rest of the climb. Phil Gaimon and Peter Stetina went hard for the first half of this one, and I was stuck chasing at a brutal pace. The adreline was flowing knowing you are behind two of the best climbers in the US, but the only was I caught them was when they basically stopped pedaling. I had pulled along an Concept rider for the first few minutes, but my pace was too hard and he eventually fell back. 
 
 <a href="https://www.strava.com/challenges/phillsfondo-yerba-2018"><img src="/assets/images/phils-fondo/yerba.png" style="max-width: 50%; width: 20%;"></a>
 
