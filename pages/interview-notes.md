@@ -154,10 +154,13 @@ The smallest element is at the root of the tree, with larger elements as childre
 ## My Questions for you
 
 1. Who is your ideal candidate for a summer intern? How much do you value a quick and dedicated learner?
-2. How long does internal code review normally take? What systematic steps are taken to be nimble and release features quickly?
+2. How long does internal code review normally take? 
+    - What systematic steps are taken to be nimble and release features quickly?
+    - How are new features thought up? Do developers have input on features they feel should be added?
 3. How do you employ Strava’s value of *Balance*? 
     - What does the average work week look like for you? What is the organizational structure like at Strava? 
     - What is the office environment and culture like?
+    - How many meetings do you have per week?
 4. How closely do the iOS and web teams work together? 
     - What are the steps taken internally to promote feature parity?
 5. Is the common structure to have smaller teams work on features independently? 
@@ -167,8 +170,7 @@ The smallest element is at the root of the tree, with larger elements as childre
     - Do the back-end and client developers work closely together?
 7. What is the office environment like? 
 9. How quickly is your team integrating Swift into your codebase? Is it a priority that new features be built using it?
-10. How many meetings do you have per week?
-11. How are new features thought up? Do developers have input on features they feel should be added?
+11. 
 12. What is the testing suite like? How important is previous knowledge of testing frameworks like `__________`?
 13. What about literal testing of bluetooth devices in workout mode?
 14. I know the Strava API has been heavily handicapped in the past few years. Does the iOS app use a similar, but more complex API?
