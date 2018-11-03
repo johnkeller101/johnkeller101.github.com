@@ -36,14 +36,13 @@
 |`setter=<name>`|specify name of setter (typical for booleans)|
 
 ### Dot Notation
+- a shortcut which allows the compiler rewrites the dot-notation to the normal notation
+- only good to use on getter/setters and not regular methods
 
 ||Getter|Setter|
 |-|-----|------|
 |Normal| `[calc hisName]`|`[calc setHisName:@"John"]`|
 |Dot Notation|`calc.hisName`|`calc.hisName = @"John"`|
-
-- a shortcut which allows the compiler rewrites the dot-notation to the normal notation
-- only good to use on getter/setters and not regular methods
 
 ### Protocols and Delegates
 - **Protocol**: an interface (a promise that everything which implements this uses specific methods)
