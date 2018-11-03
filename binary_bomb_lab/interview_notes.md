@@ -87,7 +87,7 @@ include_bootstrap: yes
 ## Data Structures
 ### Big-O Notation
 Let's say you're making dinner for your family. O is the process of following a recipe, and n is the number of times you follow a recipe.
-- `O` - you make one dish that everyone eats whether they like it or not. You follow one recipe from top to bottom, then serve (1 recipe). <-- How I grew up
+- `O` - you make one dish that everyone eats whether they like it or not. You follow one recipe from top to bottom, then serve (1 recipe).
 - `O(n)` - you make individual dishes for each person. You follow a recipe from top to bottom for each person in your family (recipe times the number of people in your family).
 - `O(n^2)` - you make individual dishes redundantly for every person. You follow all recipes for each person in your family (recipe times the number of people squared).
 - `O(log n)` - you break people into groups according to what they want and make larger portions. You make one dish for each group (recipe times request)
@@ -96,9 +96,25 @@ Let's say you're making dinner for your family. O is the process of following a 
 - for any problem given, first assume it is using a hash table
 - A hash table is in elementary terms a `key` `value` pair which gives you very quick lookups (think dictionary)
 - The `key` and `value` can be any type of object
-- What happens when you have a **collision**? You can store the two values in a linked list
+- What happens when you have a **collision** (two values for the same key)? You can store the two values in a linked list
+- **Runtime**: 
+    - depends on the content and implementation
+    - assuming we have an ideal hashtable, the time complexity is constant or `O(1)`
+    - in a worst-case hashtable, the time complexity is `O(n)`
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Hash_table_5_0_1_1_1_1_1_LL.svg/450px-Hash_table_5_0_1_1_1_1_1_LL.svg.png" style="max-width: 80%">
+
+```
+class Hashtable {
+    linkedList[] data
+    boolean put(String key, Person value){
+        int hashcode = getHashCode(key)
+        int index = convertToIndex(hashcode)
+        linkedList list = data[index]
+        list.insert(key,value)
+    }
+}
+```
 
 ### Graphs
 #### Graph Search
