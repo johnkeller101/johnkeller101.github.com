@@ -97,23 +97,22 @@ Let's say you're making dinner for your family. O is the process of following a 
 #### Graph Search
 
 <div class="row">
-    <div class="col-md-4">one</div>
-    <div class="col-md-4">two</div>
-    <div class="col-md-4">three</div>
+    <div class="col-md-4">
+        <h3>Depth First Search</h3>
+        Goes **deep** into each child before moving to neighbors<img src="https://upload.wikimedia.org/wikipedia/commons/7/7f/Depth-First-Search.gif" style="max-width: 25%">
+    </div>
+    <div class="col-md-4">
+        <h3>Depth First Search</h3>
+        Goes **broad** (to neighbors) before going deep<img src="https://www.codingame.com/servlet/fileservlet?id=7768503315394" style="max-width: 25%">
+    </div>
+    <div class="col-md-4">
+        <h3>Binary Search</h3>
+        `O(log(n))` cut in half and see if the value is less than or greater than
+        <img src="https://www.mathwarehouse.com/programming/images/binary-search-tree/binary-search-tree-sorted-array-animation.gif">
+    </div>
 </div>
 
 
-
-|Depth First Search|Breadth First Search|Binary Search|
-|------|-------|-------|
-|Goes **deep** into each child before moving to neighbors<img src="https://upload.wikimedia.org/wikipedia/commons/7/7f/Depth-First-Search.gif" style="max-width: 25%">| Goes **broad** (to neighbors) before going deep<img src="https://www.codingame.com/servlet/fileservlet?id=7768503315394" style="max-width: 25%"> |
-
-- **Depth First Search**: 
-    - recursive with a flag to stop the loop
-- **Breadth First Search**: 
-    - you need to use a queue
-- **Binary Search** `O(log(n))` cut in half and see if the value is less than or greater than  
-<img src="https://www.mathwarehouse.com/programming/images/binary-search-tree/binary-search-tree-sorted-array-animation.gif">
 <img src="https://blog.penjee.com/wp-content/uploads/2015/04/binary-and-linear-search-animations.gif">
 
 <small>learn about searches in [python](https://eddmann.com/posts/depth-first-search-and-breadth-first-search-in-python/)</small>
