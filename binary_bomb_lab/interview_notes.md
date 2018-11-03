@@ -1,13 +1,11 @@
+## iOS Questions
+
 <style type="text/css">
     .post-full-content p {
         color: #090a0b;
         font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Open Sans, Helvetica Neue, sans-serif !important;
     }
 </style>
-
-
-## iOS Questions
-
 
  `@property (assign) float hisAge;`
  Note that his automatically generates the following code:
