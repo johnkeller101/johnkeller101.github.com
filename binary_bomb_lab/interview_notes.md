@@ -19,7 +19,7 @@
  - a **public property** is one which is included in your header file
  - a **private property** is one which is included in your m file
  
- #### property attributes
+#### Property Attributes
  - strong       adds reference to keep object alive
  - weak         objects can dissapear and become nil
  - assign       normal assign, no reference (default)
