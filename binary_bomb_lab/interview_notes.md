@@ -152,12 +152,17 @@ The smallest element is at the root of the tree, with larger elements as childre
 
 1. Who is your ideal candidate for a summer intern? How much do you value a quick and dedicated learner?
 2. How long does internal code review normally take? What systematic steps are taken to be nimble and release features quickly?
-3. How do you employ Strava’s value of *Balance*? What does the average work week look like for you? What is the organizational structure like at Strava? 
+3. How do you employ Strava’s value of *Balance*? 
+    - What does the average work week look like for you? What is the organizational structure like at Strava? 
+    - What is the office environment and culture like?
 4. How closely do the iOS and web teams work together? 
     - What are the steps taken internally to promote feature parity?
-5. Is the common structure to have smaller teams work on features independently? I saw that through the watchOS development cycle only a few engineers were involved with building and testing for release.
-6. How much of your position solely relies on Objective-C? I looked up your background and saw you are well-versed on more server-side software. Do the back-end and client developers work closely together?
-7. What is the office environment like? Do the developers have direct communications with PR and advisors?
+5. Is the common structure to have smaller teams work on features independently? 
+    - I saw that through the watchOS development cycle only a few engineers were involved with building and testing for release.
+6. How much of your position solely relies on Objective-C? 
+    - I looked up your background and saw you are well-versed on more server-side software. 
+    - Do the back-end and client developers work closely together?
+7. What is the office environment like? 
 9. How quickly is your team integrating Swift into your codebase? Is it a priority that new features be built using it?
 10. How many meetings do you have per week?
 11. How are new features thought up? Do developers have input on features they feel should be added?
