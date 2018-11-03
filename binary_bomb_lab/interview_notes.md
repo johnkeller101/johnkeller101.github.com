@@ -1,5 +1,5 @@
 <style type="text/css">
-    p {
+    .post-full-content p {
         color: #090a0b;
         font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Open Sans, Helvetica Neue, sans-serif !important;
     }
