@@ -22,11 +22,12 @@
  - a **private property** is one which is included in your m file
  
 ### Property Attributes
+
 |variable|description|
 |--------|-----------|
 |`strong`|adds reference to keep object alive|
 |`weak` | objects can disappear and become nil|
-|`assign`|normal assign, no reference (default)|
+|`assign` | normal assign, no reference (default)|
 |`copy`|make copy on assign|
 |`atomic`|thread safety code, so all getting and setting can be performed in one operation|
 |`nonatomic`|make not threadsafe and increase performance (most code is only run on one thread which means threadsafe does not matter)|
