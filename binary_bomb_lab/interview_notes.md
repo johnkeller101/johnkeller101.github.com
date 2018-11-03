@@ -92,6 +92,12 @@ Let's say you're making dinner for your family. O is the process of following a 
 - `O(n^2)` - you make individual dishes redundantly for every person. You follow all recipes for each person in your family (recipe times the number of people squared).
 - `O(log n)` - you break people into groups according to what they want and make larger portions. You make one dish for each group (recipe times request)
 
+### Hash Tables
+- for any problem given, first assume it is using a hash table
+- A hash table is in elementary terms a `key` `value` pair which gives you very quick lookups (think dictionary)
+- The `key` and `value` can be any type of object
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Hash_table_5_0_1_1_1_1_1_LL.svg/450px-Hash_table_5_0_1_1_1_1_1_LL.svg.png" style="max-width: 80%">
 
 ### Graphs
 #### Graph Search
@@ -112,18 +118,14 @@ Let's say you're making dinner for your family. O is the process of following a 
          <a data-toggle="collapse" href="#moreBinary" role="button" aria-expanded="false" aria-controls="moreBinary"> Show more binary search examples below</a>
     </div>
 </div>
+
 <div class="collapse" id="moreBinary">
   <div class="card card-body">
     <img src="https://blog.penjee.com/wp-content/uploads/2015/04/binary-and-linear-search-animations.gif">
   </div>
 </div>
 
-
-
 <small>learn about searches in [python](https://eddmann.com/posts/depth-first-search-and-breadth-first-search-in-python/)</small>
-
-### Searches
-#### Binary Search
 
 
 
