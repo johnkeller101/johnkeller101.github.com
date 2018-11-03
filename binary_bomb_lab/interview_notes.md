@@ -22,16 +22,18 @@
  - a **private property** is one which is included in your m file
  
 ### Property Attributes
- - strong       adds reference to keep object alive
- - weak         objects can dissapear and become nil
- - assign       normal assign, no reference (default)
- - copy         make copy on assign
- - atomic       thread safety code, so all getting and setting can be performed in one operation
- - nonatomic    make not threadsafe and increase performance (most code is only run on one thread which means threadsafe does not matter)
- - readwrite    create getter and setter (default)
- - readonly     create just getter
- - getter=<>    specify name of getter (typical for booleans, instead of getVar, its better to say isVar)
- - setter=<>    specify name of setter (typical for booleans)
+|variable|description|
+|--------|-----------|
+|`strong`|adds reference to keep object alive|
+|`weak` | objects can disappear and become nil|
+|`assign`|normal assign, no reference (default)|
+|`copy`|make copy on assign|
+|`atomic`|thread safety code, so all getting and setting can be performed in one operation|
+|`nonatomic`|make not threadsafe and increase performance (most code is only run on one thread which means threadsafe does not matter)|
+|`readwrite`|create getter and setter (default)|
+|`readonly`|create just getter|
+|`getter=<name>`|specify name of getter (typical for booleans, instead of getVar, its better to say isVar)|
+|`setter=<name>`|specify name of setter (typical for booleans)|
 
 ### Dot Notation
 
