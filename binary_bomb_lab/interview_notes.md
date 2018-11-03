@@ -10,10 +10,10 @@ cover-height: 600
 permalink: /cs-interview/
 ---
 <style type="text/css">
-@media (min-width: 1500px) {
+@media (min-width: 1300px) {
     .post-full-content {
-        width: 1500px;
-        left: -220px;
+        width: 1300px;
+        left: -120px;
 
     }
 }
