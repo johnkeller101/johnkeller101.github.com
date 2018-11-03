@@ -61,7 +61,7 @@
 ### other various key questions
 - The **bounds** of an UIView is the rectangle, expressed as a location (x,y) and size (width,height) relative to its own coordinate system (0,0).
 - The **frame** of an UIView is the rectangle, expressed as a location (x,y) and size (width,height) relative to the superview it is contained within.
-- **Modal View Controller Design Pattern**: ![link for more info](https://medium.com/ios-os-x-development/modern-mvc-39042a9097ca)
+- **Modal View Controller Design Pattern**: !(link for more info)[https://medium.com/ios-os-x-development/modern-mvc-39042a9097ca]
 <img src="https://cdn-images-1.medium.com/max/2000/1*la8KCs0AKSzVGShoLQo2oQ.png" width="80%">
 
 
