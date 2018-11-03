@@ -199,4 +199,12 @@ Sources: [50 iOS Interview Questions And Answers
 8. What are the differences between `copy` and `retain`? 
 
 
+## Interview Simulation Structure
+|Time|Description|
+|-----------|-----|
+|   0-30m   | Tell me about your past projects and education in school |
+|   30-45m  | open that xcode: [coding question]() |
+|   45-60m  | Do you have any questions for me? |
+
+
 
