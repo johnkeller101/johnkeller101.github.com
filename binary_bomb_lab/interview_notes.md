@@ -116,6 +116,12 @@ class Hashtable {
 }
 ```
 
+### Min Heap
+The smallest element is at the root of the tree, with larger elements as children
+
+<img src="http://www.algolist.net/img/nearly-complete-binary-tree-correct.png" style="max-width: 50%">
+
+
 ### Graphs
 #### Graph Search
 
