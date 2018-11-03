@@ -1,10 +1,20 @@
-## iOS Questions
-
+---
+layout: page
+current: about
+title: Interview Questions
+navigation: true
+class: page-template
+subclass: 'post page'
+cover: /assets/images/2018season/IMG_1329.jpg
+cover-height: 400
+---
 <style type="text/css">
     .post-full-content p, li {
         font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Open Sans, Helvetica Neue, sans-serif !important;
     }
 </style>
+
+## iOS Questions
 
  `@property (assign) float hisAge;`
  Note that his automatically generates the following code:
