@@ -8,6 +8,7 @@ subclass: 'post page'
 cover: /assets/images/2018season/IMG_1329.jpg
 cover-height: 600
 permalink: /cs-interview/
+include_bootstrap: yes
 ---
 <style type="text/css">
 @media (min-width: 1300px) {
@@ -22,6 +23,7 @@ permalink: /cs-interview/
         font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Open Sans, Helvetica Neue, sans-serif !important;
     }
 </style>
+
 
 ## iOS Questions
 
