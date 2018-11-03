@@ -1,7 +1,7 @@
 ---
 layout: page
 current: about
-title: Binary Bomb Lab Phase 1
+title: Binary Bomb Lab
 navigation: true
 class: page-template
 subclass: 'post page'
