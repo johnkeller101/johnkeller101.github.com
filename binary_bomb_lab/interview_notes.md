@@ -99,11 +99,11 @@ Let's say you're making dinner for your family. O is the process of following a 
 <div class="row">
     <div class="col-md-4">
         <h4>Depth First Search</h4>
-        Goes **deep** into each child before moving to neighbors<img src="https://upload.wikimedia.org/wikipedia/commons/7/7f/Depth-First-Search.gif" style="max-width: 80%">
+        Goes deep into each child before moving to neighbors<img src="https://upload.wikimedia.org/wikipedia/commons/7/7f/Depth-First-Search.gif" style="max-width: 80%">
     </div>
     <div class="col-md-4">
         <h4>Depth First Search</h4>
-        Goes **broad** (to neighbors) before going deep<img src="https://www.codingame.com/servlet/fileservlet?id=7768503315394" style="max-width: 80%">
+        Goes broad (to neighbors) before going deep<img src="https://www.codingame.com/servlet/fileservlet?id=7768503315394" style="max-width: 80%">
     </div>
     <div class="col-md-4">
         <h4>Binary Search</h4>
@@ -112,6 +112,19 @@ Let's say you're making dinner for your family. O is the process of following a 
     </div>
 </div>
 
+<p>
+  <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+    Link with href
+  </a>
+  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+    Button with data-target
+  </button>
+</p>
+<div class="collapse" id="collapseExample">
+  <div class="card card-body">
+    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+  </div>
+</div>
 
 <img src="https://blog.penjee.com/wp-content/uploads/2015/04/binary-and-linear-search-animations.gif">
 
