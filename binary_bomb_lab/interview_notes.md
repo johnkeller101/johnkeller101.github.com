@@ -75,7 +75,7 @@ permalink: /cs-interview/
 - 
 
 
-### other various key questions
+### Other Questions
 - The **bounds** of an UIView is the rectangle, expressed as a location (x,y) and size (width,height) relative to its own coordinate system (0,0).
 - The **frame** of an UIView is the rectangle, expressed as a location (x,y) and size (width,height) relative to the superview it is contained within.
 - **Modal View Controller Design Pattern**: [link with more info](https://medium.com/ios-os-x-development/modern-mvc-39042a9097ca)
@@ -93,9 +93,9 @@ Let's say you're making dinner for your family. O is the process of following a 
 
 ### Graphs
 #### Graph Search
-- **Depth First Search**: Goes **deep** into each child before moving to neighbors<img src="https://upload.wikimedia.org/wikipedia/commons/7/7f/Depth-First-Search.gif">
+- **Depth First Search**: Goes **deep** into each child before moving to neighbors<img src="https://upload.wikimedia.org/wikipedia/commons/7/7f/Depth-First-Search.gif" style="max-width: 25%">
     - recursive with a flag to stop the loop
-- **Breadth First Search**: Goes **broad** (to neighbors) before going deep<img src="https://www.codingame.com/servlet/fileservlet?id=7768503315394">
+- **Breadth First Search**: Goes **broad** (to neighbors) before going deep<img src="https://www.codingame.com/servlet/fileservlet?id=7768503315394" style="max-width: 25%>
     - you need to use a queue
 - **Binary Search** `O(log(n))` 
 <img src="https://www.mathwarehouse.com/programming/images/binary-search-tree/binary-search-tree-sorted-array-animation.gif">
