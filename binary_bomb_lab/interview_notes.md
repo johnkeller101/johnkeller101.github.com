@@ -95,11 +95,13 @@ Let's say you're making dinner for your family. O is the process of following a 
 #### Graph Search
 - **Depth First Search**: Goes **deep** into each child before moving to neighbors<img src="https://upload.wikimedia.org/wikipedia/commons/7/7f/Depth-First-Search.gif" style="max-width: 25%">
     - recursive with a flag to stop the loop
-- **Breadth First Search**: Goes **broad** (to neighbors) before going deep<img src="https://www.codingame.com/servlet/fileservlet?id=7768503315394" style="max-width: 25%>
+- **Breadth First Search**: Goes **broad** (to neighbors) before going deep<img src="https://www.codingame.com/servlet/fileservlet?id=7768503315394" style="max-width: 25%">
     - you need to use a queue
-- **Binary Search** `O(log(n))` 
+- **Binary Search** `O(log(n))` cut in half and see if the value is less than or greater than  
 <img src="https://www.mathwarehouse.com/programming/images/binary-search-tree/binary-search-tree-sorted-array-animation.gif">
 <img src="https://blog.penjee.com/wp-content/uploads/2015/04/binary-and-linear-search-animations.gif">
+
+<small>learn about searches in [python](https://eddmann.com/posts/depth-first-search-and-breadth-first-search-in-python/)</small>
 
 ### Searches
 #### Binary Search
