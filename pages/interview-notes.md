@@ -168,16 +168,16 @@ The smallest element is at the root of the tree, with larger elements as childre
 6. How much of your position solely relies on Objective-C? 
     - I looked up your background and saw you are well-versed on more server-side software. 
     - Do the back-end and client developers work closely together?
+    - I know the public Strava API has been heavily handicapped in the past few years. Does the iOS app use a similar, but more complex API?
     - How quickly is your team integrating Swift into your codebase? Is it a priority that new features be built using it?
 12. What is the **testing suite** like? 
     - How important is previous knowledge of testing frameworks like `__________`?
     - What about literal testing of bluetooth devices in workout mode?
-14. I know the Strava API has been heavily handicapped in the past few years. Does the iOS app use a similar, but more complex API?
 
 
 ## Sample Interview Questions
 Sources: [50 iOS Interview Questions And Answers
-](https://medium.com/@duruldalkanat/ios-interview-questions-13840247a57a) [toptal](https://www.toptal.com/ios/interview-questions) [raywenderlich](https://www.raywenderlich.com/2616-ios-interview-questions)
+](https://medium.com/@duruldalkanat/ios-interview-questions-13840247a57a); [toptal](https://www.toptal.com/ios/interview-questions); [raywenderlich](https://www.raywenderlich.com/2616-ios-interview-questions)
 
 1. What is the difference between Synchronous & Asynchronous task? 
     - Synchronous: waits until the task has completed
