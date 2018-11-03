@@ -134,7 +134,7 @@ The smallest element is at the root of the tree, with larger elements as childre
     </div>
     <div class="col-md-4">
         <h4>Binary Search</h4>
-        `O(log(n))` cut in half and see if the value is less than or greater than
+        <code>O(log(n))</code> cut in half and see if the value is less than or greater than
         <img src="https://www.mathwarehouse.com/programming/images/binary-search-tree/binary-search-tree-sorted-array-animation.gif" style="max-width: 80%">
          <a data-toggle="collapse" href="#moreBinary" role="button" aria-expanded="false" aria-controls="moreBinary"> Show more binary search examples below</a>
     </div>
