@@ -7,6 +7,7 @@ class: page-template
 subclass: 'post page'
 cover: /assets/images/2018season/IMG_1329.jpg
 cover-height: 400
+permalink: /cs-interview/
 ---
 <style type="text/css">
     .post-full-content p, li {
