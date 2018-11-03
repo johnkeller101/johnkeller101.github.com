@@ -124,6 +124,8 @@ The smallest element is at the root of the tree, with larger elements as childre
 
 ### Graphs
 
+<img src="https://www.mathwarehouse.com/programming/images/binary-search-tree/optimal-binary-search-tree-from-sorted-array.gif" style="max-width: 40%">
+
 <div class="row">
     <div class="col-md-4">
         <h4>Depth First Search</h4>
