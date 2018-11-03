@@ -118,7 +118,6 @@ class Hashtable {
 
 ### Min Heap
 The smallest element is at the root of the tree, with larger elements as children
-
 <img src="http://www.algolist.net/img/nearly-complete-binary-tree-correct.png" style="max-width: 50%">
 
 
@@ -151,6 +150,28 @@ The smallest element is at the root of the tree, with larger elements as childre
 <small>learn about searches in [python](https://eddmann.com/posts/depth-first-search-and-breadth-first-search-in-python/)</small>
 
 
+## Sample Interview Questions
+Sources: [50 iOS Interview Questions And Answers
+](https://medium.com/@duruldalkanat/ios-interview-questions-13840247a57a) [toptal](https://www.toptal.com/ios/interview-questions) [raywenderlich](https://www.raywenderlich.com/2616-ios-interview-questions)
+
+1. What is the difference between Synchronous & Asynchronous task? 
+    - Synchronous: waits until the task has completed
+    - Asynchronous: completes a task in the background
+2. What is the difference between `atomic` and `nonatomic` properties?
+    - Properties specified as atomic are guaranteed to always return a fully initialized object. This also happens to be the default state for synthesized properties so, while it’s a good practice to specify atomic to remove the potential for confusion, if you leave it off, your properties will still be atomic. This guarantee of atomic properties comes at a cost to performance, however. If you have a property for which you know that retrieving an uninitialized value is not a risk (e.g. if all access to the property is already synchronized via other means), then setting it to nonatomic can gain you a bit of performance.
+3. Explain method swizzling. When you would use it?
+4. What happens when the following code executes? `Ball *ball = [[[[Ball alloc] init] autorelease] autorelease];`
+    - the `autorelease` occurs twice, which causes the item to crash
+5. List the five iOS app states:
+    1. Not running
+    2. Suspended
+    3. Background
+    4. Inactive
+    5. Active
+6. Which is faster: to iterate through an `NSArray` or an `NSSet`?
+    - `NSArray` as the order is retained and specified
+7. What is posing in Objective-C?
+8. What are the differences between `copy` and `retain`? 
 
 
 
