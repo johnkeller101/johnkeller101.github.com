@@ -10,8 +10,10 @@ cover-height: 600
 permalink: /cs-interview/
 ---
 <style type="text/css">
-    .post-full-content p, li {
+        width: 1500px;
+        left: -220px
         font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Open Sans, Helvetica Neue, sans-serif !important;
+        font-size: 1.8rem;
     }
 </style>
 
