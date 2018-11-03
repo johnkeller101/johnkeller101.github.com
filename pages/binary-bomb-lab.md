@@ -14,79 +14,67 @@ cover-height: 400
 
 First, setup your bomb directory. Untar your specific file and let's get started!
 
-<pre>
-  <code class="ruby">
-    jovyan@jupyter-joke1008:~$ cd Labs
-	jovyan@jupyter-joke1008:~/Labs$ tar -xvf bomb439.tar
-	bomb439/README
-	bomb439/bomb.c
-	bomb439/bomb
-	jovyan@jupyter-joke1008:~/Labs$ cd bomb439
-	jovyan@jupyter-joke1008:~/Labs/bomb439$ ls
-	bomb  bomb.c  README
-	jovyan@jupyter-joke1008:~/Labs/bomb439$
-  </code>
-</pre>
+```
+jovyan@jupyter-joke1008:~$ cd Labs
+jovyan@jupyter-joke1008:~/Labs$ tar -xvf bomb439.tar
+bomb439/README
+bomb439/bomb.c
+bomb439/bomb
+jovyan@jupyter-joke1008:~/Labs$ cd bomb439
+jovyan@jupyter-joke1008:~/Labs/bomb439$ ls
+bomb  bomb.c  README
+jovyan@jupyter-joke1008:~/Labs/bomb439$
+```
 
 #### Getting Strings and Objdump
 ----------
 
 Run the following commands to create text files which we will look at later:
 
-<pre>
-  <code class="ruby">
-    strings bomb > strings.txt
-    objdump -d bomb > assembly.txt
-  </code>
-</pre>
+
+```
+strings bomb > strings.txt
+objdump -d bomb > assembly.txt
+```
 
 You should now have two files: `strings.txt` and `assembly.txt`. Now let's get started with Phase 1!
 
 ### Phase 1
 ----------
 
-<pre>
-  <code class="ruby">
-    jovyan@jupyter-joke1008:~/Labs/bomb439$ gdb bomb
-  </code>
-</pre>
+```
+jovyan@jupyter-joke1008:~/Labs/bomb439$ gdb bomb
+```
 
 Let's create our breakpoints to make sure nothing get's set to the gradebook!
 
-<pre>
-  <code class="ruby">
+```
     (gdb) b explode_bomb
 	Breakpoint 1 at 0x4013ea
 	(gdb) b phase_1
 	Breakpoint 2 at 0x400e2d
-  </code>
-</pre>
+```
 
 Let's run it and test things out:
 
-<pre>
-  <code class="ruby">
+```
     (gdb) run
 	Starting program: /home/jovyan/Labs/bomb439/bomb
 	Welcome to my fiendish little bomb. You have 6 phases with
 	which to blow yourself up. Have a nice day!
-  </code>
-</pre>
+```
 
 Okay, we know it works. Let's enter a test string to let the program hit our break point. You can enter any string, but I used `TEST`.
 
-<pre>
-  <code class="ruby">
+```
     TEST
 
 	Breakpoint 2, 0x0000000000400e2d in phase_1 ()
-  </code>
-</pre>
+```
 
 Now let's take a quick look at the disassebly to see what variables are being used. Enter `disas` and you will get a chunk of assembly for the function `phase_1` which we put our breakpoint at.
 
-<pre>
-  <code class="ruby">
+```
 (gdb) disas
 Dump of assembler code for function phase_1:
 => 0x0000000000400e2d <+0>:     sub    $0x8,%rsp
@@ -98,45 +86,40 @@ Dump of assembler code for function phase_1:
    0x0000000000400e44 <+23>:    add    $0x8,%rsp
    0x0000000000400e48 <+27>:    retq
 End of assembler dump.
-  </code>
-</pre>
+```
 
 We can see that the `<strings_not_equal>` function is being called which as the name implies compares two strings. The variable being used in this comparison is `$eax`. We can see one line above that `$esi` is also involved. Let's use that address in memory and see what it contains as a string.
 
 
-<pre>
-  <code class="ruby">
+```
 (gdb) x/25c 0x402310
 0x402310:       73 'I'  32 ' '  99 'c'  97 'a'  110 'n' 32 ' '  115 's' 101 'e'
 0x402318:       101 'e' 32 ' '  82 'R'  117 'u' 115 's' 115 's' 105 'i' 97 'a'
 0x402320:       32 ' '  102 'f' 114 'r' 111 'o' 109 'm' 32 ' '  109 'm' 121 'y'
 0x402328:       32 ' '
-  </code>
-</pre>
+```
 
 Based on the output, our input string is being run into the `<strings_not_equal>` function with the string **"I can see Russia from my "**. We can open our `strings.txt` file and see that the string we found in memory is the beginning of the full string: **"I can see Russia from my house!"**
 
-<pre>
-  <code class="ruby">
+```
 Welcome to my fiendish little bomb. You have 6 phases with
 which to blow yourself up. Have a nice day!
 I can see Russia from my house!
 Phase 1 defused. How about the next one?
-  </code>
-</pre>
+```
 
 ### Phase 2
 ----------
 
 Let's get started by creating both a breakpoint for `explode_bomb` and `phase_2`. This second phase deals with numbers so let's try to enter the array of numbers `0 1 2 3 4 5`. It is important to step the test numbers in some way so you know which order they are in.
-
+```
 Phase 1 defused. How about the next one?
 0 1 2 3 4 5
 
 Breakpoint 2, 0x0000000000400e49 in phase_2 ()
-
+```
 Let's do the standard `disas` command to see the assembly of the function. 
-
+```
 (gdb) disas
 Dump of assembler code for function phase_2:
 => 0x0000000000400e49 <+0>:     push   %rbp
@@ -163,9 +146,9 @@ Dump of assembler code for function phase_2:
    0x0000000000400e8a <+65>:    pop    %rbp
    0x0000000000400e8b <+66>:    retq
 End of assembler dump.
-
+```
 Also run the command `i r` to see what the values of the variables are.
-
+```
 (gdb) i r
 rax            0x603bf0 6306800
 rbx            0x0      0
@@ -191,7 +174,7 @@ ds             0x0      0
 es             0x0      0
 fs             0x0      0
 gs             0x0      0
-
+```
 
 It also might be easier to visualize the operations by using an online disambler like https://onlinedisassembler.com/ to see a full graph.
 
@@ -206,9 +189,7 @@ not 0, 1, 5, 6, 7, 8, 9, 10, 11, 12, 898, 1587
 -1587
 
 1 5
-
-
-
+```
 0000000000400e8c <phase_3>:
   400e8c:   48 83 ec 18             sub    $0x18,%rsp
   400e90:   48 8d 4c 24 08          lea    0x8(%rsp),%rcx
@@ -255,7 +236,7 @@ not 0, 1, 5, 6, 7, 8, 9, 10, 11, 12, 898, 1587
   400f37:   e8 ae 04 00 00          callq  4013ea <explode_bomb>
   400f3c:   48 83 c4 18             add    $0x18,%rsp
   400f40:   c3                      retq   
-
+```
 ### Phase 4
 ----------
 
@@ -304,10 +285,10 @@ ebx = 2
 ------------
 
 Based on this line in the compiler, we know that the final comparison needed should be 72. $ecx is the output of the loop
-
+```
 0x0000000000400ff8 <+53>:    cmp    $0x48,%ecx                   // final comparison; 0x48 = 72
 0x0000000000400ffb <+56>:    je     0x401002 <phase_5+63>
-
+```
 Values attached to letters based on testing:
 a = 10
 b = 6
@@ -317,7 +298,7 @@ e = 16
 f = 9
 
 Since we know the final value is 6 letters/numbers, we know 72/6 = 12. So we can plug in 6 'd' characters and get a valid comparison!
-
+```
 Dump of assembler code for function phase_5:
    0x0000000000400fc3 <+0>:     push   %rbx
    0x0000000000400fc4 <+1>:     mov    %rdi,%rbx
@@ -340,13 +321,13 @@ Dump of assembler code for function phase_5:
    0x0000000000401002 <+63>:    pop    %rbx
    0x0000000000401003 <+64>:    retq
 End of assembler dump.
-
+```
 
 
 ### Phase 6
 ------------
 
-
+```
 Dump of assembler code for function phase_6:
 => 0x0000000000401004 <+0>:     push   %r13
    0x0000000000401006 <+2>:     push   %r12
@@ -437,14 +418,15 @@ Dump of assembler code for function phase_6:
 0x603320 <node5>:       0x000000fe      0x00000005      0x00603330
 (gdb) x/3x *(*(*(*(*($rbx + 8)+8)+8)+8)+8)
 0x603330 <node6>:       0x00000338      0x00000006      0x00000000
+```
 
-
-node #     hex       dec
-3        0x0000006f  111
-2        0x000000c3  195
-5        0x000000fe  254
-4        0x000001c1  449
-1        0x000002f2  754
-6        0x00000338  824
+|node # |    hex   |    dec|
+|-----|-----|----|
+|3|        `0x0000006f`  |111|
+|2|        `0x000000c3`  |195|
+|5|        `0x000000fe`  |254|
+|4|        `0x000001c1`  |449|
+|1|        `0x000002f2`  |754|
+|6|        `0x00000338`  |824|
 
 (sorted smallest to largest gives you the answer)
