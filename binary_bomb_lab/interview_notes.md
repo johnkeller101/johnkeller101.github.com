@@ -99,16 +99,16 @@ Let's say you're making dinner for your family. O is the process of following a 
 <div class="row">
     <div class="col-md-4">
         <h3>Depth First Search</h3>
-        Goes **deep** into each child before moving to neighbors<img src="https://upload.wikimedia.org/wikipedia/commons/7/7f/Depth-First-Search.gif" style="max-width: 25%">
+        Goes **deep** into each child before moving to neighbors<img src="https://upload.wikimedia.org/wikipedia/commons/7/7f/Depth-First-Search.gif" style="max-width: 80%">
     </div>
     <div class="col-md-4">
         <h3>Depth First Search</h3>
-        Goes **broad** (to neighbors) before going deep<img src="https://www.codingame.com/servlet/fileservlet?id=7768503315394" style="max-width: 25%">
+        Goes **broad** (to neighbors) before going deep<img src="https://www.codingame.com/servlet/fileservlet?id=7768503315394" style="max-width: 80%">
     </div>
     <div class="col-md-4">
         <h3>Binary Search</h3>
         `O(log(n))` cut in half and see if the value is less than or greater than
-        <img src="https://www.mathwarehouse.com/programming/images/binary-search-tree/binary-search-tree-sorted-array-animation.gif">
+        <img src="https://www.mathwarehouse.com/programming/images/binary-search-tree/binary-search-tree-sorted-array-animation.gif" style="max-width: 80%">
     </div>
 </div>
 
