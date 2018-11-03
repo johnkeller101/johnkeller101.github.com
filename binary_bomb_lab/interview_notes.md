@@ -122,7 +122,6 @@ The smallest element is at the root of the tree, with larger elements as childre
 
 
 ### Graphs
-#### Graph Search
 
 <div class="row">
     <div class="col-md-4">
