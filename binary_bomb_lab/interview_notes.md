@@ -109,24 +109,16 @@ Let's say you're making dinner for your family. O is the process of following a 
         <h4>Binary Search</h4>
         `O(log(n))` cut in half and see if the value is less than or greater than
         <img src="https://www.mathwarehouse.com/programming/images/binary-search-tree/binary-search-tree-sorted-array-animation.gif" style="max-width: 80%">
+         <a data-toggle="collapse" href="#moreBinary" role="button" aria-expanded="false" aria-controls="moreBinary"> Show more binary search examples below</a>
     </div>
 </div>
-
-<p>
-  <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
-    Link with href
-  </a>
-  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-    Button with data-target
-  </button>
-</p>
-<div class="collapse" id="collapseExample">
+<div class="collapse" id="moreBinary">
   <div class="card card-body">
-    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+    <img src="https://blog.penjee.com/wp-content/uploads/2015/04/binary-and-linear-search-animations.gif">
   </div>
 </div>
 
-<img src="https://blog.penjee.com/wp-content/uploads/2015/04/binary-and-linear-search-animations.gif">
+
 
 <small>learn about searches in [python](https://eddmann.com/posts/depth-first-search-and-breadth-first-search-in-python/)</small>
 
