@@ -153,7 +153,8 @@ The smallest element is at the root of the tree, with larger elements as childre
 
 ## My Questions for you
 
-1. Who is your ideal candidate for a summer intern? How much do you value a quick and dedicated learner?
+1. Who is your ideal candidate for a summer intern? 
+    - How much do you value a quick and dedicated learner?
 2. How long does internal code review normally take? 
     - What systematic steps are taken to be nimble and release features quickly?
     - How are new features thought up? Do developers have input on features they feel should be added?
