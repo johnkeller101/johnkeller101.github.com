@@ -148,6 +148,24 @@ The smallest element is at the root of the tree, with larger elements as childre
 
 <small>learn about searches in [python](https://eddmann.com/posts/depth-first-search-and-breadth-first-search-in-python/)</small>
 
+## My Questions for you
+
+1. Who is your ideal candidate for a summer intern?
+2. How long does code review normally take? What systematic steps are taken to be nimble and release features quickly?
+3. How do you employ Strava’s value of *Balance*? What does the average work week look like for you? How do new features get scheduled and 
+4. How closely do the iOS and web teams work together? What are the steps taken for feature parity?
+5. Are there separate watchOS and iOS teams?
+6. How much of your position solely relies on Objective-C? I looked up your background and saw you are well-versed on more server-side software. Do the back-end and client developers work closely together?
+7. What is the office environment like? Do the developers have direct communications with PR and advisors?
+8. What is the organizational structure like at Strava? 
+9. Is the Strava iOS team integrating Swift into their codebase?
+Speaking of code-base, what third party frameworks do you use? 
+10. How many meetings do you have per week?
+11. How are new features thought up? Do developers have input on features they feel should be added?
+12. What is the testing suite like? Do you use unit tests directly? Or a third party framework? 
+13. What about literal testing of bluetooth devices in workout mode?
+14. I know the Strava API has been heavily handicapped in the past few years. Does the iOS app use a similar, but more complex API?
+
 
 ## Sample Interview Questions
 Sources: [50 iOS Interview Questions And Answers
