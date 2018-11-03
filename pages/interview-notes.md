@@ -200,6 +200,8 @@ Sources: [50 iOS Interview Questions And Answers
 
 
 ## Interview Simulation Structure
+
+
 |Time|Description|
 |-----------|-----|
 |   0-30m   | Tell me about your past projects and education in school |
