@@ -96,6 +96,14 @@ Let's say you're making dinner for your family. O is the process of following a 
 ### Graphs
 #### Graph Search
 
+<div class="row">
+    <div class="col-md-4">one</div>
+    <div class="col-md-4">two</div>
+    <div class="col-md-4">three</div>
+</div>
+
+
+
 |Depth First Search|Breadth First Search|Binary Search|
 |------|-------|-------|
 |Goes **deep** into each child before moving to neighbors<img src="https://upload.wikimedia.org/wikipedia/commons/7/7f/Depth-First-Search.gif" style="max-width: 25%">| Goes **broad** (to neighbors) before going deep<img src="https://www.codingame.com/servlet/fileservlet?id=7768503315394" style="max-width: 25%"> |
