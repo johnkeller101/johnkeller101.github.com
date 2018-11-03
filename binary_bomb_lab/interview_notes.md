@@ -50,14 +50,14 @@ include_bootstrap: yes
 
 |variable|description|
 |--------|-----------|
-|`strong`|adds reference to keep object alive|
-|`weak` | objects can disappear and become nil|
-|`assign` | normal assign, no reference (default)|
-|`copy`|make copy on assign|
-|`atomic`|thread safety code, so all getting and setting can be performed in one operation|
-|`nonatomic`|make not threadsafe and increase performance (most code is only run on one thread which means threadsafe does not matter)|
-|`readwrite`|create getter and setter (default)|
-|`readonly`|create just getter|
+|`strong`  **   |adds reference to keep object alive|
+|`weak`  **     | objects can disappear and become nil|
+|`assign`       | normal assign, no reference (default)|
+|`copy`         |make copy on assign|
+|`atomic` **    |thread safety code, so all getting and setting can be performed in one operation|
+|`nonatomic` ** |make not threadsafe and increase performance (most code is only run on one thread which means threadsafe does not matter)|
+|`readwrite`    |create getter and setter (default)|
+|`readonly`     |create just getter|
 |`getter=<name>`|specify name of getter (typical for booleans, instead of getVar, its better to say isVar)|
 |`setter=<name>`|specify name of setter (typical for booleans)|
 
@@ -96,6 +96,7 @@ Let's say you're making dinner for your family. O is the process of following a 
 - for any problem given, first assume it is using a hash table
 - A hash table is in elementary terms a `key` `value` pair which gives you very quick lookups (think dictionary)
 - The `key` and `value` can be any type of object
+- What happens when you have a **collision**? You can store the two values in a linked list
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Hash_table_5_0_1_1_1_1_1_LL.svg/450px-Hash_table_5_0_1_1_1_1_1_LL.svg.png" style="max-width: 80%">
 
