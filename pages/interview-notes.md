@@ -166,7 +166,7 @@ The smallest element is at the root of the tree, with larger elements as childre
 5. Is the common structure to have smaller teams work on features independently? 
     - I saw that through the watchOS development cycle only a few engineers were involved with building and testing for release.
 6. How much of your position solely relies on Objective-C? 
-    - I looked up your background and saw you are well-versed on more server-side software. 
+    - I looked up your background and saw you are well-versed on more server-side software. Do you think that helps you in your position?
     - Do the back-end and client developers work closely together?
     - I know the public Strava API has been heavily handicapped in the past few years. Does the iOS app use a similar, but more complex API?
     - How quickly is your team integrating Swift into your codebase? Is it a priority that new features be built using it?
