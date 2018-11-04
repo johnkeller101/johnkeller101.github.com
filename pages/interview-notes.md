@@ -198,6 +198,7 @@ Sources: [50 iOS Interview Questions And Answers
 7. What is posing in Objective-C?
 8. What are the differences between `copy` and `retain`? 
 
+[more good ones here to trip people up](http://andras.palfi.hu/iosobjc-interview-questions/)
 
 ## Interview Simulation Structure
 
@@ -205,7 +206,7 @@ Sources: [50 iOS Interview Questions And Answers
 |Time|Description|
 |-----------|-----|
 |   0-30m   | Tell me about your past projects and education in school |
-|   30-45m  | open that xcode: [coding question]() |
+|   30-45m  | open that xcode: show me how you would parse a json feed |
 |   45-60m  | Do you have any questions for me? |
 
 
