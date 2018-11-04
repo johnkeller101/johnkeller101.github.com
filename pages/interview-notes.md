@@ -260,6 +260,19 @@ Sources: [50 iOS Interview Questions And Answers
         + Subclass inherits everything from the parent class which can add bloat
     - A struct is a value type which creates many copies of the object without overwriting others (think more than one instance when called many times, ex an array)
         - lightweight and clean
+3. What third party libraries do you use? What are the pros and cons?
+    - `cocoapods`
+
+----
+Coding Questions:
+- Gesture recognizers
+- networking: authenticating
+- merge sort, shuffle array
+- debugging just by looking at code
+    - ui must be on main thread, memory leaks using two strong variables
+- modulo operator `%` which gives remainder
+    - ex converting seconds to minutes: `64 % 60 = 4` which gives you 1 minute 4 seconds
+- 
 
 [more good ones here to trip people up](http://andras.palfi.hu/iosobjc-interview-questions/)
 
