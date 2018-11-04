@@ -304,15 +304,36 @@ Coding Questions:
 
 Random Question Generator:
 
-<button id="getquotes" value="Quotes" onclick="Loadquotes()"> Quotes </button>
-<p id="quoteshere" ></p>
+<button id="getquotes" value="Quotes" onclick="Loadquotes()"> Generate new question </button>
+<a href="#" target="blank" id="quoteshere"></a>
 <script>
     function Loadquotes(){
-    var quotes = new Array('Stack1','Stack2','Stack16','Stack17','Stack13','Stack14','Stack15','Stack6','Stack7','Stack8','Stack9','Stack10');
+    var quotes = new Array('https://www.iosiqa.com/2018/11/design-such-button-in-that-text-should.html',
+        'https://www.iosiqa.com/2018/10/diff-between-viewdidload-and.html',
+        'https://www.iosiqa.com/2018/10/what-are-join-in-sql-explain-types-of.html',
+        'https://www.iosiqa.com/2018/10/difference-between-strong-and-weak-in.html',
+        'https://www.iosiqa.com/2018/10/what-are-blocks-in-ios.html',
+        'https://www.iosiqa.com/2018/10/expandable-tableview-logic-in-ios.html',
+        'https://www.iosiqa.com/2018/10/difference-between-xib-and-storyboard.html',
+        'https://www.iosiqa.com/2018/10/difference-between-synchronous-and.html',
+        'https://www.iosiqa.com/2018/10/difference-between-thread-safe-and-non.html',
+        'https://www.iosiqa.com/2018/10/which-type-of-encryption-you-have-used.html',
+        'https://www.iosiqa.com/2018/10/access-controls-in-swift.html',
+        'https://www.iosiqa.com/2018/10/mvc-in-ios.html',
+        'https://www.iosiqa.com/2018/10/explain-mvc-through-implementation-of.html',
+        'https://www.iosiqa.com/2018/10/which-delegate-method-called-when-i_22.html',
+        'https://www.iosiqa.com/2018/10/uitableviewdelegate-and.html',
+        'https://www.iosiqa.com/2018/10/difference-between-atomic-and-nonatomic.html',
+        'https://www.iosiqa.com/2018/10/class-structs-and-enum.html',
+        'https://www.iosiqa.com/2018/10/what-is-escaping-and-nonescaping-in.html',
+        'https://www.iosiqa.com/2018/10/difference-between-stack-and-heap.html',
+        'https://www.iosiqa.com/2018/10/which-delegate-method-called-when-i.html',
+        'https://www.iosiqa.com/2018/10/how-to-take-common-elements-from-two.html',
+        'https://www.iosiqa.com/2018/10/local-notification-in-ios.html');
     var newquotes = Math.floor(Math.random() * quotes.length);
     document.getElementById('quoteshere').innerHTML = quotes[newquotes];
-
-     }
+    document.getElementById('quoteshere').href = quotes[newquotes];
+}
 </script>
 
 
