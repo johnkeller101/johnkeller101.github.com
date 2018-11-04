@@ -153,27 +153,27 @@ The smallest element is at the root of the tree, with larger elements as childre
 ### Sorting
 <style type="text/css">.sort-methods img { max-width:150px; }</style>
 <div class="row sort-methods">
-    <div class="col-xs-3">
+    <div class="col-md-2">
         <h4>Selection</h4>
         <img src="https://codingconnect.net/wp-content/uploads/2016/09/Selection-Sort.gif">
         <img src="https://thumbs.gfycat.com/WavyImaginaryLangur-small.gif">
     </div>
-    <div class="col-xs-3">
+    <div class="col-md-2">
         <h4>Bubble</h4>
         <img src="https://upload.wikimedia.org/wikipedia/commons/5/54/Sorting_bubblesort_anim.gif">
         <img src="https://codepumpkin.com/wp-content/uploads/2017/10/BubbleSort_Avg_case.gif">
     </div>
-    <div class="col-xs-3">
+    <div class="col-md-2">
         <h4>Insertion</h4>
         <img src="https://thumbs.gfycat.com/CornyThickGordonsetter-small.gif">
         <img src="https://cdn-images-1.medium.com/max/1600/1*krA0OFxEDgi8hVHJffCi4w.gif">
     </div>
-        <div class="col-xs-2">
+        <div class="col-md-2">
         <h4>Merge</h4>
         <img src="https://www.codeproject.com/KB/recipes/SortVisualization/Merge_Sort.gif">
         <img src="https://upload.wikimedia.org/wikipedia/commons/c/cc/Merge-sort-example-300px.gif">
     </div>
-        <div class="col-xs-2">
+        <div class="col-md-2">
         <h4>Heap</h4>
         <img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Sorting_heapsort_anim.gif">
         <img src="https://upload.wikimedia.org/wikipedia/commons/f/fe/Heap_sort_example.gif">
