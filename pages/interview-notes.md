@@ -83,6 +83,12 @@ sitemap: false
 - The **frame** of an UIView is the rectangle, expressed as a location (x,y) and size (width,height) relative to the superview it is contained within.
 - **Modal View Controller Design Pattern**: [link with more info](https://medium.com/ios-os-x-development/modern-mvc-39042a9097ca)
 <img src="https://cdn-images-1.medium.com/max/2000/1*la8KCs0AKSzVGShoLQo2oQ.png" width="80%">
+    - The main goal of MVC pattern is separate data/logic, view and controller. There are 3 layers.
+        1. **Model**: Models are representation of your app's data. There is user class or struct. So it has fields like name, birthdate, etc. It is data reside in Model layer.
+        2. **View**: It is object which user can see and interact with. UILabel showing text is one kind of view.
+        3. **Controller**: Controller mediates between Model and View. It takes data from model and show on views and also update model when user interacts with view.
+
+
 
 ### Runtime
 - **Introspection**: allows you to get information about methods and classes at runtime in your code
@@ -295,6 +301,19 @@ Coding Questions:
 |   0-30m   | Tell me about your past projects and education in school |
 |   30-45m  | open that xcode: show me how you would parse a [json file](https://jsonplaceholder.typicode.com/albums) |
 |   45-60m  | Do you have any questions for me? |
+
+Random Question Generator:
+<script type="text/javascript">
+var myArray = [
+  "Apples",
+  "Bananas",
+  "Pears"
+];
+var randomItem = myArray[Math.floor(Math.random()*myArray.length)];
+var obj = document.getElementById('random-question');
+obj.innerHTML = randomItem;
+</script>
+<a href="#" id="random-question">text url</a>
 
 
 ## My Background
