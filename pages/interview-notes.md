@@ -307,8 +307,11 @@ Random Question Generator:
 <button id="getquotes" value="Quotes" onclick="Loadquotes()"> Generate new question </button>
 
 <a href="#" target="blank" id="quoteshere"></a>
+
+<div id="question-content"></div>
+
 <script>
-    function Loadquotes(){
+function Loadquotes(){
     var quotes = new Array('https://www.iosiqa.com/2018/11/design-such-button-in-that-text-should.html',
         'https://www.iosiqa.com/2018/10/diff-between-viewdidload-and.html',
         'https://www.iosiqa.com/2018/10/what-are-join-in-sql-explain-types-of.html',
@@ -334,7 +337,9 @@ Random Question Generator:
         'https://www.iosiqa.com/2018/10/arc-automatic-reference-counting.html',
         'https://www.iosiqa.com/2018/10/swift-vs-objective-c.html',
         'https://www.iosiqa.com/2018/10/multi-threading-gcd-operation-queue.html');
-    var newquotes = Math.floor(Math.random() * quotes.length);
+    var url = Math.floor(Math.random() * quotes.length);
+    $("#question-content").load(url + " #post-body");
+
     document.getElementById('quoteshere').innerHTML = quotes[newquotes];
     document.getElementById('quoteshere').href = quotes[newquotes];
 }
