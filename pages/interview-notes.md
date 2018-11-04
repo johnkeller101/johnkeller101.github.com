@@ -84,6 +84,19 @@ sitemap: false
 - **Modal View Controller Design Pattern**: [link with more info](https://medium.com/ios-os-x-development/modern-mvc-39042a9097ca)
 <img src="https://cdn-images-1.medium.com/max/2000/1*la8KCs0AKSzVGShoLQo2oQ.png" width="80%">
 
+### Runtime
+- **Introspection**: allows you to get information about methods and classes at runtime in your code
+    - **Class**: Object representing class
+        - Get with `[object class]` or `NSClassFromString`
+    - **Selector** (SEL): Internal id for method name
+        - Get with `@selector` or `NSSelectorFromString`
+    - **Method**: Object representing method
+        - Get with `class_getInstanceMethod`
+    - `isMemberOfClass`: Is it an instance of the class?
+    - `isKindOfClass`: Is it an instance of the class (or an inherited class)?
+    - `respondsToSelector`: Does it have a method?
+    - `performSelector`: Call the method
+
 
 ## Data Structures
 ### Big-O Notation
