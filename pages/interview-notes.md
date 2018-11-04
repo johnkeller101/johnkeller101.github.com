@@ -204,7 +204,6 @@ The smallest element is at the root of the tree, with larger elements as childre
     - How important is previous knowledge of testing frameworks like `__________`?
     - What about literal testing of bluetooth devices in workout mode?
 
-
 ## Sample Interview Questions
 Sources: [50 iOS Interview Questions And Answers
 ](https://medium.com/@duruldalkanat/ios-interview-questions-13840247a57a); [toptal](https://www.toptal.com/ios/interview-questions); [raywenderlich](https://www.raywenderlich.com/2616-ios-interview-questions)
@@ -232,7 +231,6 @@ Sources: [50 iOS Interview Questions And Answers
 
 ## Interview Simulation Structure
 
-
 |Time|Description|
 |-----------|-----|
 |   0-30m   | Tell me about your past projects and education in school |
@@ -240,4 +238,25 @@ Sources: [50 iOS Interview Questions And Answers
 |   45-60m  | Do you have any questions for me? |
 
 
+## My Projects
 
+1. DSA and High School Apps
+    - Mostly server-side written in PHP
+    - Uses HTML parsing to determine contents of page and display them
+    - Uses Regex to extract essential information from web pages like phone numbers, emails, and names
+2. Colorado Scholarships
+    - Back-end written in PHP with both web and iOS clients
+    - iOS features list filtering 
+3. desire2learn Gradebook App
+    - Built for more of a personal tool for quicker mobile access to the gradebook. Published on github so others can utilize it if they want
+    - Using `locksmith`, which integrates secure keychain storage of the username and password
+    - desire2learn API was largely undocumented and reverse-engineered from their web js requests
+    - `alamofire` allows the proper proper requests to be made in a light-weight way
+    - also dealt with cookie management in `WKWebViews` to display authenticated file URLs
+4. BallzClone
+    - Built as a fun project to show that the content I was learning in Calculus 2 was applicable to my career
+    - Utilizes Pythagorean Theorem on every collision to calculate the proper bounce angle
+    - My first app using both `Swift` and `SceneKit`
+
+
+   
