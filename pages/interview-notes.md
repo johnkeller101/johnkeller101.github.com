@@ -97,6 +97,17 @@ sitemap: false
     - `respondsToSelector`: Does it have a method?
     - `performSelector`: Call the method
 
+### View Life Cycles
+- Begin Life
+    - `viewDidLoad` gets called once when the view gets loaded into memory
+    - `viewWillAppear` gets called every time the view appears, can be called many times
+    - `viewWillLayoutSubviews` and `viewDidLayoutSubviews` lays out constraints and sizing
+    - `ViewDidAppear` view is completely loaded
+- End Life
+    - `viewWillDisappear` you can do stuff before the view disappears
+    - `ViewDidDisappear` lets you know the view is gone
+
+
 
 ## Data Structures
 ### Big-O Notation
@@ -239,6 +250,14 @@ Sources: [50 iOS Interview Questions And Answers
     - `NSArray` as the order is retained and specified
 7. What is *posing* in Objective-C?
 8. What are the differences between `copy` and `retain`? 
+
+9. What is your favorite Apple framework to work with?
+    - `UIKit` why?
+10. When would you use a `class` or a `struct`?
+    - Classes are a reference type so if you change a property in the class you are changing the reference (think one instance when called more than once)
+        + Subclass inherits everything from the parent class which can add bloat
+    - A struct is a value type which creates many copies of the object without overwriting others (think more than one instance when called many times, ex an array)
+        - lightweight and clean
 
 [more good ones here to trip people up](http://andras.palfi.hu/iosobjc-interview-questions/)
 
