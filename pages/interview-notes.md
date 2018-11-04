@@ -338,10 +338,10 @@ function Loadquotes(){
         'https://www.iosiqa.com/2018/10/swift-vs-objective-c.html',
         'https://www.iosiqa.com/2018/10/multi-threading-gcd-operation-queue.html');
     var url = Math.floor(Math.random() * quotes.length);
-    $("#question-content").load(url + " #post-body");
+    $("#question-content").load(quotes[url] + " #post-body");
 
-    document.getElementById('quoteshere').innerHTML = quotes[newquotes];
-    document.getElementById('quoteshere').href = quotes[newquotes];
+    document.getElementById('quoteshere').innerHTML = quotes[url];
+    document.getElementById('quoteshere').href = quotes[url];
 }
 </script>
 
