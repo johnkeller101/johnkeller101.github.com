@@ -151,8 +151,8 @@ The smallest element is at the root of the tree, with larger elements as childre
 <small>learn about searches in [python](https://eddmann.com/posts/depth-first-search-and-breadth-first-search-in-python/)</small>
 
 ### Sorting
-
-<div class="row">
+<style type="text/css">.sort-methods img { max-width:150px; }</style>
+<div class="row sort-methods">
     <div class="col-md-6">
         <h4>Selection</h4>
         <img src="https://codingconnect.net/wp-content/uploads/2016/09/Selection-Sort.gif">
