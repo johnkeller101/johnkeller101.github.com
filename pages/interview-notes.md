@@ -206,7 +206,7 @@ Sources: [50 iOS Interview Questions And Answers
 |Time|Description|
 |-----------|-----|
 |   0-30m   | Tell me about your past projects and education in school |
-|   30-45m  | open that xcode: show me how you would parse a json feed |
+|   30-45m  | open that xcode: show me how you would parse a [json file](https://jsonplaceholder.typicode.com/albums) |
 |   45-60m  | Do you have any questions for me? |
 
 
