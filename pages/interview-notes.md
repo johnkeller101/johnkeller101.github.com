@@ -155,8 +155,8 @@ The smallest element is at the root of the tree, with larger elements as childre
 <div class="row sort-methods">
     <div class="col-md-2">
         <h4>Selection</h4>
-        <img src="https://codingconnect.net/wp-content/uploads/2016/09/Selection-Sort.gif">
         <img src="https://thumbs.gfycat.com/WavyImaginaryLangur-small.gif">
+        <img src="https://codingconnect.net/wp-content/uploads/2016/09/Selection-Sort.gif">
     </div>
     <div class="col-md-2">
         <h4>Bubble</h4>
