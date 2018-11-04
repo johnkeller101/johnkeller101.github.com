@@ -304,7 +304,8 @@ Coding Questions:
 
 Random Question Generator:
 
-<button id="getquotes" value="Quotes" onclick="Loadquotes()"> Generate new question </button></br>
+<button id="getquotes" value="Quotes" onclick="Loadquotes()"> Generate new question </button>
+
 <a href="#" target="blank" id="quoteshere"></a>
 <script>
     function Loadquotes(){
