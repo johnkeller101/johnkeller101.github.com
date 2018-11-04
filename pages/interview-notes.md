@@ -222,8 +222,8 @@ Sources: [50 iOS Interview Questions And Answers
 ](https://medium.com/@duruldalkanat/ios-interview-questions-13840247a57a); [toptal](https://www.toptal.com/ios/interview-questions); [raywenderlich](https://www.raywenderlich.com/2616-ios-interview-questions)
 
 1. What is the difference between Synchronous & Asynchronous task? 
-    - Synchronous: waits until the task has completed
-    - Asynchronous: completes a task in the background
+    - **Synchronous**: waits until the task has completed
+    - **Asynchronous**: completes a task in the background
 2. What is the difference between `atomic` and `nonatomic` properties?
     - Properties specified as `atomic` are guaranteed to always return a fully initialized object. This also happens to be the default state for synthesized properties so, while it’s a good practice to specify `atomic` to remove the potential for confusion, if you leave it off, your properties will still be `atomic`. This guarantee of `atomic` properties comes at a cost to performance, however. If you have a property for which you know that retrieving an uninitialized value is not a risk (e.g. if all access to the property is already synchronized via other means), then setting it to `nonatomic` can gain you a bit of performance.
 3. Explain method swizzling. When you would use it?
@@ -237,7 +237,7 @@ Sources: [50 iOS Interview Questions And Answers
     5. Active
 6. Which is faster: to iterate through an `NSArray` or an `NSSet`?
     - `NSArray` as the order is retained and specified
-7. What is posing in Objective-C?
+7. What is *posing* in Objective-C?
 8. What are the differences between `copy` and `retain`? 
 
 [more good ones here to trip people up](http://andras.palfi.hu/iosobjc-interview-questions/)
@@ -260,7 +260,13 @@ Sources: [50 iOS Interview Questions And Answers
 |   45-60m  | Do you have any questions for me? |
 
 
-## My Projects
+## My Background
+
+- I have always had a passion for design and experiences.
+- Started when I was a kid working at my family's business producing live theater and musical performances, ingratiating software as much as possible
+    + Used Keynote, Final Cut Pro, Quartz Composer (may it rip)
+- Shifted to computer science later in high school and developed a passion for it
+- In college, my experience has shifted beyond objective-c, and into many other languages like python, php, swift, and a number of others
 
 1. DSA and High School Apps
     - Mostly server-side written in PHP
