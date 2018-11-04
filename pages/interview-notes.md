@@ -304,7 +304,7 @@ Coding Questions:
 
 Random Question Generator:
 
-<button id="getquotes" class="btn" value="Quotes" onclick="Loadquotes()"> Generate new question </button>
+<button id="getquotes" type="button" class="btn btn-primary" value="Quotes" onclick="Loadquotes()"> Generate new question </button>
 
 <a href="#" target="blank" id="quoteshere"></a>
 <script>
@@ -333,7 +333,8 @@ function Loadquotes(){
         'https://www.iosiqa.com/2018/10/local-notification-in-ios.html',
         'https://www.iosiqa.com/2018/10/arc-automatic-reference-counting.html',
         'https://www.iosiqa.com/2018/10/swift-vs-objective-c.html',
-        'https://www.iosiqa.com/2018/10/multi-threading-gcd-operation-queue.html');
+        'https://www.iosiqa.com/2018/10/multi-threading-gcd-operation-queue.html',
+        'https://www.iosiqa.com/2018/09/difference-between-statick-constructor.html');
     var url = Math.floor(Math.random() * quotes.length);
     document.getElementById('quoteshere').innerHTML = quotes[url];
     document.getElementById('quoteshere').href = quotes[url];
