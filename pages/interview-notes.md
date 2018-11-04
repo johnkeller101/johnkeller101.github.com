@@ -233,10 +233,13 @@ Sources: [50 iOS Interview Questions And Answers
 ](https://medium.com/@duruldalkanat/ios-interview-questions-13840247a57a); [toptal](https://www.toptal.com/ios/interview-questions); [raywenderlich](https://www.raywenderlich.com/2616-ios-interview-questions)
 
 1. What is the difference between Synchronous & Asynchronous task? 
-    - **Synchronous**: waits until the task has completed
-    - **Asynchronous**: completes a task in the background
+    - **Synchronous**: waits until the task has completed, multiple tasks will be completed in order.
+    - **Asynchronous**: completes a task in the background, multiple tasks can be completed out of order
+2. Difference between thread-safe and non-thread-safe in iOS
+    - Thread-Unsafe:
 2. What is the difference between `atomic` and `nonatomic` properties?
-    - Properties specified as `atomic` are guaranteed to always return a fully initialized object. This also happens to be the default state for synthesized properties so, while it’s a good practice to specify `atomic` to remove the potential for confusion, if you leave it off, your properties will still be `atomic`. This guarantee of `atomic` properties comes at a cost to performance, however. If you have a property for which you know that retrieving an uninitialized value is not a risk (e.g. if all access to the property is already synchronized via other means), then setting it to `nonatomic` can gain you a bit of performance.
+    - Suppose, you are using a string with nonatomic property and you are using two threads in your app. when the two threads are trying to change/access the string at the same time, the result will be unpredictable. because we don't know which process will run at which time.
+    - So, at that time, we have to set the string with property atomic. so that one process/thread will handle the string at a time. Like that, we are making it thread safe.
 3. Explain method swizzling. When you would use it?
 4. What happens when the following code executes? `Ball *ball = [[[[Ball alloc] init] autorelease] autorelease];`
     - the `autorelease` occurs twice, which causes the item to crash
