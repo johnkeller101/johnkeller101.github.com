@@ -303,17 +303,17 @@ Coding Questions:
 |   45-60m  | Do you have any questions for me? |
 
 Random Question Generator:
-<script type="text/javascript">
-var myArray = [
-  "Apples",
-  "Bananas",
-  "Pears"
-];
-var randomItem = myArray[Math.floor(Math.random()*myArray.length)];
-var obj = document.getElementById('random-question');
-document.getElementById("random-question").innerHTML = randomItem;
+
+<button id="getquotes" value="Quotes" onclick="Loadquotes()"> Quotes </button>
+<p id="quoteshere" ></p>
+<script>
+    function Loadquotes(){
+    var quotes = new Array('Stack1','Stack2','Stack16','Stack17','Stack13','Stack14','Stack15','Stack6','Stack7','Stack8','Stack9','Stack10');
+    var newquotes = Math.floor(Math.random() * quotes.length);
+    document.getElementById('quoteshere').innerHTML = quotes[newquotes];
+
+     }
 </script>
-<a href="#" id="random-question">text url</a>
 
 
 ## My Background
