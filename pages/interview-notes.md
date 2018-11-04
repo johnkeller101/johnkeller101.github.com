@@ -311,7 +311,7 @@ var myArray = [
 ];
 var randomItem = myArray[Math.floor(Math.random()*myArray.length)];
 var obj = document.getElementById('random-question');
-obj.innerHTML = randomItem;
+document.getElementById("random-question").innerHTML = randomItem;
 </script>
 <a href="#" id="random-question">text url</a>
 
