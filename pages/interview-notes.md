@@ -242,6 +242,15 @@ Sources: [50 iOS Interview Questions And Answers
 
 [more good ones here to trip people up](http://andras.palfi.hu/iosobjc-interview-questions/)
 
+## Actual Interview Topics
+
+1. String manipulation
+2. Binary search
+3. Systems design
+4. Some question on detecting elevation changes in a user's run/bike. The interviewer wanted me to discuss what possible things we could return and I gave some ideas. Overall it was unclear what exactly I had to implement. So I just implemented a method that returns the number of elevation climbs the user did.  
+5. They gave an array of numbers(elevations) and wanted to determine the first "climb". 
+6. Fill in blank obj-c methods
+
 ## Interview Simulation Structure
 
 |Time|Description|
