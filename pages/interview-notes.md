@@ -223,13 +223,15 @@ The smallest element is at the root of the tree, with larger elements as childre
     - How many meetings do you have per week?
 4. How closely do the iOS and web teams work together? 
     - What are the steps taken internally to promote feature parity?
+    - What is the internal beta-testing process like?
 5. Is the common structure to have smaller teams work on features independently? 
     - I saw that through the watchOS development cycle only a few engineers were involved with building and testing for release.
 6. How much of your position solely relies on Objective-C? 
-    - I looked up your background and saw you are well-versed on more server-side software. Do you think that helps you in your position?
+    - I know you are well-versed on more server-side software. Do you think that helps you in your position?
     - Do the back-end and client developers work closely together?
     - I know the public Strava API has been heavily handicapped in the past few years. Does the iOS app use a similar, but more complex API?
     - How quickly is your team integrating Swift into your codebase? Is it a priority that new features be built using it?
+        - What about **Swinject**?
 12. What is the **testing suite** like? 
     - How important is previous knowledge of testing frameworks like `__________`?
     - What about literal testing of bluetooth devices in workout mode?
@@ -263,14 +265,20 @@ Sources: [50 iOS Interview Questions And Answers
 -------
 
 1. What is your favorite Apple framework to work with?
-    - `UIKit` why?
+    - `UIKit` because it is the fundamental reason for iOS' quick adoption and allows you to quickly and easily layout interfaces
 2. When would you use a `class` or a `struct`?
     - Classes are a reference type so if you change a property in the class you are changing the reference (think one instance when called more than once)
         + Subclass inherits everything from the parent class which can add bloat
-    - A struct is a value type which creates many copies of the object without overwriting others (think more than one instance when called many times, ex an array)
+    - A `struct` is a value type which creates many copies of the object without overwriting others (think more than one instance when called many times, ex an array)
         - lightweight and clean
 3. What third party libraries do you use? What are the pros and cons?
     - `cocoapods`
+        - pros: 
+            - allows easy dependency management
+            - compartmentalize code
+            - can be deployed locally
+        - cons:
+            - code needs to be maintained
 
 ----
 Coding Questions:
@@ -281,7 +289,6 @@ Coding Questions:
     - ui must be on main thread, memory leaks using two strong variables
 - modulo operator `%` which gives remainder
     - ex converting seconds to minutes: `64 % 60 = 4` which gives you 1 minute 4 seconds
-- 
 
 [more good ones here to trip people up](http://andras.palfi.hu/iosobjc-interview-questions/)
 
@@ -290,7 +297,7 @@ Coding Questions:
 1. String manipulation
 2. Binary search
 3. Systems design
-4. Some question on detecting elevation changes in a user's run/bike. The interviewer wanted me to discuss what possible things we could return and I gave some ideas. Overall it was unclear what exactly I had to implement. So I just implemented a method that returns the number of elevation climbs the user did.  
+4. Some question on detecting elevation changes in a user's run/bike. The interviewer wanted me to discuss what possible things we could return and I gave some ideas. Overall it was unclear what exactly I had to implement. So I just implemented a method that returns the number of elevation climbs the user did.
 5. They gave an array of numbers(elevations) and wanted to determine the first "climb". 
 6. Fill in blank obj-c methods
 
