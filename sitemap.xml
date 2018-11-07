@@ -29,8 +29,6 @@ sitemap:
       {% if post.cover %}
         <image:image>
           <image:loc>{{ site.baseurl }}{{ post.cover }}</image:loc>
-          <image:title><![CDATA[{{ post.title }}]]></image:title>
-          <image:caption><![CDATA[{{ post.title }}]]></image:caption>
         </image:image>
       {% endif %}
     </url>
