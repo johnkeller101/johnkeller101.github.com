@@ -33,9 +33,11 @@ sitemap:
         </image:image>
       {% elsif post.video-id %}
       <video:video>
-        <video:thumbnail_loc>https://www.youtube-nocookie.com/embed/{{ post.video-id }}?rel=0</video:thumbnail_loc>
+        <video:thumbnail_loc>https://img.youtube.com/vi/{{ post.video-id }}/maxresdefault.jpg</video:thumbnail_loc>
         {% if post.description %}
           <video:description>{{ post.description }}</video:description>
+        {% else %}
+          <video:description>{{ post.content | strip_html | truncatewords: 33, "..." }}</video:description>
         {% endif %}
         <video:publication_date>{{ post.date | date_to_xmlschema }}</video:publication_date>
         <video:requires_subscription>no</video:requires_subscription>
