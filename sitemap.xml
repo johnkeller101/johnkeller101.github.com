@@ -4,7 +4,7 @@ sitemap:
   exclude: 'yes'
 ---
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
   {% for post in site.posts %}
     {% unless post.published == false %}
     <url>
@@ -31,6 +31,15 @@ sitemap:
           <image:loc>{{ site.url }}{{ post.cover }}</image:loc>
           <image:title>{{ post.title }}</image:title>
         </image:image>
+      {% elsif post.video-id %}
+      <video:video>
+        <video:thumbnail_loc>https://www.youtube-nocookie.com/embed/{{ post.video-id }}?rel=0</video:thumbnail_loc>
+        {% if post.description %}
+          <video:description>{{ post.description }}</video:description>
+        {% endif %}
+        <video:publication_date>{{ post.date | date_to_xmlschema }}</video:publication_date>
+        <video:requires_subscription>no</video:requires_subscription>
+      </video:video>
       {% endif %}
     </url>
     {% endunless %}
