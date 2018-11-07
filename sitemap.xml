@@ -28,7 +28,8 @@ sitemap:
       {% endif %}
       {% if post.cover %}
         <image:image>
-          <image:loc>{{ site.baseurl }}{{ post.cover }}</image:loc>
+          <image:loc>{{ site.url }}{{ post.cover }}</image:loc>
+          <image:title>{{ post.title }}</image:title>
         </image:image>
       {% endif %}
     </url>
