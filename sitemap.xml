@@ -37,7 +37,7 @@ sitemap:
         {% if post.description %}
           <video:description>{{ post.description }}</video:description>
         {% else %}
-          <video:description>{{ post.content | strip_html | truncatewords: 33, "..." }}</video:description>
+          <video:description>{{ post.content | strip_html | truncatewords: 60, "..." }}</video:description>
         {% endif %}
         <video:publication_date>{{ post.date | date_to_xmlschema }}</video:publication_date>
         <video:requires_subscription>no</video:requires_subscription>
