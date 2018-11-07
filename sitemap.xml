@@ -26,11 +26,19 @@ sitemap:
       {% else %}
         <priority>0.5</priority>
       {% endif %}
+      {% if post.cover %}
+        <image:image>
+          <image:loc>{{ site.baseurl }}{{ post.cover }}</image:loc>
+          <image:title><![CDATA[{{ post.title }}]]></image:title>
+          <image:caption><![CDATA[{{ post.title }}]]></image:caption>
+        </image:image>
+      {% endif %}
     </url>
     {% endunless %}
   {% endfor %}
   {% for page in site.pages %}
     {% unless page.sitemap.exclude == "yes" %}
+    {% unless page.sitemap == false %}
     <url>
       <loc>{{ site.url }}{{ page.url | remove: "index.html" }}</loc>
       {% if page.sitemap.lastmod %}

@@ -62,7 +62,6 @@ permalink: pretty
 
 # gems and other configs
 plugins:
-  - jekyll-sitemap
   - jekyll-paginate
   - jekyll-feed
 
