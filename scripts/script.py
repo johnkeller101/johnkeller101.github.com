@@ -76,54 +76,54 @@ print("Generated", total_tags.__len__(), "tags:",prt_txt[:-2])
 
 # attempted custom author pages using no plugins
 
-post_dir = '_posts/'
-tag_dir = 'author/'
+# post_dir = '_posts/'
+# tag_dir = 'author/'
 
-filenames = glob.glob(post_dir + '*md')
+# filenames = glob.glob(post_dir + '*md')
 
-total_tags = []
-for filename in filenames:
-    f = open(filename, 'r')
-    crawl = False
-    for line in f:
-        if crawl:
-            current_tags = line.strip().split()
-            if current_tags[0] == 'author:':
-                total_tags.extend(current_tags[1:])
-                crawl = False
-                break
-        if line.strip() == '---':
-            if not crawl:
-                crawl = True
-            else:
-                crawl = False
-                break
-    f.close()
-total_tags = set(total_tags)
+# total_tags = []
+# for filename in filenames:
+#     f = open(filename, 'r')
+#     crawl = False
+#     for line in f:
+#         if crawl:
+#             current_tags = line.strip().split()
+#             if current_tags[0] == 'author:':
+#                 total_tags.extend(current_tags[1:])
+#                 crawl = False
+#                 break
+#         if line.strip() == '---':
+#             if not crawl:
+#                 crawl = True
+#             else:
+#                 crawl = False
+#                 break
+#     f.close()
+# total_tags = set(total_tags)
 
-old_tags = glob.glob(tag_dir + '*.md')
-for tag in old_tags:
-    os.remove(tag)
+# old_tags = glob.glob(tag_dir + '*.md')
+# for tag in old_tags:
+#     os.remove(tag)
     
-if not os.path.exists(tag_dir):
-    os.makedirs(tag_dir)
+# if not os.path.exists(tag_dir):
+#     os.makedirs(tag_dir)
 
-prt_txt = ""
+# prt_txt = ""
 
-for tag in total_tags:
-    tag_filename = tag_dir + tag + '.md'
-    f = open(tag_filename, 'a')
-    write_str = '---\nlayout: author\ntitle: \"' + tag + '\"\nauthor: ' + tag
-    if len(tag_desc) > 1:
-      write_str = write_str + '\ndescription: ' + tag_desc
-    if len(tag_img) > 1:
-      write_str = write_str + '\ncover: ' + tag_img
-    write_str = write_str + '\n---\n'
-    f.write(write_str)
-    f.close()
-    prt_txt = prt_txt + tag + ", "
+# for tag in total_tags:
+#     tag_filename = tag_dir + tag + '.md'
+#     f = open(tag_filename, 'a')
+#     write_str = '---\nlayout: author\ntitle: \"' + tag + '\"\nauthor: ' + tag
+#     if len(tag_desc) > 1:
+#       write_str = write_str + '\ndescription: ' + tag_desc
+#     if len(tag_img) > 1:
+#       write_str = write_str + '\ncover: ' + tag_img
+#     write_str = write_str + '\n---\n'
+#     f.write(write_str)
+#     f.close()
+#     prt_txt = prt_txt + tag + ", "
 
-print("Generated", total_tags.__len__(), "authors:",prt_txt[:-2])
+# print("Generated", total_tags.__len__(), "authors:",prt_txt[:-2])
 
 
 
