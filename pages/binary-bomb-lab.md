@@ -7,6 +7,9 @@ class: page-template
 subclass: 'post page'
 cover:
 cover-height: 400
+
+date: 2018-10-22 20:50:00
+
 ---
 
 #### Getting Started
