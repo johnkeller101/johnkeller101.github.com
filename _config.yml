@@ -8,7 +8,7 @@ language: 'en-us'
 baseurl: /
 
 # Website info
-title: john.coffee
+title: John Keller
 description: ride bikes & drink coffee
 cover: assets/images/blog-cover.jpg
 logo: assets/images/johncoffee-logo.png
