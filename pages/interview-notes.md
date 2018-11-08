@@ -7,7 +7,7 @@ class: page-template
 subclass: 'post page'
 cover: /assets/images/2018season/IMG_1329.jpg
 cover-height: 600
-permalink: /cs-interview/
+permalink: /pages/interview-notes/
 include_bootstrap: yes
 sitemap: false
 ---
