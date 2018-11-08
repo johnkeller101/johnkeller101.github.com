@@ -57,13 +57,13 @@ sitemap:
       {% else %}
         <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
       {% endif %}
-      {% if page.sitemap.changefreq %}
-        <changefreq>{{ page.sitemap.changefreq }}</changefreq>
+      {% if page.changefreq %}
+        <changefreq>{{ page.changefreq }}</changefreq>
       {% else %}
         <changefreq>monthly</changefreq>
       {% endif %}
-      {% if page.sitemap.priority %}
-        <priority>{{ page.sitemap.priority }}</priority>
+      {% if page.priority %}
+        <priority>{{ page.priority }}</priority>
       {% else %}
         <priority>0.3</priority>
       {% endif %}
