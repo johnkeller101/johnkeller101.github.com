@@ -20,9 +20,9 @@
                             {% elsif tag == "portfolio" %}
                                 <!-- do nothing -->
                             {% elsif forloop.index == post.tags.size %}
-                                <span class="post-card-tags"><time datetime="{{ post.date | date:'%B %e, %Y' }}">{{ post.date | date:'%B %e, %Y'' }}</time> / {{ tag | capitalize | replace:'-',' ' }}</span>
+                                <span class="post-card-tags">{{ tag | capitalize | replace:'-',' ' }}</span>
                             {% else %}
-                               <span class="post-card-tags">{{ tag | capitalize | replace:'-',' ' }}</span>
+                                <span class="post-card-tags"><time datetime="{{ post.date | date:'%B %e, %Y' }}">{{ post.date | date:'%B %e, %Y'' }}</time> / {{ tag | capitalize | replace:'-',' ' }}</span>
                             {% endif %}
                         {% endfor %}
                     {% endif %}
