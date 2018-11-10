@@ -7,7 +7,7 @@ class: post-template
 subclass: 'post tag-rides'
 author: john
 
-title: Littleton Twilight Crit SM3
+title: Littleton Twilight Crit
 date: 2018-08-16 20:50:00
 description: 
 

@@ -7,7 +7,7 @@ class: post-template
 subclass: 'post tag-rides'
 author: john
 
-title: Bannock Street Crit SM3
+title: Bannock Street Crit
 date: 2018-08-17 20:50:00
 description: 
 
