@@ -23,6 +23,7 @@ If you don't know what [Project Supertraining](https://projectsupertraining.com/
 
 <iframe height='405' width='590' frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/activities/1600628123/embed/9c7440c287d4790d433d2d41bebf3f96d48944c1'></iframe>
 
+
 The route this month was a lung busting 12,000 ft. of climbing and over 90 miles. The ride started at [Flatirons Subaru](https://www.coloradosubaru.com/) who were generous enough to provide a support vehicle to follow us with food and water. We then headed west up Boulder Canyon to Sugarloaf. This ride reminded me just how much I hate this climb, which is 4.7 miles and nearly 1,900 ft of climbing for an average gradient of 8%. We stopped at the top and regrouped, while everyone got some much needed water after the hot and sweaty climb *(I really need to get acclimated for the summer heat)*.
 
 <img src="/assets/images/may-supertraining-flatirons-subaru.jpg" width="80%">
