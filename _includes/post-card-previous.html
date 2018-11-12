@@ -1,25 +1,29 @@
 	<article class="post-card {{ page.previous.class }}{% unless page.previous.cover %} no-image{% endunless %}">
 		{% if page.previous.video-id %}
-			<a class="post-card-image-link" href="{{ site.baseurl }}/{{ page.previous.url | remove_first: '/' }}">
+			<a class="post-card-image-link" href="{{ site.url }}/{{ page.previous.url | remove_first: '/' }}">
 	                <div class="post-card-image" style="background-image: url(https://img.youtube.com/vi/{{ page.previous.video-id }}/maxresdefault.jpg)"></div>
 	            </a>
 		{% elsif page.previous.cover %}
-			<a class="post-card-image-link" href="{{ site.baseurl }}/{{ page.previous.url | remove_first: '/' }}">
-				<div class="post-card-image" style="background-image: url({{ site.baseurl }}{{ page.previous.cover }})"></div>
+			<a class="post-card-image-link" href="{{ site.url }}/{{ page.previous.url | remove_first: '/' }}">
+				<div class="post-card-image" style="background-image: url({{ site.url }}/{{ page.previous.cover }})"></div>
 			</a>
 		{% endif %}
 		<div class="post-card-content">
-			<a class="post-card-content-link" href="{{ site.baseurl }}/{{ page.previous.url | remove_first: '/' }}">
+			<a class="post-card-content-link" href="{{ site.url }}/{{ page.previous.url | remove_first: '/' }}">
 				<header class="post-card-header">
-					{% if page.previous.tags.size > 0 %}
-						{% for tag in page.previous.tags %}
-							{% if forloop.index == page.previous.tags.size %}
-								<span class="post-card-tags"><time datetime="{{ page.previous.date | date:'%B %e, %Y' }}">{{ page.previous.date | date:'%B %e, %Y'' }}</time> / {{ tag | capitalize | replace:'-',' ' }}</span>
-							{% else %}
-								<span class="post-card-tags">{{ tag | capitalize | replace:'-',' '}}</span>
-							{% endif %}
-						{% endfor %}
-					{% endif %}
+					{% if post.tags.size > 0 %}
+                        {% for tag in post.tags %}
+                             {% if tag == "cycling" %}
+                                <!-- do nothing -->
+                            {% elsif tag == "portfolio" %}
+                                <!-- do nothing -->
+                            {% elsif forloop.index == post.tags.size %}
+                                <span class="post-card-tags">{{ tag | replace:'-',' ' | capitalize }}</span>
+                            {% else %}
+                                <span class="post-card-tags"><time datetime="{{ post.date | date:'%B %e, %Y' }}">{{ post.date | date:'%B %e, %Y'' }}</time> / {{ tag | replace:'-',' ' | capitalize }}</span>
+                            {% endif %}
+                        {% endfor %}
+                    {% endif %}
 
 					<h2 class="post-card-title">{{ page.previous.title }}</h2>
 				</header>
@@ -27,7 +31,7 @@
 					{% if page.previous.description %}
                         <p>{{ page.previous.description | strip_html | truncatewords: 33, "" }}</p>
                     {% else %}
-                        <p>{{ page.previous.content | strip_html | truncatewords: 33, "" }}</p>
+                        <p>{{ page.previous.content | strip_html | truncatewords: 33, "..." }}</p>
                     {% endif %}
 				</section>
 			</a>
@@ -35,10 +39,10 @@
 				{% for author in site.data.authors %}
 					{% if author[1].username == page.previous.author %}
 						{% if author[1].picture %}
-						<img class="author-profile-image" src="{{ site.baseurl }}/{{ author[1].picture }}" alt="{{ author[1].name }}" />
+						<img class="author-profile-image" src="{{ site.url }}/{{ author[1].picture }}" alt="{{ author[1].name }}" />
 						{% endif %}
 						<span class="post-card-author">
-							<a href="{{ site.baseurl }}/author/{{ page.previous.author }}/">{{ author[1].name }}</a>
+							<a href="{{ site.url }}/author/{{ page.previous.author }}/">{{ author[1].name }}</a>
 						</span>
 					{% endif %}
 				{% endfor %}

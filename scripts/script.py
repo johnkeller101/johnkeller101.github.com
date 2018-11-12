@@ -56,6 +56,8 @@ for tag in total_tags:
     if tag == 'rides':
       tag_desc = 'A collection of my favorite rides'
       tag_img = 'assets/images/rides-bg.jpg'
+    if tag == 'apps' or tag == 'portfolio':
+        tag_img = 'assets/images/app_banner.jpg'
     tag_filename = tag_dir + tag + '.md'
     f = open(tag_filename, 'a')
     if tag == 'cycling' or tag == 'portfolio':

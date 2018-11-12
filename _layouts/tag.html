@@ -13,15 +13,15 @@ navigation: True
 
 
 <!-- The big featured header, it uses blog cover image as a BG if available -->
-<header class="site-header outer {% if page.cover or site.cover %}" style="background-image:  url({{ site.baseurl }}/{% if page.cover %}{{ page.cover }}{% elsif site.cover %}{{ site.cover }}{% endif %}) {% else %}no-cover{% endif %}">
+<header class="site-header outer {% if page.cover or site.cover %}" style="background-image:  url({{ site.url }}/{% if page.cover %}{{ page.cover }}{% elsif site.cover %}{{ site.cover }}{% endif %}) {% else %}no-cover{% endif %}">
     <div class="inner">
         <div class="site-header-content">
             {% if page.description %}
                 <h1 class="site-title">{{ page.title }}</h1>
                 <h2 class="site-description">{{ page.description }}</h2>
             {% else %}
-                <img class="site-logo" src="{{ site.baseurl }}/{{ site.logo }}" alt="{{ site.title }}"/>
-                <h2 class="site-description">{{ page.tag | capitalize | replace:'-',' '}}</h2>
+                <img class="site-logo" src="{{ site.url }}/{{ site.logo }}" alt="{{ site.title }}"/>
+                <h2 class="site-description" style="text-transform: capitalize;">{{ page.tag | capitalize | replace:'-',' '}}</h2>
             {% endif %}
         </div>
         {% include site-nav.html %}

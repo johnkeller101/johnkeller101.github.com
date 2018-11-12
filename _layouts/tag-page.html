@@ -36,13 +36,14 @@ class: page-template
         <article class="post-full {{ page.subclass }} post">
 
             <header class="post-full-header">
-                <h1 class="post-full-title">{{ page.tag | capitalize }}</h1>
+                <h1 class="post-full-title" style="text-transform: capitalize;">{{ page.tag | capitalize }}</h1>
             </header>
 
             {% if page.tag == "cycling" %}
             <figure class="post-full-image" style="background-image: url('/assets/images/about-header.jpg');"></figure>
             {% elsif page.tag == "portfolio"%}
-            <!-- <figure class="post-full-image" style="background-image: url('/assets/images/about-header.jpg');"></figure> -->
+            <figure class="post-full-image" style="background-image: url('/assets/images/app_banner.jpg');"></figure>
+            {% elsif page.tag == "portfolio"%}
             {% endif %}
 
             {% if page.tag == "cycling" or page.tag == "portfolio" %}

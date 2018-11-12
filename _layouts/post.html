@@ -65,7 +65,7 @@ disqus: false
                           {% for tag in page.tags %}
                             {% if tag == "cycling" %}
                                 <!-- do nothing -->
-                            {% elsif tag == "projects" %}
+                            {% elsif tag == "portfolio" %}
                                 <!-- do nothing -->
                             {% else %}
                                 {% capture tag_name %}{{ tag }}{% endcapture %}
@@ -92,7 +92,7 @@ disqus: false
                 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/{{ page.video-id }}?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
             </div>
             {% elsif page.cover %}
-            <figure class="post-full-image" style="background-image: url({{ site.baseurl }}{{ page.cover }})">
+            <figure class="post-full-image" style="background-image: url({{ site.url }}/{{ page.cover }})">
             </figure>
             {% endif %}
 
@@ -111,6 +111,7 @@ disqus: false
                 </section>
             {% endif %}
 
+            {% if site.authors_enabled %}
             <footer class="post-full-footer">
                 <!-- Everything inside the #author tags pulls data from the author -->
                 <!-- #author-->
@@ -118,24 +119,25 @@ disqus: false
                     {% if author[1].username == page.author %}
                         <section class="author-card">
                             {% if author[1].picture %}
-                                <img class="author-profile-image" src="{{ site.baseurl }}/{{ author[1].picture }}" alt="{{ page.author }}" />
+                                <img class="author-profile-image" src="{{ site.url }}/{{ author[1].picture }}" alt="{{ page.author }}" />
                             {% endif %}
                             <section class="author-card-content">
-                                <h4 class="author-card-name"><a href="{{ site.baseurl }}/author/{{ page.author }}">{{ author[1].name }}</a></h4>
+                                <h4 class="author-card-name"><a href="{{ site.url }}/author/{{ page.author }}">{{ author[1].name }}</a></h4>
                                 {% if author[1].bio %}
                                     <p>{{ author[1].bio }}</p>
                                 {% else %}
-                                    <p>Read <a href="{{ site.baseurl }}/author/{{ page.author }}">more posts</a> by this author.</p>
+                                    <p>Read <a href="{{ site.url }}/author/{{ page.author }}">more posts</a> by this author.</p>
                                 {% endif %}
                             </section>
                         </section>
                         <div class="post-full-footer-right">
-                            <a class="author-card-button" href="{{ site.baseurl }}/author/{{ page.author }}">Read More</a>
+                            <a class="author-card-button" href="{{ site.url }}/author/{{ page.author }}">Read More</a>
                         </div>
                     {% endif %}
                 {% endfor %}
                 <!-- /author  -->
             </footer>
+            {% endif %}
             
             {% if site.disqus or page.disqus %}
             <!-- If you use Disqus comments, just uncomment this block.
@@ -180,16 +182,16 @@ disqus: false
                 {% if related_posts > 1 %}
                     <article class="read-next-card"
                         {% if site.cover %}
-                            style="background-image: url({{ site.baseurl }}{{ site.cover }})"
+                            style="background-image: url({{ site.url }}/{{ site.cover }})"
                         {% else %}
                             {% if page.cover %}
-                                style="background-image: url(url({{ site.baseurl }}{{ page.cover }})"{% endif %}
+                                style="background-image: url(url({{ site.url }}/{{ page.cover }})"{% endif %}
                         {% endif %}
                     >
                         <header class="read-next-card-header">
                             <small class="read-next-card-header-sitetitle">&mdash; {{ site.title }} &mdash;</small>
                             {% if primary %}
-                                <h3 class="read-next-card-header-title"><a href="{{ site.baseurl }}/tag/{{ primary | downcase | replace: '-', ' ' }}/">{{ primary | capitalize }}</a></h3>
+                                <h3 class="read-next-card-header-title" style="text-transform: capitalize;"><a href="{{ site.url }}/tag/{{ primary | downcase }}/">{{ primary | capitalize | replace: '-', ' ' }}</a></h3>
                             {% endif %}
                         </header>
                         <div class="read-next-divider">{% include infinity.html %}</div>
@@ -201,7 +203,7 @@ disqus: false
                                     {% if post.title != page.title %}
                                         {% assign count = count | plus: 1 %}
                                         {% if count <= 3 %}
-                                            <li><a href="{{ site.baseurl }}/{{ post.url | remove_first: '/' }}">{{ post.title }}</a></li>
+                                            <li><a href="{{ site.url }}/{{ post.url | remove_first: '/' }}">{{ post.title }}</a></li>
                                         {% endif %}
                                     {% endif %}
                                   {% endif %}
@@ -209,7 +211,7 @@ disqus: false
                             </ul>
                         </div>
                         <footer class="read-next-card-footer">
-                            <a href="{{ site.baseurl }}/tag/{{ primary | downcase | replace: ' ', '-' }}/">
+                            <a href="{{ site.url }}/tag/{{ primary | downcase | replace: ' ', '-' }}/">
                                 {% if related_posts > 1 %}
                                     See all posts  →
                                 {% elsif related_posts == 1 %}
