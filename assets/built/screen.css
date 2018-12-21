@@ -93,7 +93,7 @@ mark {
 
 code, kbd, pre, samp {
 	font-family: monospace, monospace;
-	font-size: 1em
+	font-size: 1em !important
 }
 
 button, input, optgroup, select, textarea {
@@ -1093,7 +1093,7 @@ body {
 
 .post-full-content code {
 	padding: 0 5px 2px;
-	font-size: .8em;
+	font-size: 1em !important;
 	line-height: 1em;
 	font-weight: 400 !important;
 	background: #e5eff5;

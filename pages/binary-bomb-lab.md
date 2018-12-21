@@ -1,7 +1,7 @@
 ---
 layout: page
 current: about
-title: Binary Bomb Lab
+title: Binary Bomb Lab (All Phases Solved)
 navigation: true
 class: page-template
 subclass: 'post page'
