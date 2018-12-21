@@ -7,7 +7,7 @@ class: post-template
 subclass: 'post tag-rides'
 author: john
 
-title: May Project Supertraining
+title: Project Supertraining
 date: 2018-05-27 20:50:00
 cover: /assets/images/may-supertraining-header.jpg
 cover_height: 2047px
