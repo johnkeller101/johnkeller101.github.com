@@ -37,9 +37,9 @@ We then climbed back out of Central City, passing by the BBQ again greeted by ch
 
 We then battled [Gap Rd](https://www.strava.com/segments/1818519), which was a perfect dirt road with little gravel. It turns into Twin Spruce, which features a nice descent. It was then time to battle Gross Dam, which has a very technical descent on gravel, in addition to a [nice climb](https://www.strava.com/segments/1259673) at the end. There were more cars than usual due to Memorial Day weekend, but it was still a complete suffer-fest. It was then time to descend down Flagstaff, which inevitably means we got stuck behind someone driving a rental car, but it was a sigh of relief knowing the climbing was over.
 
-### When Technology Doesn't Work (a rant)
+<!-- ### When Technology Doesn't Work (a rant)
 
-First off, I am not sponsored by any head unit companies, so these are genuine experiences which I paid money for. All was ready to head out for the ride in the morning, complete with kit on and water bottles filled. I then turned on my beloved Wahoo Elemnt Bolt, which I have been using for almost a year now. All I got was a Wahoo logo, and nothing else. Wahoo logo, then blank screen, over and over. Thankfully I used my phone as a backup for this ride, but it couldn't have happened at a more inconvenient time. Almost 24 hours later, the Bolt stopped this loop and I was finally able to recharge it from 0% battery. No problems, for now. Knock on wood.
+First off, I am not sponsored by any head unit companies, so these are genuine experiences which I paid money for. All was ready to head out for the ride in the morning, complete with kit on and water bottles filled. I then turned on my beloved Wahoo Elemnt Bolt, which I have been using for almost a year now. All I got was a Wahoo logo, and nothing else. Wahoo logo, then blank screen, over and over. Thankfully I used my phone as a backup for this ride, but it couldn't have happened at a more inconvenient time. Almost 24 hours later, the Bolt stopped this loop and I was finally able to recharge it from 0% battery. No problems, for now. Knock on wood. -->
 
 ---
 
