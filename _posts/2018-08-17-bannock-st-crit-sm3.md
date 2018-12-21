@@ -11,6 +11,8 @@ title: Bannock Street Crit
 date: 2018-08-17 20:50:00
 description: 
 
+thumb: /assets/images/thumbnails/bannock.jpg
+
 video-id: YwDGwJ4DpRo
 ---
 

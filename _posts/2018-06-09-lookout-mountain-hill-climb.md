@@ -11,6 +11,8 @@ title: Lookout Mountain Hill Climb
 date: 2018-06-09 20:50:00
 description: 
 
+thumb: /assets/images/thumbnails/lookout.jpg
+
 video-id: 3biZbaed5qQ
 ---
 

@@ -1,13 +1,13 @@
 	<article class="post-card {{ page.previous.class }}{% unless page.previous.cover %} no-image{% endunless %}">
-		{% if page.previous.video-id %}
-			<a class="post-card-image-link" href="{{ site.url }}/{{ page.previous.url | remove_first: '/' }}">
-	                <div class="post-card-image" style="background-image: url(https://img.youtube.com/vi/{{ page.previous.video-id }}/maxresdefault.jpg)"></div>
-	            </a>
-		{% elsif page.previous.cover %}
-			<a class="post-card-image-link" href="{{ site.url }}/{{ page.previous.url | remove_first: '/' }}">
-				<div class="post-card-image" style="background-image: url({{ site.url }}/{{ page.previous.cover }})"></div>
-			</a>
-		{% endif %}
+        <a class="post-card-image-link" href="{{ site.url }}/{{ page.previous.url | remove_first: '/' }}">
+        {% if page.previous.thumb %}
+            <div class="post-card-image" style="background-image: url({{ site.url }}/{{ page.previous.thumb }})"></div>
+        {% elsif page.previous.video-id %}
+            <div class="post-card-image" style="background-image: url(https://img.youtube.com/vi/{{ page.previous.video-id }}/maxresdefault.jpg)"></div>
+        {% elsif page.previous.cover %}
+            <div class="post-card-image" style="background-image: url({{ site.url }}/{{ page.previous.cover }})"></div>
+        {% endif %}
+        </a>
 		<div class="post-card-content">
 			<a class="post-card-content-link" href="{{ site.url }}/{{ page.previous.url | remove_first: '/' }}">
 				<header class="post-card-header">

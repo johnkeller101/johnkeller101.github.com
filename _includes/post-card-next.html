@@ -1,14 +1,13 @@
-
     <article class="post-card {{ page.next.class }}{% unless page.next.cover %} no-image{% endunless %}">
-        {% if page.next.video-id %}
-        <a class="post-card-image-link" href="{{ site.url }}/{{ page.next.url | remove_first: '/' }}">
-                <div class="post-card-image" style="background-image: url(https://img.youtube.com/vi/{{ page.next.video-id }}/maxresdefault.jpg)"></div>
-            </a>
-        {% elsif page.next.cover %}
-            <a class="post-card-image-link" href="{{ site.url }}/{{ page.next.url | remove_first: '/' }}">
-                <div class="post-card-image" style="background-image: url({{ site.url }}/{{ page.next.cover }})"></div>
-            </a>
+        <a class="post-card-image-link" href="{{ site.url }}/{{ page.url | remove_first: '/' }}">
+        {% if page.thumb %}
+            <div class="post-card-image" style="background-image: url({{ site.url }}/{{ page.thumb }})"></div>
+        {% elsif page.video-id %}
+            <div class="post-card-image" style="background-image: url(https://img.youtube.com/vi/{{ page.video-id }}/maxresdefault.jpg)"></div>
+        {% elsif page.cover %}
+            <div class="post-card-image" style="background-image: url({{ site.url }}/{{ page.cover }})"></div>
         {% endif %}
+        </a>
         <div class="post-card-content">
             <a class="post-card-content-link" href="{{ site.url }}/{{ page.next.url | remove_first: '/' }}">
                 <header class="post-card-header">

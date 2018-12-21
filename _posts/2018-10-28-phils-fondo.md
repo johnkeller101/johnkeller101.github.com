@@ -12,6 +12,7 @@ date: 2018-10-28 20:50:00
 cover: /assets/images/phils-fondo/cover.jpg
 cover_height: 2048px
 cover_width: 1151px
+thumb: /assets/images/phils-fondo/sunday.jpg
 description: Phil's Fondo truly showcases just how world-class the riding in Malibu is. I've ridden all the climbs around the area, and can say that Phil picked some of the best around to include in the event.
 ---
 

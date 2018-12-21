@@ -11,6 +11,8 @@ title: Sunshine Hill Climb
 date: 2018-07-08 20:50:00
 description: 
 
+thumb: /assets/images/thumbnails/sunshine.jpg
+
 video-id: PWr9WMWxlTk
 ---
 

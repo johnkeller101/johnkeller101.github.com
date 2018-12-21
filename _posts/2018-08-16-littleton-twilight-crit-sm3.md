@@ -11,6 +11,8 @@ title: Littleton Twilight Crit
 date: 2018-08-16 20:50:00
 description: 
 
+thumb: /assets/images/thumbnails/littleton.jpg
+
 video-id: e437c1w3zb0
 ---
 

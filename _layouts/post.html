@@ -12,9 +12,7 @@ disqus: false
 </header>
 
 
-<!-- content to specifiy css for video post -->
 {% if page.video-id %}
-
 <style>
 .videoWrapper {
     margin: 0 -400px 70px;
@@ -46,9 +44,8 @@ disqus: false
     height: 100%;
 }
 </style>
-
 {% endif %}
-<!-- end -->
+
 
 <main id="site-main" class="site-main outer" role="main">
     <div class="inner">
@@ -57,7 +54,7 @@ disqus: false
 
             <header class="post-full-header">
                 <section class="post-full-meta">
-                    <time class="post-full-meta-date" datetime="{{ page.date | date:'%B %e, %Y' }}">{{ page.date | date:'%B %e, %Y'' }}</time>
+                    <time class="post-full-meta-date" datetime="{{ page.date | date:'%B %e, %Y' }}">{{ page.date | date:'%B %e, %Y' }}</time>
                     {% if page.tags.size > 0 %}
                         <span class="date-divider">/</span>
                         <!-- updated tag section for github pages -->
