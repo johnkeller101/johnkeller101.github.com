@@ -10,13 +10,15 @@ echo "Generating map files for posts"
 echo "----------------------------------"
 python3 scripts/generateRideMaps.py
 echo "----------------------------------"
-echo "Updating the github repo for https://john.coffee"
+echo "Running the website locally"
 echo "----------------------------------"
 # generate timestamp variable
-current_time=$(date "+%Y.%m.%d-%H.%M.%S")
+# current_time=$(date "+%Y.%m.%d-%H.%M.%S")
 
-git add .
-git reset -- _drafts/
-git commit -m "$current_time"
-git push -u origin master
-echo "----------------------------------"
+# git add .
+# git reset -- _drafts/
+# git commit -m "$current_time"
+# git push -u origin master
+# echo "----------------------------------"
+
+bundle exec jekyll serve
