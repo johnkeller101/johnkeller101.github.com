@@ -8,6 +8,11 @@ John Keller is an undergraduate computer science student at the University of Co
 - Team: [CU Cycling Team](https://www.colorado.edu/sportsclub/cycling/)
 - Coach: Jeff Winkler [winklercycling.com](http://winklercycling.com)
 
+#### 2019 Results
+
+- 2nd [Front Range Classic Crit](https://www.coloradocycling.org/results/road?year=2019&eventId=2408&resultsetId=29836) (Collegiate B)
+
+
 #### 2018 Results
 
 - 1st- [Pikes Peak Hill Climb](https://www.coloradocycling.org/results/road#year=2018&eventId=2232&resultsetId=27873) (Category 3)
