@@ -10,7 +10,7 @@ John Keller is an undergraduate computer science student at the University of Co
 
 #### 2019 Results
 
-- 2nd [Front Range Classic Crit](https://www.coloradocycling.org/results/road?year=2019&eventId=2408&resultsetId=29836) (Collegiate B)
+- 2nd- [Front Range Classic Crit](https://www.coloradocycling.org/results/road?year=2019&eventId=2408&resultsetId=29836) (Collegiate B)
 
 
 #### 2018 Results
