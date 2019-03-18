@@ -11,10 +11,10 @@ title: Air Force Weekend Recap
 date: 2019-03-18 20:50:00
 description: The first race weekend of the 2019 season was a major success for the CU Cycling Team.
 
-cover: /assets/images/usafa2019/spencer-finish.jpg
+cover: assets/images/usafa2019/spencer-finish.jpg
 cover_height: 2048px
 cover_width: 1151px
-thumb: /assets/images/usafa2019/spencer-finish.jpg
+thumb: assets/images/usafa2019/spencer-finish.jpg
 
 ---
 
