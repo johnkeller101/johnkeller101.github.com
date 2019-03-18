@@ -7,7 +7,7 @@ class: post-template
 subclass: 'post tag-rides'
 author: john
 
-title: Air Force Weekend Recap
+title: Air Force Weekend
 date: 2019-03-18 20:50:00
 description: The first race weekend of the 2019 season was a major success for the CU Cycling Team.
 
