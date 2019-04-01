@@ -21,4 +21,4 @@ echo "----------------------------------"
 # git push -u origin master
 # echo "----------------------------------"
 
-bundle exec jekyll serve
+bundle exec jekyll serve --incremental
