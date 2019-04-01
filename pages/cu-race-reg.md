@@ -1,7 +1,7 @@
 ---
 layout: page
 current: about
-title: Interview Notes
+title: CU Race Weekend Details
 navigation: true
 class: page-template
 subclass: 'post page'
