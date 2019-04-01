@@ -78,9 +78,9 @@ sitemap: false
 
 <hr>
 
-<p style="text-align: center;"><b>Boulder Roubaix (4/6)</b><a href="https://www.strava.com/segments/640484">Strava Segment</a></p>
+<p style="text-align: center;"><b>Boulder Roubaix (4/6)</b></p><p style="text-align: center;"><a href="https://www.strava.com/segments/640484">Strava Segment</a></p>
 <img src="https://i.imgur.com/FMMr6Pc.jpg" style="max-width: 600px; width: 100%; display: block; margin-left: auto; margin-right: auto;">
 <a href="https://www.dbcevents.com/s/2019-BR-Map-5383.png"><img src="https://i.imgur.com/Asw4kSu.jpg" style="max-width: 600px; width: 100%; display: block; margin-left: auto; margin-right: auto;"></a>
 
-<p style="text-align: center;"><b>Stampeede TTT/ITT (4/7)</b><a href="https://www.strava.com/segments/20147699">Strava Segment</a></p>
+<p style="text-align: center;"><b>Stampeede TTT/ITT (4/7)</b></p><p style="text-align: center;"><a href="https://www.strava.com/segments/20147699">Strava Segment</a></p>
 <a href="https://legacy.usacycling.org/events/getflyer.php?permit=2019-263"><img src="https://i.imgur.com/98kAd1S.png" style="max-width: 600px; width: 100%; display: block; margin-left: auto; margin-right: auto;"></a>
