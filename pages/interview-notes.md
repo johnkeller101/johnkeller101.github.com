@@ -372,7 +372,7 @@ function Loadquotes(){
     - Mostly server-side written in PHP
     - Uses HTML parsing to determine contents of page and display them
     - Uses Regex to extract essential information from web pages like phone numbers, emails, and names
-- Senior year of high school, I got a prestigious year-long internship with Shell Oil, which later turned into a job managing the office and writing code
+- Senior year of high school, I got a prestigious year-long internship with Shell Trading Company, which later turned into a job managing the office and writing various automation scripts
     - code would process large amounts of gps coordinates and plot them on a google earth map. The idea was to daily update data for each location on the map to give executives a good overlook on which areas are producing specific quantities of oil at specific rates
     - also received the apple wwdc scholarship where I wrote a detailed app describing my experience and passion for design and programming
     - after this I built the colorado scholarships application which helped students receive a localized database of scholarships
@@ -384,9 +384,13 @@ function Loadquotes(){
     - `alamofire` allows the proper proper requests to be made in a light-weight way
     - also dealt with cookie management in `WKWebViews` to display authenticated file URLs
 - BallzClone
-    - Built as a fun project to show that the content I was learning in Calculus 2 was applicable to my career
+    - Built as a fun project to show that the content I was learning in calculus was applicable to my career
     - Utilizes Pythagorean Theorem on every collision to calculate the proper bounce angle
     - My first app using both `Swift` and `SceneKit`
+- bChat
+    - end to end encrypted chat application (open source, done for class project)
+    - built on laravel and vuejs
+    - worked primarily on the ui and helping manage others in the group
 
 
    
