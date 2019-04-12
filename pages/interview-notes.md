@@ -210,19 +210,6 @@ The smallest element is at the root of the tree, with larger elements as childre
     </div>
 </div>
 
-## Specialized Interview Questions
-1. What was one thing you accomplished in your previous position that you're proud of?
-    - The biggest accomplishment I have had over the last few years has been accomplishing a personal goal of becoming a leader and an effictive communicator. This involves forming many study groups with people in the same classes, and building friendships with those around me who have similar interests. I also took up the role of road captain for the CU Cycling Team, which involves organizing just about every race for our 50+ athletes. I also take the time to build one on one relationships with every athlete, which allows the team to select the best athletes for specific races throughout the collegiate season.
-2. What projects have you been most successful?
-    - The most sucessful project I have done was a group project for my software class. We developed an end-to-end encrypted chat application, and each of us focused heavily on our prospective roles. Communication was key, and I took a leadership role in the process. I focused on the UI, and came up with a unique take on how a chat application should interact, with a more simple and intuitive design compared to almost every other chat application.
-3. Name a failure you have bounced back from?
-    - 
-4. Why do you want to work here?
-    - I would love to work for one of the major cycling companies, not only for the local community aspect, but I also see opprotunity for personal development combining both of my favorite hobbies, cycling and programming.
-5. What is your biggest regret? How did you bounce back from it?
-    - The biggest regret I have is not taking care of my body when I was younger. While this may seem like a miniscule thing, I feel like if I had taken better care of myself by spending more time being active and eating healthier, I would have been much more productive and had an overall more positive childhood.
-    - I bounced back from this once I graduated high school, and began to focus on eating healthier and spending more time being active. This did amazing things for my productivity and overall well being, and has allowed me to be on a sustainable track to being a high performing athlete.
-
 ## My Questions for you
 
 1. Who is your ideal candidate for a summer intern? 
@@ -361,6 +348,19 @@ function Loadquotes(){
 }
 </script>
 
+
+## Specialized Interview Questions
+1. What was one thing you accomplished in your previous position that you're proud of?
+    - The biggest accomplishment I have had over the last few years has been accomplishing a personal goal of becoming a leader and an effictive communicator. This involves forming many study groups with people in the same classes, and building friendships with those around me who have similar interests. I also took up the role of road captain for the CU Cycling Team, which involves organizing just about every race for our 50+ athletes. I also take the time to build one on one relationships with every athlete, which allows the team to select the best athletes for specific races throughout the collegiate season.
+2. What projects have you been most successful?
+    - The most sucessful project I have done was a group project for my software class. We developed an end-to-end encrypted chat application, and each of us focused heavily on our prospective roles. Communication was key, and I took a leadership role in the process. I focused on the UI, and came up with a unique take on how a chat application should interact, with a more simple and intuitive design compared to almost every other chat application.
+3. Name a failure you have bounced back from?
+    - 
+4. Why do you want to work here?
+    - I would love to work for one of the major cycling companies, not only for the local community aspect, but I also see opprotunity for personal development combining both of my favorite hobbies, cycling and programming.
+5. What is your biggest regret? How did you bounce back from it?
+    - The biggest regret I have is not taking care of my body when I was younger. While this may seem like a miniscule thing, I feel like if I had taken better care of myself by spending more time being active and eating healthier, I would have been much more productive and had an overall more positive childhood.
+    - I bounced back from this once I graduated high school, and began to focus on eating healthier and spending more time being active. This did amazing things for my productivity and overall well being, and has allowed me to be on a sustainable track to being a high performing athlete.
 
 ## My Background
 
