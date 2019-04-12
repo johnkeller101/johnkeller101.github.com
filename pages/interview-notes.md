@@ -210,6 +210,12 @@ The smallest element is at the root of the tree, with larger elements as childre
     </div>
 </div>
 
+## Specialized Interview Questions
+1. What was one thing you accomplished in your previous position that you're proud of?
+2. What projects have you been most successful?  
+3. Name a failure you have bounced back from? 
+4. Why do you want to work here?
+
 ## My Questions for you
 
 1. Who is your ideal candidate for a summer intern? 
