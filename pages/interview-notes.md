@@ -376,7 +376,7 @@ function Loadquotes(){
     - code would process large amounts of gps coordinates and plot them on a google earth map. The idea was to daily update data for each location on the map to give executives a good overlook on which areas are producing specific quantities of oil at specific rates
     - also received the apple wwdc scholarship where I wrote a detailed app describing my experience and passion for design and programming
     - after this I built the colorado scholarships application which helped students receive a localized database of scholarships
-- In college, my experience has shifted beyond objective-c, and into many other languages like python, php, swift, and a number of others 
+- In college, my experience has shifted beyond objective-c, and into many other languages like `python`, `php`, `swift`, `c++`, and a number of others 
 - desire2learn Gradebook App
     - Built for more of a personal tool for quicker mobile access to the gradebook. Published on github so others can utilize it if they want
     - Using `locksmith`, which integrates secure keychain storage of the username and password
