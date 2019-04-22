@@ -18,7 +18,11 @@ class: page-template
 
 <style>
 .post-full-image {
+    {% if page.tag == "cycling" %}
+    height: 600px !important;
+    {% else %}
     height: 400px !important;
+    {% endif %}
 }
 .post-full-content {
     padding-top: 70px !important;
