@@ -7,7 +7,7 @@ class: post-template
 subclass: 'post tag-rides'
 author: john
 
-title: Boulder Roubaix Collegiate B
+title: Boulder Roubaix
 date: 2019-04-06 20:50:00
 description: 
 
