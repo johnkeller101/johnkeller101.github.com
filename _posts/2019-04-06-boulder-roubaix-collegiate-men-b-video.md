@@ -11,6 +11,7 @@ title: Boulder Roubaix Collegiate B
 date: 2019-04-06 20:50:00
 description: 
 
+cover: assets/images/thumbnails/boulderroubaix.jpg
 video-id: u5fdSdJf0sE
 ---
 
