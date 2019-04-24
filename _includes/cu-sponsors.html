@@ -5,10 +5,66 @@ A big thank you to our sponsors:
 - Clif Bar: [http://www.clifbar.com/](http://www.clifbar.com/)
 - Skratch Labs: [https://www.skratchlabs.com/](https://www.skratchlabs.com/)
 
-<div class="row">
-	<div class="col-sm-2"><a href="http://www.bouldercyclesport.com/"><img src="/assets/images/sponsors/bcs.png" style="width: 100%;"></a></div>
-	<div class="col-sm-2"><a href="http://www.bouldercyclesport.com/"><img src="/assets/images/sponsors/bcs.png" style="width: 100%;"></a></div>
-	<div class="col-sm-2"><a href="http://www.bouldercyclesport.com/"><img src="/assets/images/sponsors/bcs.png" style="width: 100%;"></a></div>
-	<div class="col-sm-2"><a href="http://www.bouldercyclesport.com/"><img src="/assets/images/sponsors/bcs.png" style="width: 100%;"></a></div>
-	<div class="col-sm-2"><a href="http://www.bouldercyclesport.com/"><img src="/assets/images/sponsors/bcs.png" style="width: 100%;"></a></div>
+<style type="text/css">
+.grid-container {
+    width : 100%;
+    max-width : 1200px; 
+}
+/*-- our cleafix hack -- */ 
+.row:before, 
+.row:after {
+    content:"";
+    display: table ;
+    clear:both;
+}
+[class*='col-'] {
+    float: left;
+    min-height: 1px; 
+}
+[class*='col-'] {
+    float: left;
+    min-height: 1px; 
+    width: 16.66%; 
+}
+.col-1{
+    width: 16.66%; 
+}
+.col-2{
+    width: 33.33%; 
+}
+.col-3{
+    width: 50%; 
+}
+.col-4{
+    width: 66.664%;
+}
+.col-5{
+    width: 83.33%;
+}
+.col-6{
+    width: 100%;
+}
+/*-- setting border box on all elements inside the grid --*/
+.grid-container *{
+    box-sizing: border-box; 
+}
+
+[class*='col-'] {
+    float: left;
+    min-height: 1px; 
+    width: 16.66%; 
+    /*-- our gutter --*/
+    padding: 12px;
+}
+</style>
+
+<div class="grid-container outline">
+	<div class="row">
+        <div class="col-1"><a href="http://www.bouldercyclesport.com/"><img src="/assets/images/sponsors/bcs.png" style="width: 100%;"></a></div> 
+        <div class="col-1"><a href="http://www.bouldercyclesport.com/"><img src="/assets/images/sponsors/bcs.png" style="width: 100%;"></a></div> 
+        <div class="col-1"><a href="http://www.bouldercyclesport.com/"><img src="/assets/images/sponsors/bcs.png" style="width: 100%;"></a></div> 
+        <div class="col-1"><a href="http://www.bouldercyclesport.com/"><img src="/assets/images/sponsors/bcs.png" style="width: 100%;"></a></div> 
+        <div class="col-1"><a href="http://www.bouldercyclesport.com/"><img src="/assets/images/sponsors/bcs.png" style="width: 100%;"></a></div> 
+        <div class="col-1"><a href="http://www.bouldercyclesport.com/"><img src="/assets/images/sponsors/bcs.png" style="width: 100%;"></a></div> 
+    </div> 
 </div>
