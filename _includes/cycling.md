@@ -9,7 +9,7 @@ John Keller is an undergraduate computer science student at the University of Co
 #### 2019 Results
 
 - 1st- [CSU Crit](https://www.coloradocycling.org/results/road#year=2019&eventId=2425&resultsetId=30878) (Category 3)
-- 1st- FLC Crit (Collegiate B)
+- 1st- [FLC Crit](https://john.coffee/2019/04/20/flc-mens-b-criterium/) (Collegiate B)
 - 1st- FLC Road Race (Collegiate B)
 - 2nd- [Boulder Roubaix](https://www.coloradocycling.org/results/road#year=2019&eventId=2420&resultsetId=30628) (Collegiate B)
 - 2nd- [Front Range Classic Crit](https://www.coloradocycling.org/results/road?year=2019&eventId=2408&resultsetId=29836) (Collegiate B)
