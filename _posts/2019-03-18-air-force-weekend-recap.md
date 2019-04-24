@@ -25,3 +25,5 @@ After such a successful day for the team on Saturday, it was a difficult road ra
 
 ---
 Photo by Ben Cook.
+
+{% include cu-sponsors.html %}

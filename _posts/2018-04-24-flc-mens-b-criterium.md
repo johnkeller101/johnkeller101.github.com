@@ -22,3 +22,5 @@ A big thank you to our sponsors:
 - Donnelly Tires: [https://www.donnellycycling.com/](https://www.donnellycycling.com/)
 
 The "Zia Taqueria Neighborhood Criterium" is back for racing action that encompasses 4th-6th Aves and 7th-10th Sts. The start finish will be at 4th Ave/8th St on a course with 6 turns and highlighted by the 6th Ave hill. Five collegiate and four citizen categories will speed around the course for varying amounts of time based on experience and ability. The action will be fast and fun! Racing starts at 11:30am and finishes at 6pm.
+
+{% include cu-sponsors.html %}
