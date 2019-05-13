@@ -13,6 +13,7 @@ John Keller is an undergraduate computer science student at the University of Co
 - 1st- FLC Road Race (Collegiate B)
 - 2nd- [Boulder Roubaix](https://www.coloradocycling.org/results/road#year=2019&eventId=2420&resultsetId=30628) (Collegiate B)
 - 2nd- [Front Range Classic Crit](https://www.coloradocycling.org/results/road?year=2019&eventId=2408&resultsetId=29836) (Collegiate B)
+- 7th- Tour of the Gila Stage 5 (1/2)
 
 
 #### 2018 Results
