@@ -393,4 +393,21 @@ function Loadquotes(){
     - worked primarily on the ui and helping manage others in the group
 
 
-   
+## Specialized Part 2
+
+For the next and final step,  we would like you to present a project from your collegiate career to a panel of 3-5 Specialized leaders via video interview. This should be 10-15 minute summary covering the following areas:
+
+1. Description of the project
+    - missing
+2. What was the goal/ what were you trying to accomplish?
+    - s
+3. What was the structure of the project? Solo? Group? How did you organize?
+    - 2
+4. What technologies did you use?
+    - 4
+5. What were the challenges? Think broad… these could be technology, schedule, group dynamic challenges and what did you learn from this?
+    - 4
+6. And remember, we are bike people. So throw out the note cards and business suits. Cover the topics, but talk to us like you’d talk to your classmates, friends and riding buddies. Creativity in your presentation is high encouraged.  
+    - 4
+
+
