@@ -8,6 +8,9 @@ John Keller is an undergraduate computer science student at the University of Co
 
 #### 2019 Results
 
+- 2nd- Lyons Crit (P12)
+- 3rd- Lyons/Ned Omnium (P12)
+- 5th- Lyons/Ned RR (P12)
 - 1st- [CSU Crit](https://www.coloradocycling.org/results/road#year=2019&eventId=2425&resultsetId=30878) (Category 3)
 - 1st- [FLC Crit](https://john.coffee/2019/04/20/flc-mens-b-criterium/) (Collegiate B)
 - 1st- FLC Road Race (Collegiate B)
