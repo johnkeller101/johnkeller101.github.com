@@ -8,6 +8,7 @@ John Keller is an undergraduate computer science student at the University of Co
 
 #### 2019 Results
 
+- 2nd- Sunshine Hill Climb (P12)
 - 2nd- Lyons Crit (P12)
 - 3rd- Lyons/Ned Omnium (P12)
 - 5th- [Lyons/Ned Road Race](https://www.coloradocycling.org/results/road#year=2019&eventId=2566&resultsetId=31838) (P12)
