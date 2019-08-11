@@ -8,6 +8,8 @@ John Keller is an undergraduate computer science student at the University of Co
 
 #### 2019 Results
 
+- 2nd- Pikes Peak Hill Climb (P12)
+- 8th- Mt. Evans Hill Climb (P12)
 - 2nd- Sunshine Hill Climb (P12)
 - 2nd- Lyons Crit (P12)
 - 3rd- Lyons/Ned Omnium (P12)
