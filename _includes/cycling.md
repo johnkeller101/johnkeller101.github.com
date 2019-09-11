@@ -8,12 +8,14 @@ John Keller is an undergraduate computer science student at the University of Co
 
 #### 2019 Results
 
-- 2nd- Pikes Peak Hill Climb (P12)
-- 8th- Mt. Evans Hill Climb (P12)
-- 2nd- Sunshine Hill Climb (P12)
-- 2nd- Lyons Crit (P12)
-- 3rd- Lyons/Ned Omnium (P12)
-- 5th- [Lyons/Ned Road Race](https://www.coloradocycling.org/results/road#year=2019&eventId=2566&resultsetId=31838) (P12)
+- 4th- Steamboat Stage Race GC
+- 3rd- Steamboat Stage Race Stage 2
+- 2nd- Pikes Peak Hill Climb [1:12:51<!--; 4.1 w/kg -->]
+- 8th- Mt. Evans Hill Climb [1:48:44<!--; 4.4 w/kg -->]
+- 2nd- Sunshine Hill Climb [44:17<!-- ; 5.1 w/kg -->]
+- 2nd- Lyons Crit
+- 3rd- Lyons/Ned Omnium
+- 5th- [Lyons/Ned Road Race](https://www.coloradocycling.org/results/road#year=2019&eventId=2566&resultsetId=31838)
 - 1st- [CSU Crit](https://www.coloradocycling.org/results/road#year=2019&eventId=2425&resultsetId=30878) (Category 3)
 - 1st- [FLC Crit](https://john.coffee/2019/04/20/flc-mens-b-criterium/) (Collegiate B)
 - 1st- FLC Road Race (Collegiate B)
