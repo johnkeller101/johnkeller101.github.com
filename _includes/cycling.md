@@ -2,7 +2,7 @@ John Keller is an undergraduate computer science student at the University of Co
 
 #### General
 - Racing Age: 22
-- USAC Category: 2
+- USAC Category: 1
 - Team: [CU Cycling Team](https://www.colorado.edu/sportsclub/cycling/)
 - Coach: Jeff Winkler [winklercycling.com](http://winklercycling.com)
 
