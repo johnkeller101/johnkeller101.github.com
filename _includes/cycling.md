@@ -45,3 +45,9 @@ John Keller is a Senior undergraduate Computer Science student at the University
 <!-- - 22nd- CSU Oval Critereum (Collegiate B) -->
 <!-- - 4th- DU Cycling City Park Crit (Collegiate C) -->
 <!-- - 7th- DU Cycling City Park Crit (Category 5) -->
+
+#### Strava Times
+
+- [19:02 Camp 8 via Las Flores @ 383w](https://www.strava.com/activities/2431487104/segments/61295038854)
+- [12:44 Flagstaff from Gregory Canyon @ 384w (17th overall)](https://www.strava.com/activities/2705637921/segments/67633208246)
+- [4:51 NCAR @ 425w (7th overall)](https://www.strava.com/activities/2415267881/segments/60923234484)
