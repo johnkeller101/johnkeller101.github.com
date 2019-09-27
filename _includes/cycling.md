@@ -4,7 +4,7 @@ John Keller is an undergraduate computer science student at the University of Co
 - **Racing Age**: 22
 - **Weight**: 65kg
 - **FTP**: 335w (5.2 w/kg) @ 5,200 ft
-- **Strengths**: Climbing, Stage Races
+- **Strengths**: Climbing, Stage Races, Road Races
 - **USAC Category**: 1
 - **Coach**: [Jeff Winkler](http://winklercycling.com)
 
