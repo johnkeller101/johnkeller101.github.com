@@ -1,12 +1,12 @@
-John Keller is an undergraduate computer science student at the University of Colorado Boulder, where he competes at a collegiate level. Join him on his journey through the ranks of local and higher level cycling.
+John Keller is an undergraduate computer science student at the University of Colorado Boulder, where he competes at a collegiate level. As the Road Captain for the team, he exemplifies leadership and performing well under pressure. Join him on his journey through the ranks of local and higher level cycling.
 
 #### General
 - **Racing Age**: 22
 - **Weight**: 65kg
-- **FTP**: 335 (5.2 w/kg)
+- **FTP**: 335w (5.2 w/kg)
 - **Strengths**: Climbing, Stage Races
 - **USAC Category**: 1
-- **Coach**: Jeff Winkler [winklercycling.com](http://winklercycling.com)
+- **Coach**: [Jeff Winkler](http://winklercycling.com)
 
 #### 2019 Results
 
