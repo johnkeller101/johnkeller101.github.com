@@ -11,11 +11,11 @@ John Keller is a Senior undergraduate Computer Science student at the University
 #### 2019 Results
 
 - 4th- Steamboat Stage Race GC
-- 3rd- Steamboat Stage Race Stage 2
-- 2nd- Pikes Peak Hill Climb [1:12:51; 4.1 w/kg]
-- 8th- Mt. Evans Hill Climb [1:48:44; 4.4 w/kg]
-- 2nd- Sunshine Hill Climb [44:17; 5.1 w/kg]
-- 2nd- Lyons Crit
+- 3rd- [Steamboat Stage Race Stage 2](https://www.strava.com/activities/2672114761)
+- 2nd- [Pikes Peak Hill Climb [1:12:51; 4.1 w/kg]](https://www.strava.com/activities/2607502439)
+- 8th- [Mt. Evans Hill Climb [1:48:44; 4.4 w/kg]](https://www.strava.com/activities/2567985556)
+- 2nd- [Sunshine Hill Climb [44:17; 5.1 w/kg]](https://www.strava.com/activities/2512396673)
+- 2nd- [Lyons Crit](https://www.strava.com/activities/2493797651)
 - 3rd- Lyons/Ned Omnium
 - 5th- [Lyons/Ned Road Race](https://www.coloradocycling.org/results/road#year=2019&eventId=2566&resultsetId=31838)
 - 1st- [CSU Crit](https://www.coloradocycling.org/results/road#year=2019&eventId=2425&resultsetId=30878) (Category 3)
