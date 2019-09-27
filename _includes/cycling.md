@@ -1,4 +1,4 @@
-John Keller is an undergraduate computer science student at the University of Colorado Boulder, where he competes at a collegiate level. As the Road Captain for the team, he exemplifies leadership and performing well under pressure. Join him on his journey through the ranks of local and higher level cycling.
+John Keller is an undergraduate computer science student at the University of Colorado Boulder, where he competes at a collegiate level. As the Road Captain for the CU Cycling Team, he exemplifies leadership and performing well under pressure. Join him on his journey through the ranks of local and higher level cycling.
 
 #### General
 - **Racing Age**: 22
