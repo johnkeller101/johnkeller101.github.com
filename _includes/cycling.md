@@ -1,14 +1,12 @@
 John Keller is an undergraduate computer science student at the University of Colorado Boulder, where he competes at a collegiate level. Join him on his journey through the ranks of local and higher level cycling.
 
 #### General
-- Racing Age: 22
-- USAC Category: 2
-- Weight: 65kg
-- FTP: 335 (5.2 w/kg)
-- Strengths: Climbing, Stage Races
-- USAC Category: 1
-- Team: [CU Cycling Team](https://www.colorado.edu/sportsclub/cycling/)
-- Coach: Jeff Winkler [winklercycling.com](http://winklercycling.com)
+- **Racing Age**: 22
+- **Weight**: 65kg
+- **FTP**: 335 (5.2 w/kg)
+- **Strengths**: Climbing, Stage Races
+- **USAC Category**: 1
+- **Coach**: Jeff Winkler [winklercycling.com](http://winklercycling.com)
 
 #### 2019 Results
 
