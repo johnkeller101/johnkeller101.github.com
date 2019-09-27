@@ -3,6 +3,9 @@ John Keller is an undergraduate computer science student at the University of Co
 #### General
 - Racing Age: 22
 - USAC Category: 2
+- Weight: 65kg
+- FTP: 335 (5.2 w/kg)
+- Strengths: Climbing, Stage Races
 - Team: [CU Cycling Team](https://www.colorado.edu/sportsclub/cycling/)
 - Coach: Jeff Winkler [winklercycling.com](http://winklercycling.com)
 
@@ -10,9 +13,9 @@ John Keller is an undergraduate computer science student at the University of Co
 
 - 4th- Steamboat Stage Race GC
 - 3rd- Steamboat Stage Race Stage 2
-- 2nd- Pikes Peak Hill Climb [1:12:51<!--; 4.1 w/kg -->]
-- 8th- Mt. Evans Hill Climb [1:48:44<!--; 4.4 w/kg -->]
-- 2nd- Sunshine Hill Climb [44:17<!-- ; 5.1 w/kg -->]
+- 2nd- Pikes Peak Hill Climb [1:12:51; 4.1 w/kg]
+- 8th- Mt. Evans Hill Climb [1:48:44; 4.4 w/kg]
+- 2nd- Sunshine Hill Climb [44:17; 5.1 w/kg]
 - 2nd- Lyons Crit
 - 3rd- Lyons/Ned Omnium
 - 5th- [Lyons/Ned Road Race](https://www.coloradocycling.org/results/road#year=2019&eventId=2566&resultsetId=31838)
