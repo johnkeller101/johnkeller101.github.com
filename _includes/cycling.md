@@ -3,10 +3,15 @@ John Keller is a Senior undergraduate Computer Science student at the University
 #### General
 - **Racing Age**: 23
 - **Weight**: 65kg
-- **FTP**: 335w (5.2 w/kg) @ 5,200 ft
+- **FTP**: 340w (5.2 w/kg) @ 5,200 ft
 - **Strengths**: Climbing, Stage Races, Road Races
 - **USAC**: Cat 1 [#537606](https://legacy.usacycling.org/results/index.php?compid=537606)
 - **Coach**: [Jeff Winkler](http://winklercycling.com)
+
+#### 2020 Results
+
+- 17th- Valley of the Sun GC
+- 14th- Valley of the Sun Crit Stage 3
 
 #### 2019 Results
 
