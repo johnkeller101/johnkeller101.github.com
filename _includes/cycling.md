@@ -3,7 +3,7 @@ John Keller is a Senior undergraduate Computer Science student at the University
 #### General
 - **Racing Age**: 23
 - **Weight**: 65kg
-- **FTP**: 340w (5.2 w/kg) @ 5,200 ft
+- **FTP**: 350w (5.4 w/kg) @ 5,400 ft
 - **Strengths**: Climbing, Stage Races, Road Races
 - **USAC**: Cat 1 [#537606](https://legacy.usacycling.org/results/index.php?compid=537606)
 - **Coach**: [Jeff Winkler](http://winklercycling.com)
@@ -55,4 +55,4 @@ John Keller is a Senior undergraduate Computer Science student at the University
 
 - [19:02 Camp 8 via Las Flores @ 383w](https://www.strava.com/activities/2431487104/segments/61295038854)
 - [12:44 Flagstaff from Gregory Canyon @ 384w (17th overall)](https://www.strava.com/activities/2705637921/segments/67633208246)
-- [4:51 NCAR @ 425w (7th overall)](https://www.strava.com/activities/2415267881/segments/60923234484)
+- [4:38 NCAR @ 446w (3rd overall)](https://www.strava.com/activities/3537603517/segments/2701878956415274157)
