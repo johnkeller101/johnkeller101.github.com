@@ -1,117 +1,27 @@
-# Jekyll configuration
-markdown: kramdown
-highlighter: rouge
-paginate: 100 # it will paginate after this number
-language: 'en-us'
+title: ☕️ john keller # name of the site
+author: John Keller # name of site's author
+email: author@johnkeller101.com # email of site's author
+url: https://john.coffee # root address of the site
+baseurl: "" # subpath of the site, e.g. "/blog" (leave it blank "" if you're site shouldn't use a subpath)
+description: > # description of the site (multiple lines allowed)
+  Code, bikes, coffee.
 
-# edit baseurl to simply '/' if using as your personal page (instead of a project page)
-baseurl: /
+permalink: /:slug.html
 
+favicon: "favicon.png" # name+extension of favicon (which must be put on the root folder)
+# goat_counter: "yoursitename" # put your GoatCounter name if you want to use GoatCounter analytics
 
-# Website info
-title: John Keller
-description: ride bikes & drink coffee
-cover: assets/images/blog-cover.jpg
-logo: assets/images/johncoffee-logo.png
-logo_dark: assets/images/johncoffee-logo.png
-favicon: assets/images/favicon.png
-production_url: https://john.coffee/
-source_url: https://github.com/johnkeller101/johnkeller101.github.io/
+theme: no-style-please # if you are using GitHub Pages, change it to remote_theme: riggraz/no-style-please
 
-# Social info
-navigation: True # show the navbar links
-subscribers: False # you need to connect an external service for this to work,
-# if 'True' the submit button is disabled for now, but you can change that
-# by editing `_includes/subscribe-form.html`
-twitter: johnkeller101 # replace by your username
-strava: johnkeller
-instagram: johnkeller101
-# facebook: ghost # replace by your username
+theme_config:
+  appearance: "light" # can be "light", "dark" or "auto"
+  back_home_text: ".." # customize text for homepage link in post layout
+  date_format: "%Y-%m-%d" # customize how date is formatted
+  show_description: true # show blog description in home page
 
-authors_enabled: false
+sass:
+  style: :compressed
 
-
-# remove white lines
-# http://jch.penibelst.de/
-
-compress_html:
-  clippings: all
-  comments: ["<!-- ", " -->"]
-  endings: all
-  ignore:
-    envs: [development]
-  blanklines: false
-  profile: false
-  startings: [html, head, body]
-
-
-
-# Disqus
-disqus: False
-# disqus_shortname: jekyller # replace with your disqus username
-
-# Google Analytics
-google_analytics: # replace with your GA tracking identifier
-
-# Permalinks
-permalink: pretty
-# permalink: /author/:author
-# permalink: /tag/:tag
-
-# Authors' info in `_data/authors.yml`
-# Tags' info in `_data/tags_info.yml`
-
-# gems and other configs
 plugins:
-  - jekyll-paginate
   - jekyll-feed
-
-feed:
-  path: feed.xml
-
-# Additional settings available on the front-matter
-# Site logo in the index.html (as in demo.ghost.io)
-# Author's page cover in _layouts/author.html
-# The same for page.html and tag.html layouts
-# Post's page cover as a per-post basis _posts/...
-# Disqus comments as a per-post basis
-# ...
-
-# Settings for builing master branch with travis-ci
-# with jekyll-travis
-
-# Settings for deploy rake task
-# Username and repo of Github repo, e.g.
-# https://github.com/USERNAME/REPO.git
-# username defaults to ENV['GIT_NAME'] used by Travis
-# repo defaults to USERNAME.github.io
-# Branch defaults to "source" for USERNAME.github.io
-# or "master" otherwise
-safe: False
-lsi: False
-username: jekyller
-repo: jasper2
-branch: master
-relative_source: ../jasper2/
-destination: ../john.coffee production/
-production_url:  https://john.coffee/
-source_url:  https://github.com/johnkeller101/johnkeller101.github.io
-
-exclude:
-  - assets/css
-  - node_modules
-  - vendor
-  - .travis.yml
-  - Gemfile
-  - Gemfile.lock
-  - GHOST.txt
-  - gulpfile.js
-  - LICENSE
-  - package.json
-  - Rakefile
-  - README.md
-  - gpx/
-  - scripts/
-  - changelog.md
-  - "*.Rmd"
-  - .git*
+  - jekyll-seo-tag

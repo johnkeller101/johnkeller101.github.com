@@ -1,19 +1,8 @@
 ---
 layout: post
-current: post
-navigation: True
-tags: group-rides cycling
-class: post-template
-subclass: 'post tag-rides'
-author: john
-
+category: bikes
 title: LA's Nichols Group Ride
 date: 2018-12-30 20:50:00
-description: The initial climb out of Hollywood is just over 10 minutes, and splits the large number of riders up quickly. At the end of this climb, there is a section aptly called "The Wall" which brings even the best riders to a craw.
-
-thumb: 
-
-video-id: jqV2v30EI8A
 ---
 
 The [Nichols Group Ride](https://www.lagrange.org/nichols/) is one of the best group rides in LA, as it involves both climbing and tt-like efforts at the top. There are anywhere from 20-100 riders participating, and everyone is likely to find a small group of riders who can maintain the same pace. The ride meets at 8:00am every Sunday morning at the corner of [La Grange Ave. and Westwood Blvd](https://www.google.com/maps/place/1990+Westwood+Blvd,+Los+Angeles,+CA+90025).

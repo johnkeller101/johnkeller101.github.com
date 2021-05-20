@@ -1,18 +1,8 @@
 ---
 layout: post
-current: post
-navigation: True
-tags: group-rides cycling
-class: post-template
-subclass: 'post tag-rides'
-author: john
-
+category: bikes
 title: Phil's Cookie Fondo
 date: 2018-10-28 20:50:00
-cover: /assets/images/phils-fondo/cover.jpg
-cover_height: 2048px
-cover_width: 1151px
-thumb: /assets/images/phils-fondo/sunday.jpg
 description: Phil's Fondo truly showcases just how world-class the riding in Malibu is. I've ridden all the climbs around the area, and can say that Phil picked some of the best around to include in the event.
 ---
 

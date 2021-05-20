@@ -1,5 +1,4 @@
-source "https://rubygems.org"
+# frozen_string_literal: true
 
-gem "jekyll"
-gem "github-pages", group: :jekyll_plugins
-gem "rake"
+source "https://rubygems.org"
+gemspec
