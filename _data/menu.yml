@@ -4,6 +4,17 @@
 entries:
   - title: bikes
     entries:
+      - title: strava segments
+        entries:
+          - title: KOM- [Gross Dam Road](https://www.strava.com/segments/693836) (both directions)
+          - title: KOM- [Lickskillet Road](https://www.strava.com/segments/668859)
+          - title: KOM- [Las Flores](https://www.strava.com/segments/9997978) (steepest climb in LA)
+          - title: 8th- [flagstaff from gregory canyon](https://www.strava.com/segments/25835330)
+          - title: 5th- [NCAR](https://www.strava.com/segments/638399)
+          - title: 6th- [Mt. Evans](https://www.strava.com/segments/642991)
+      - title: 2021 racing
+        entries:
+          - title: 11th- belgian waffle ride (san diego)
       - title: 2020 racing
         entries:
           - title: 2nd- broadmoor pikes peak cycling hill climb
