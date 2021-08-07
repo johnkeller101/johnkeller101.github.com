@@ -6,16 +6,16 @@ entries:
     entries:
       - title: strava segments
         entries:
+          - title: KOM- NCAR
+            url: https://www.strava.com/segments/638399
+          - title: 8th- Flagstaff from Gregory Canyon
+            url: https://www.strava.com/segments/25835330
           - title: KOM- Gross Dam Road (both directions)
             url: https://www.strava.com/segments/693836
           - title: KOM- Lickskillet Road
             url: https://www.strava.com/segments/668859
           - title: KOM- Las Flores (steepest climb in LA)
             url: https://www.strava.com/segments/9997978
-          - title: 8th- flagstaff from gregory canyon
-            url: https://www.strava.com/segments/25835330
-          - title: 5th- NCAR
-            url: https://www.strava.com/segments/638399
           - title: 6th- Mt. Evans
             url: https://www.strava.com/segments/642991
       - title: 2021 racing
