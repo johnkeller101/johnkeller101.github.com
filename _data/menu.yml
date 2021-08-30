@@ -34,9 +34,9 @@ entries:
             url: https://www.strava.com/segments/3220167
       - title: 2021 racing
         entries:
-          - title: SBT GRVL - crashed out of front group, DNF w/ Eddie Anderson due to race moto crash
+          - title: SBT GRVL- crashed out of front group, DNF w/ Eddie Anderson due to race moto crash
           - title: 11th- belgian waffle ride (san diego)
-          - title: Unbound - 2nd group on road (w/ Matteo Jorgensen), DNF due to mechanical
+          - title: Unbound- 2nd group on road (w/ Matteo Jorgensen), DNF due to mechanical
       - title: 2020 racing
         entries:
           - title: 2nd- broadmoor pikes peak cycling hill climb
@@ -48,10 +48,6 @@ entries:
           - title: 3rd- lyons/ned stage race
           - title: 2nd- panaracer sunshine hill climb
           - title: 2nd- broadmoor pikes peak cycling hill climb
-      - title: favorite group rides
-        post_list:
-          category: bikes
-          show_more: false
 
   - title: work
     entries:
@@ -67,15 +63,8 @@ entries:
   - title: education
     entries:
       - title: computer science ba @ university of colorado boulder, 2020
-      - title: projects
-        entries:
-          - title: desire2learn swift app
-            url: https://github.com/johnkeller101/desire2learn
-          - title: bChat e2e encrypted chat website
-            url: https://github.com/lukemcd1994/bChat
-          - title: binary bomb lab
-            url: /pages/binary-bomb-lab
       - title: other
         entries:
           - title: wwdc 2015 & 2016
           - title: cu cycling team road captain
+          - title: project supertraining ride leader/organizer
