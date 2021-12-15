@@ -4,18 +4,32 @@
 entries:
   - title: bikes
     entries:
-      - title: power performances (last 90 days, updated 8/29)
+#       - title: power performances (last 90 days, updated 8/29)
+#         entries:
+#           - title: Age- 24
+#           - title: Height- 6'0
+#           - title: Weight- 155 lbs / 70.5 kg (race weight in 2019 was 145 lbs)
+#           - title: Estimated VO2max- 82 (WKO5)
+#           - title: Modeled FTP- 406 W (WKO5, sea level data)
+#           - title: Modeled FTP- 5.8 W/kg (WKO5, sea level data)
+#           - title: 15-second MMP- 950 W
+#           - title: 1-minute MMP- 672 W
+#           - title: 3-minute MMP- 546 W
+#           - title: 8-minute MMP- 448 W
+      - title: 2022 schedule
         entries:
-          - title: Age- 24
-          - title: Height- 6'0
-          - title: Weight- 155 lbs / 70.5 kg (race weight in 2019 was 145 lbs)
-          - title: Estimated VO2max- 82 (WKO5)
-          - title: Modeled FTP- 406 W (WKO5, sea level data)
-          - title: Modeled FTP- 5.8 W/kg (WKO5, sea level data)
-          - title: 15-second MMP- 950 W
-          - title: 1-minute MMP- 672 W
-          - title: 3-minute MMP- 546 W
-          - title: 8-minute MMP- 448 W
+          - title: Sea Otter Classic (Road, Gravel, MTB)
+          - title: Gravel Locos
+          - title: Tulsa Tough
+          - title: US Pro Road Nationals
+          - title: Unbound Gravel
+          - title: Crusher in the Tushar
+          - title: BWR San Diego
+          - title: Leadville 100 MTB
+          - title: SBT GRVL
+          - title: Chequamegon MTB Festival
+          - title: BWR Utah
+          - title: Big Sugar Gravel
       - title: strava segments
         entries:
           - title: KOM- NCAR
