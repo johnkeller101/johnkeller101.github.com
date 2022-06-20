@@ -1,0 +1,17 @@
+- name: 'Squirt Cycling Products'
+  logo: 'squirt.png'
+  image: 'squirt-image.jpg'
+  url: 'https://squirtcycling.us/'
+  about: 'Wax based chain lube, natural chamois cream, tire sealant.'
+
+- name: 'Hunt Bike Wheels'
+  logo: 'hunt.png'
+  image: 'hunt-image.jpg'
+  url: 'https://us.huntbikewheels.com/'
+  about: 'High quality carbon wheels at an accessible price.'
+
+- name: 'Redshift Suspension'
+  logo: 'redshift.png'
+  image: 'redshift-image.jpg'
+  url: 'https://redshiftsports.com/'
+  about: 'Gravel suspension seat post and stem.'

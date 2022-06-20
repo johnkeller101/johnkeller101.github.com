@@ -1,0 +1,23 @@
+- name: 'NCAR'
+  place: 'KOM'
+  link: 'https://www.strava.com/segments/638399'
+
+- name: 'Flagstaff from Gregory Canyon'
+  place: '8th'
+  link: 'https://www.strava.com/segments/25835330'
+
+- name: 'Gross Dam Road (both directions)'
+  place: 'KOM'
+  link: 'https://www.strava.com/segments/693836'
+
+- name: 'Lickskillet Road'
+  place: '2nd'
+  link: 'https://www.strava.com/segments/668859'
+
+- name: 'Las Flores (steepest climb in LA)'
+  place: '2nd'
+  link: 'https://www.strava.com/segments/9997978'
+
+- name: 'first steep push up Decker'
+  place: '2nd'
+  link: 'https://www.strava.com/segments/1798825'

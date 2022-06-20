@@ -1,0 +1,39 @@
+<div class="row g-5 mb-5">
+  <div>
+    <h3 class="fw-bold border-bottom pb-3 mb-5">Sponsors</h3>
+    {% if page.title == "Home" %}
+
+
+      <div class="row">
+        {% for item in site.data.sponsors %}
+        <div class="col-md-4 text-center">
+          <a href="{{ item.url }}" title="{{ item.name }}"><img src="assets/img/sponsors/{{ item.logo }}" title="{{ item.name }}" style="width: 70%;"></a>
+        </div>
+        {% endfor %}
+      </div>
+
+
+    {% else %}
+    <p>
+      I have chosen to partner with brands who focus on making accessible products for the average rider while having the highest quality and best reliability possible. I would have (and in many cases already did) purchase these products regardless of partnership, and I have tested them all under the most rigerous of conditions in Colorado and across the world. Feel free to reach out and let them know I sent them your way! My racing this year would not be possible without their support. -John
+  </p>
+  <div class="border-bottom" style="margin-bottom: 3rem!important; margin-top: 3rem!important;"></div>
+    <div class="row g-5 mb-5">
+
+      {% for item in site.data.sponsors %}
+        
+          <div class="col-md-6">
+            <img src="assets/img/sponsors/{{ item.logo }}" title="{{ item.name }}" style="height: 40px; margin-bottom: 20px;">
+            <h5>{{ item.name }}</h5>
+            <p><a href="{{ item.url }}">{{ item.url }}</a></p>
+            <p>{{ item.about }}</p>
+          </div>
+          <div class="col-md-6">
+            <img src="assets/img/sponsors/{{ item.image }}" alt="More info about {{ item.name }}" width="100%">
+          </div>  
+      {% endfor %}
+
+      </div>
+    {% endif %}
+  </div>
+</div>

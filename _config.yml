@@ -1,28 +1,4 @@
-title: ☕️ john keller # name of the site
-author: John Keller # name of site's author
-email: author@johnkeller101.com # email of site's author
-url: https://john.coffee # root address of the site
-baseurl: "" # subpath of the site, e.g. "/blog" (leave it blank "" if you're site shouldn't use a subpath)
-description: > # description of the site (multiple lines allowed)
-  Code, bikes, coffee.
-
-permalink: /:slug.html
-
-favicon: "favicon.png" # name+extension of favicon (which must be put on the root folder)
-# goat_counter: "yoursitename" # put your GoatCounter name if you want to use GoatCounter analytics
-
-# theme: no-style-please # if you are using GitHub Pages, change it to 
-remote_theme: riggraz/no-style-please
-
-theme_config:
-  appearance: "light" # can be "light", "dark" or "auto"
-  back_home_text: ".." # customize text for homepage link in post layout
-  date_format: "%Y-%m-%d" # customize how date is formatted
-  show_description: true # show blog description in home page
-
-sass:
-  style: :compressed
-
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+title: "John Keller" # the name of your site, e.g. ACME Corp.
+description: "Professional Cyclist"

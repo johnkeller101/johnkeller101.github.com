@@ -1,13 +1,26 @@
 ---
 layout: default
 ---
-<header>
-  <h1>{{ site.title }}</h1>
-  {%-if site.theme_config.show_description-%}
-    <p><a href="https://www.instagram.com/johnkeller101/" style="display:inline-block"><img src="/assets/images/instagram.svg" alt="instagram" style="height: 50px; padding: 5px;"></a><a href="https://www.strava.com/athletes/15453860" style="display:inline-block"><img src="/assets/images/strava.svg" alt="strava" style="height: 50px; padding: 5px;"></a></p>
-  {%-endif-%}
-</header>
 
-{%-include menu_item.html collection=site.data.menu.entries-%}
+<div class="row g-5 mb-5">
+  <div class="col-md-6">
+    <h3 class="fw-bold" style="margin-bottom: 25px;">About</h3>
+    {{ content }}
+  </div>
+  <div class="col-md-6">
+    <img src="{{ site.github.url }}/assets/img/profile.jpg" alt="John Keller" width="100%">
+  </div>
+</div>
 
-{{ content }}
+{% include sponsors.html %}
+
+{% if site.posts.size > 0 %}
+<div class="row g-5 mb-5">
+  <div class="col-md-12">
+    <h3 class="fw-bold border-bottom pb-3 mb-5">Updates</h3>
+    {% for post in site.posts %}
+      <p><a href="{{ post.url }}">{{ post.title }}</a> - {{ post.date | date: "%B %-d, %Y" }}</p>
+    {% endfor %}
+  </div>
+</div>
+{% endif %}

@@ -1,0 +1,83 @@
+---
+layout: default
+---
+
+{{ content }}
+
+<div class="row g-5 mb-5">
+  <div>
+    <h3 class="fw-bold border-bottom pb-3 mb-5">{{ page.title }}</h3>
+    <div class="row g-5 mb-5">
+      <div class="col-md-2">
+        <h4>2021</h4>
+      </div>
+      <div class="col-md-10">
+        {% for result in site.data.results.2021 %}
+          {% if result.link != "" %}
+            <a href="{{ result.link }}" title="{{ result.name }}">
+          {% endif %}
+
+          <p>{{ result.place }}- {{ result.name }}</p>
+              
+          {% if result.link != "" %}
+            </a>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+    <div class="row g-5 mb-5">
+      <div class="col-md-2">
+        <h4>2020</h4>
+      </div>
+      <div class="col-md-10">
+        {% for result in site.data.results.2020 %}
+          {% if result.link != "" %}
+            <a href="{{ result.link }}" title="{{ result.name }}">
+          {% endif %}
+
+          <p>{{ result.place }}- {{ result.name }}</p>
+              
+          {% if result.link != "" %}
+            </a>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+    <div class="row g-5 mb-5">
+      <div class="col-md-2">
+        <h4>2019</h4>
+      </div>
+      <div class="col-md-10">
+        {% for result in site.data.results.2019 %}
+          {% if result.link != "" %}
+            <a href="{{ result.link }}" title="{{ result.name }}">
+          {% endif %}
+
+          <p>{{ result.place }}- {{ result.name }}</p>
+              
+          {% if result.link != "" %}
+            </a>
+          {% endif %}
+        {% endfor %}
+      </div>
+      <div class="row g-5 mb-5">
+        <div class="col-md-2">
+          <h4>Strava</h4>
+        </div>
+        <div class="col-md-10">
+          {% for result in site.data.results.strava %}
+            {% if result.link != "" %}
+              <a href="{{ result.link }}" title="{{ result.name }}">
+            {% endif %}
+  
+            <p>{{ result.place }}- {{ result.name }}</p>
+                
+            {% if result.link != "" %}
+              </a>
+            {% endif %}
+          {% endfor %}
+        </div>
+  
+    </div>
+  </div>
+</div>
