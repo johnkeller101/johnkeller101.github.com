@@ -5,10 +5,11 @@
 
   {% if page.title == "Home" %}
   <title>{{ site.title }} - {{ site.description }}</title>
+  <meta property="og:title" content="{{ site.title }} - {{ site.description }}" />
   {% else %}
   <title>{{ page.title }} - {{ site.title }}</title>
+  <meta property="og:title" content="{{ page.title }} - {{ site.title }}" />
   {% endif %}
-  <meta property="og:title" content="{{ page.title }}" />
   {% if page.image %}
   <meta property="og:image" content="{{ site.url }}/{{ page.image }}" />
   {% endif %}
