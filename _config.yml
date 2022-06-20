@@ -1,7 +1,7 @@
 url: "https://john.coffee" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 title: "John Keller" # the name of your site, e.g. ACME Corp.
-description: "Professional Cyclist"
+description: "Professional Cyclist & Gravel Racer"
 
 favicon: "favicon.ico"
 
