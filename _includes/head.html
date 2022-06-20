@@ -2,6 +2,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta charset="utf-8">
   <title>{{ page.title }} | {{ site.title }}</title>
+  <meta property="og:title" content="{{ page.title }} | {{ site.title }}" />
+  {% if page.image %}
+  <meta property="og:image" content="{{ site.url }}/{{ page.image }}" />
+  {% endif %}
   <link rel="stylesheet" href="{{ site.github.url }}/assets/libs/bootstrap/bootstrap.min.css">
   <script defer src="{{ site.github.url }}/assets/libs/fontawesome/all.min.js"></script>
   <link rel="stylesheet" href="{{ site.github.url }}/assets/css/main.css">

@@ -1,6 +1,7 @@
 ---
 layout: home
 title: "Home"
+image: "assets/img/profile.jpg"
 ---
 
 John started racing road bikes in 2018 on the [CU Cycling Team](https://www.colorado.edu/sportsclub/cycling/), where he eventually became the road captain. In 2020 he started racing gravel, which led to him to be selected for the [Life Time Grand Prix](https://www.lifetimegrandprix.com) gravel race series and race on the [UCI Road Team Illuminate](https://illuminatethebike.com).
