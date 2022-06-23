@@ -18,15 +18,15 @@ date: 2018-10-22 20:50:00
 First, setup your bomb directory. Untar your specific file and let's get started!
 
 ```
-jovyan@jupyter-joke1008:~$ cd Labs
-jovyan@jupyter-joke1008:~/Labs$ tar -xvf bomb439.tar
+jupyter:~$ cd Labs
+jupyter:~/Labs$ tar -xvf bomb439.tar
 bomb439/README
 bomb439/bomb.c
 bomb439/bomb
-jovyan@jupyter-joke1008:~/Labs$ cd bomb439
-jovyan@jupyter-joke1008:~/Labs/bomb439$ ls
+jupyter:~/Labs$ cd bomb439
+jupyter:~/Labs/bomb439$ ls
 bomb  bomb.c  README
-jovyan@jupyter-joke1008:~/Labs/bomb439$
+jupyter:~/Labs/bomb439$
 ```
 
 #### Getting Strings and Objdump
@@ -46,7 +46,7 @@ You should now have two files: `strings.txt` and `assembly.txt`. Now let's get s
 ----------
 
 ```
-jovyan@jupyter-joke1008:~/Labs/bomb439$ gdb bomb
+jupyter:~/Labs/bomb439$ gdb bomb
 ```
 
 Let's create our breakpoints to make sure nothing get's set to the gradebook!
