@@ -1706,8 +1706,8 @@
         "secondaryColor": "#FFFFFF"
     },
     {
-        "team": "Wings",
-        "city": "Detroit Red",
+        "team": "Red Wings",
+        "city": "Detroit",
         "league": "NHL",
         "logo": "https://sportsfancovers.com/wp-content/uploads/2020/06/Detroit_Red_Wings_logo-1.png",
         "primaryColor": "#C8102E",
@@ -1747,6 +1747,14 @@
     },
     {
         "team": "Canadiens",
+        "city": "Montreal",
+        "league": "NHL",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/06/Montreal_Canadiens-1.png",
+        "primaryColor": "#A6192E",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Canadiens (français)",
         "city": "Montreal",
         "league": "NHL",
         "logo": "https://sportsfancovers.com/wp-content/uploads/2020/06/Montreal_Canadiens-1.png",
@@ -1837,6 +1845,7 @@
         "team": "Maple Leafs",
         "city": "Toronto",
         "league": "NHL",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/06/Toronto_Maple_Leafs_2016_logo-1.png",
         "primaryColor": "#00205B",
         "secondaryColor": "#FFFFFF"
     },
@@ -1852,6 +1861,7 @@
         "team": "Golden Knights",
         "city": "Vegas",
         "league": "NHL",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/06/Vegas_Golden_Knights_logo-1.png",
         "primaryColor": "#333F48",
         "secondaryColor": "#FFFFFF"
     },
@@ -1869,6 +1879,166 @@
         "league": "NHL",
         "logo": "https://sportsfancovers.com/wp-content/uploads/2020/06/Winnipeg_Jets_Logo_2011-1.png",
         "primaryColor": "#041E42",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Arsenal",
+        "city": "",
+        "league": "EPL",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/04/Arsenal_FC-255x300.png",
+        "primaryColor": "#EF0107",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Villa",
+        "city": "Aston",
+        "league": "EPL",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/04/aston_villa_fc-221x300-1.png",
+        "primaryColor": "#670E36",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Bournemouth",
+        "city": "",
+        "league": "EPL",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/04/AFC_Bournemouth_logo_crest-copy-228x300.png",
+        "primaryColor": "#BA0F13",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Albion",
+        "city": "Brighton & Hove",
+        "league": "EPL",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/04/Brighton__Hove_Albion_logo.png",
+        "primaryColor": "#005DAA",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Burnley",
+        "city": "",
+        "league": "EPL",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/04/Burnley_F.C._Logo-256x300.png",
+        "primaryColor": "#97D9F6",
+        "secondaryColor": "#000000"
+    },
+    {
+        "team": "Chelsea",
+        "city": "",
+        "league": "EPL",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/04/Chelsea_FC-300x300.png",
+        "primaryColor": "#034694",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Crystal Palace",
+        "city": "",
+        "league": "EPL",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/04/Crystal_Palace_FC_logo-242x300.png",
+        "primaryColor": "#1B458F",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Everton",
+        "city": "",
+        "league": "EPL",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/04/Everton_FC_logo-293x300.png",
+        "primaryColor": "#274488",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Leicester City",
+        "city": "",
+        "league": "EPL",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/04/Leicester_City_crest-300x300.png",
+        "primaryColor": "#0053A0",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Liverpool",
+        "city": "",
+        "league": "EPL",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/04/Liverpool_FC-231x300.png",
+        "primaryColor": "#D00027",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Manchester City",
+        "city": "",
+        "league": "EPL",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/04/Manchester_City_FC_badge-300x300.png",
+        "primaryColor": "#00285E",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Manchester United",
+        "city": "",
+        "league": "EPL",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/04/Manchester_United_FC_crest-296x300.png",
+        "primaryColor": "#DA020E",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Newcastle United",
+        "city": "",
+        "league": "EPL",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/04/Newcastle_United_Logo-298x300.png",
+        "primaryColor": "#00B6F1",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Norwich City",
+        "city": "",
+        "league": "EPL",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/04/Norwich_City-268x300.png",
+        "primaryColor": "#00A650",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Sheffield United",
+        "city": "",
+        "league": "EPL",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/04/Sheffield_United_FC_logo-300x300.png",
+        "primaryColor": "#EC2227",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Southampton",
+        "city": "",
+        "league": "EPL",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/04/FC_Southampton-263x300.png",
+        "primaryColor": "#ED1A3B",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Tottenham Hotspur",
+        "city": "",
+        "league": "EPL",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/04/Tottenham_Hotspur-146x300.png",
+        "primaryColor": "#132257",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Watford",
+        "city": "",
+        "league": "EPL",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/04/Watford-269x300.png",
+        "primaryColor": "#ED2127",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "West Ham United",
+        "city": "",
+        "league": "EPL",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/04/West_Ham_United_FC_logo-268x300.png",
+        "primaryColor": "#7C2C3B",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Wolverhampton Wanderers",
+        "city": "",
+        "league": "EPL",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/04/Wolverhampton_Wanderers-300x300.png",
+        "primaryColor": "#FDB913",
         "secondaryColor": "#FFFFFF"
     }
 ]
