@@ -237,8 +237,8 @@
         "about": "The Phoenix Suns logo symbolizes the team name and the sunny weather in the state of Arizona (yellow color)."
     },
     {
-        "team": "Blazers",
-        "city": "Portland Trail",
+        "team": "Trail Blazers",
+        "city": "Portland",
         "league": "NBA",
         "primaryColor": "#E03A3E",
         "secondaryColor": "#000000",
@@ -631,8 +631,8 @@
         "about": "The Baltimore Orioles logo symbolizes an oriole bird which is the inspiration for the team name."
     },
     {
-        "team": "Sox",
-        "city": "Boston Red",
+        "team": "Red Sox",
+        "city": "Boston",
         "league": "MLB",
         "primaryColor": "#BD3039",
         "secondaryColor": "#0C2340",
@@ -881,8 +881,8 @@
         "about": "The Texas Rangers logo symbolizes the state\u2019s initial (capital letter T) on a baseball."
     },
     {
-        "team": "Jays",
-        "city": "Toronto Blue",
+        "team": "Blue Jays",
+        "city": "Toronto",
         "league": "MLB",
         "primaryColor": "#134A8E",
         "secondaryColor": "#1D2D5C",
