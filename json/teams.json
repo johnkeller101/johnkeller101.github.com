@@ -899,5 +899,976 @@
         "tertiaryColor": "#FFFFFF",
         "logo": "https://teamcolorcodes.com/wp-content/uploads/2022/05/Washington-Nationals-Logo-300x300.png",
         "about": "The Washington Nationals logo symbolizes Washington D.C., the home city of the team (capital letter W)."
+    },
+    {
+        "team": "Bearcats",
+        "city": "Binghamton",
+        "league": "NCAAF",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/07/Binghamton_Bearcats_logo201.png",
+        "primaryColor": "#005A43",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Hurricanes",
+        "city": "Miami",
+        "league": "NCAAF",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/07/Miami_Hurricanes_logo-1-1-300x185.png",
+        "primaryColor": "#F47321",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Orange",
+        "city": "Syracuse",
+        "league": "NCAAF",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/07/Syracuse_Orange_logo-1-1.png",
+        "primaryColor": "#D44500",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Hokies",
+        "city": "Virginia Tech",
+        "league": "NCAAF",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/07/Virginia_Tech_Hokies_logo-1-1-300x143.png",
+        "primaryColor": "#6A2C3E",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Spartans",
+        "city": "USC Upstate",
+        "league": "NCAAF",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/07/USC_Upstate_Spartans_logo-1-1.png",
+        "primaryColor": "#025A3D",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Bearcats",
+        "city": "Cincinnati",
+        "league": "NCAAF",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/07/Cincinnati_Bearcats_logo-1-1.png",
+        "primaryColor": "#E00122",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Tigers",
+        "city": "Memphis",
+        "league": "NCAAF",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/07/Memphis_Tigers_logo-1-1.png",
+        "primaryColor": "#0D3182",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Bulldogs",
+        "city": "Butler",
+        "league": "NCAAF",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/07/Butler_Bulldogs_logo-1-1.png",
+        "primaryColor": "#13294B",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Huskies",
+        "city": "UConn",
+        "league": "NCAAF",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/07/Connecticut_Huskies_logo-1.png",
+        "primaryColor": "#000E2F",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Hawkeyes",
+        "city": "Iowa",
+        "league": "NCAAF",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/07/Iowa_Hawkeyes_logo-1-1.png",
+        "primaryColor": "#FCD116",
+        "secondaryColor": "#000000"
+    },
+    {
+        "team": "Wolverines",
+        "city": "Michigan",
+        "league": "NCAAF",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/07/Michigan_Wolverines_logo-1-1.png",
+        "primaryColor": "#FFCB05",
+        "secondaryColor": "#000000"
+    },
+    {
+        "team": "Spartans",
+        "city": "Michigan State",
+        "league": "NCAAF",
+        "primaryColor": "#18453B",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Cornhuskers",
+        "city": "Nebraska",
+        "league": "NCAAF",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/07/Nebraska_Cornhuskers_logo-1-1.png",
+        "primaryColor": "#E41C38",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Buckeyes",
+        "city": "Ohio State",
+        "league": "NCAAF",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/07/Ohio_State_Buckeyes_logo-1-1.png",
+        "primaryColor": "#CE0F3D",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Badgers",
+        "city": "Wisconsin",
+        "league": "NCAAF",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/07/Wisconsin_Badgers_logo-1-1.png",
+        "primaryColor": "#C4012F",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Sooners",
+        "city": "Oklahoma",
+        "league": "NCAAF",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/07/Oklahoma_Sooners_logo-1-1.png",
+        "primaryColor": "#841617",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Tigers",
+        "city": "Princeton",
+        "league": "NCAAF",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/07/Princeton_Tigers_logo-1-1.png",
+        "primaryColor": "#FF671F",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Bulldogs",
+        "city": "Yale",
+        "league": "NCAAF",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/07/Yale_Bulldogs_logo-1-1.png",
+        "primaryColor": "#00356B",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Huskies",
+        "city": "Northern Illinois",
+        "league": "NCAAF",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/07/Northern_Illinois_Huskies_logo-1-1.png",
+        "primaryColor": "#BA0C2F",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Bulldogs",
+        "city": "Drake",
+        "league": "NCAAF",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/07/Drake_Bulldogs_logo-1.png",
+        "primaryColor": "#004477",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Bulldogs",
+        "city": "Fresno State",
+        "league": "NCAAF",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/07/Fresno_State_Bulldogs_logo-1-1.png",
+        "primaryColor": "#DB0032",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Spartans",
+        "city": "San Jose State",
+        "league": "NCAAF",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/07/San_Jose_State_Spartans_logo-1-1.png",
+        "primaryColor": "#0055A2",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Ducks",
+        "city": "Oregon",
+        "league": "NCAAF",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/07/Oregon_Ducks_logo-1-1.png",
+        "primaryColor": "#154733",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Trojans",
+        "city": "USC",
+        "league": "NCAAF",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/07/USC_Trojans_logo-1-1.png",
+        "primaryColor": "#990000",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Utes",
+        "city": "Utah",
+        "league": "NCAAF",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/07/Utah_Utes_logo-1-1.png",
+        "primaryColor": "#CC0000",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Huskies",
+        "city": "Washington",
+        "league": "NCAAF",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/07/Washington_Huskies_logo-1-1.png",
+        "primaryColor": "#330066",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Tigers",
+        "city": "Auburn",
+        "league": "NCAAF",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/07/Auburn_Tigers_logo-1-1.png",
+        "primaryColor": "#E87722",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Gators",
+        "city": "Florida",
+        "league": "NCAAF",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/07/Florida_Gators_gator_logo-1-1.png",
+        "primaryColor": "#0021A5",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Bulldogs",
+        "city": "Georgia",
+        "league": "NCAAF",
+        "primaryColor": "#BA0C2F",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Tigers",
+        "city": "LSU",
+        "league": "NCAAF",
+        "primaryColor": "#461D7C",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Tigers",
+        "city": "Missouri",
+        "league": "NCAAF",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/07/Missouri_Tigers_logo-1-1.png",
+        "primaryColor": "#000000",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Bulldogs",
+        "city": "Mississippi State",
+        "league": "NCAAF",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/07/Mississippi_State_Bulldogs_logo-1-1.png",
+        "primaryColor": "#660000",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Gamecocks",
+        "city": "South Carolina",
+        "league": "NCAAF",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/07/South_Carolina_Gamecocks_logo-2-1.png",
+        "primaryColor": "#000000",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Volunteers",
+        "city": "Tennessee",
+        "league": "NCAAF",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/07/Tennessee_Volunteers_logo-1-1.png",
+        "primaryColor": "#FF8200",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Bulldogs",
+        "city": "Samford",
+        "league": "NCAAF",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/07/Samford_Bulldogs_logo-1-1.png",
+        "primaryColor": "#002649",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Bulldogs",
+        "city": "Citadel",
+        "league": "NCAAF",
+        "primaryColor": "#3975B7",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Spartans",
+        "city": "UNC Greensboro",
+        "league": "NCAAF",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/07/UNCG_Spartans_logo-1-1.png",
+        "primaryColor": "#0F2044",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Trojans",
+        "city": "Little Rock",
+        "league": "NCAAF",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/07/Little_Rock_Trojans_logo-1-1.png",
+        "primaryColor": "#6E2639",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Wolverines",
+        "city": "Utah Valley",
+        "league": "NCAAF",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/07/Utah_Valley_Wolverines_logo-1-1.png",
+        "primaryColor": "#275D38",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Bulldogs",
+        "city": "Gonzaga",
+        "league": "NCAAF",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/07/Gonzaga_Bulldogs_logo-1-1.png",
+        "primaryColor": "#041E42",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Tigers",
+        "city": "Pacific",
+        "league": "NCAAF",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/07/Pacific_Tigers_logo-1-1.png",
+        "primaryColor": "#000000",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Bearcats",
+        "city": "Binghamton",
+        "league": "NCAAB",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/07/Binghamton_Bearcats_logo201.png",
+        "primaryColor": "#005A43",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Wildcats",
+        "city": "New Hampshire",
+        "league": "NCAAB",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/07/New_Hampshire_Wildcats_logo-1-1.png",
+        "primaryColor": "#001D52",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Cardinals",
+        "city": "Louisville",
+        "league": "NCAAB",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/07/Louisville_Cardinals_logo-1-1.png",
+        "primaryColor": "#C9001F",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Wolfpack",
+        "city": "NC State",
+        "league": "NCAAB",
+        "primaryColor": "#CC0000",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Orange",
+        "city": "Syracuse",
+        "league": "NCAAB",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/07/Syracuse_Orange_logo-1-1.png",
+        "primaryColor": "#D44500",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Cavaliers",
+        "city": "Virginia",
+        "league": "NCAAB",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/04/Virginia_Cavaliers_sabre-300x205.png",
+        "primaryColor": "#F84C1E",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Wildcats",
+        "city": "Davidson",
+        "league": "NCAAB",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/07/Davidson_Wildcats_logo-2-1.png",
+        "primaryColor": "#BF0C26",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Spartans",
+        "city": "USC Upstate",
+        "league": "NCAAB",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/07/USC_Upstate_Spartans_logo-1-1.png",
+        "primaryColor": "#025A3D",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Bearcats",
+        "city": "Cincinnati",
+        "league": "NCAAB",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/07/Cincinnati_Bearcats_logo-1-1.png",
+        "primaryColor": "#E00122",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Tigers",
+        "city": "Memphis",
+        "league": "NCAAB",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/07/Memphis_Tigers_logo-1-1.png",
+        "primaryColor": "#0D3182",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Bulldogs",
+        "city": "Butler",
+        "league": "NCAAB",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/07/Butler_Bulldogs_logo-1-1.png",
+        "primaryColor": "#13294B",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Hoyas",
+        "city": "Georgetown",
+        "league": "NCAAB",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/07/Georgetown_Hoyas_logo-1-1.png",
+        "primaryColor": "#011E41",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Huskies",
+        "city": "UConn",
+        "league": "NCAAB",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/07/Connecticut_Huskies_logo-1.png",
+        "primaryColor": "#000E2F",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Wildcats",
+        "city": "Villanova",
+        "league": "NCAAB",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/07/Villanova_Wildcats_logo-1-1.png",
+        "primaryColor": "#00205B",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Musketeers",
+        "city": "Xavier",
+        "league": "NCAAB",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/07/Xavier_Musketeers_logo-1-1.png",
+        "primaryColor": "#0C2340",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Hoosiers",
+        "city": "Indiana",
+        "league": "NCAAB",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/07/Indiana_Hoosiers_logo-1-1.png",
+        "primaryColor": "#990000",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Terrapins",
+        "city": "Maryland",
+        "league": "NCAAB",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/07/Maryland_Terrapins_logo-1-1.png",
+        "primaryColor": "#CF102D",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Wolverines",
+        "city": "Michigan",
+        "league": "NCAAB",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/07/Michigan_Wolverines_logo-1-1.png",
+        "primaryColor": "#FFCB05",
+        "secondaryColor": "#000000"
+    },
+    {
+        "team": "Spartans",
+        "city": "Michigan State",
+        "league": "NCAAB",
+        "primaryColor": "#18453B",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Wildcats",
+        "city": "Northwestern",
+        "league": "NCAAB",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/07/Northwestern_Wildcats_logo-1-1.png",
+        "primaryColor": "#59118E",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Buckeyes",
+        "city": "Ohio State",
+        "league": "NCAAB",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/07/Ohio_State_Buckeyes_logo-1-1.png",
+        "primaryColor": "#CE0F3D",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Boilermakers",
+        "city": "Purdue",
+        "league": "NCAAB",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/07/Purdue_Boilermakers_logo-1-1-300x160.png",
+        "primaryColor": "#CEB888",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Badgers",
+        "city": "Wisconsin",
+        "league": "NCAAB",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/07/Wisconsin_Badgers_logo-1-1.png",
+        "primaryColor": "#C4012F",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Wildcats",
+        "city": "Weber State",
+        "league": "NCAAB",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/07/Weber_State_Wildcats_logo-1-1.png",
+        "primaryColor": "#4B2682",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Jayhawks",
+        "city": "Kansas",
+        "league": "NCAAB",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/07/Kansas_Jayhawks_logo-1-1.png",
+        "primaryColor": "#E8000D",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Wildcats",
+        "city": "Kansas State",
+        "league": "NCAAB",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/07/Kansas_State_Wildcats_logo-1-1.png",
+        "primaryColor": "#512888",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Mountaineers",
+        "city": "West Virginia",
+        "league": "NCAAB",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/07/West_Virginia_Mountaineers_logo-1-1.png",
+        "primaryColor": "#EAAA00",
+        "secondaryColor": "#000000"
+    },
+    {
+        "team": "Tigers",
+        "city": "Princeton",
+        "league": "NCAAB",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/07/Princeton_Tigers_logo-1-1.png",
+        "primaryColor": "#FF671F",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Bulldogs",
+        "city": "Yale",
+        "league": "NCAAB",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/07/Yale_Bulldogs_logo-1-1.png",
+        "primaryColor": "#00356B",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Cardinals",
+        "city": "Ball State",
+        "league": "NCAAB",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/07/Ball_State_Cardinals_logo-1-1.png",
+        "primaryColor": "#BA0C2F",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Huskies",
+        "city": "Northern Illinois",
+        "league": "NCAAB",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/07/Northern_Illinois_Huskies_logo-1-1.png",
+        "primaryColor": "#BA0C2F",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Bulldogs",
+        "city": "Drake",
+        "league": "NCAAB",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/07/Drake_Bulldogs_logo-1.png",
+        "primaryColor": "#004477",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Bulldogs",
+        "city": "Fresno State",
+        "league": "NCAAB",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/07/Fresno_State_Bulldogs_logo-1-1.png",
+        "primaryColor": "#DB0032",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Wolfpack",
+        "city": "Nevada",
+        "league": "NCAAB",
+        "primaryColor": "#003366",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Spartans",
+        "city": "San Jose State",
+        "league": "NCAAB",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/07/San_Jose_State_Spartans_logo-1-1.png",
+        "primaryColor": "#0055A2",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Wildcats",
+        "city": "Arizona",
+        "league": "NCAAB",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/07/Arizona_Wildcats_logo-1-1.png",
+        "primaryColor": "#AB0520",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Ducks",
+        "city": "Oregon",
+        "league": "NCAAB",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/07/Oregon_Ducks_logo-1-1.png",
+        "primaryColor": "#154733",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Huskies",
+        "city": "Washington",
+        "league": "NCAAB",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/07/Washington_Huskies_logo-1-1.png",
+        "primaryColor": "#330066",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Tigers",
+        "city": "Auburn",
+        "league": "NCAAB",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/07/Auburn_Tigers_logo-1-1.png",
+        "primaryColor": "#E87722",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Bulldogs",
+        "city": "Georgia",
+        "league": "NCAAB",
+        "primaryColor": "#BA0C2F",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Wildcats",
+        "city": "Kentucky",
+        "league": "NCAAB",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/07/Kentucky_Wildcats_logo-1-1.png",
+        "primaryColor": "#0033A0",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Tigers",
+        "city": "LSU",
+        "league": "NCAAB",
+        "primaryColor": "#461D7C",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Tigers",
+        "city": "Missouri",
+        "league": "NCAAB",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/07/Missouri_Tigers_logo-1-1.png",
+        "primaryColor": "#000000",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Bulldogs",
+        "city": "Mississippi State",
+        "league": "NCAAB",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/07/Mississippi_State_Bulldogs_logo-1-1.png",
+        "primaryColor": "#660000",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Bulldogs",
+        "city": "Samford",
+        "league": "NCAAB",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/07/Samford_Bulldogs_logo-1-1.png",
+        "primaryColor": "#002649",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Bulldogs",
+        "city": "Citadel",
+        "league": "NCAAB",
+        "primaryColor": "#3975B7",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Spartans",
+        "city": "UNC Greensboro",
+        "league": "NCAAB",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/07/UNCG_Spartans_logo-1-1.png",
+        "primaryColor": "#0F2044",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Mountaineers",
+        "city": "Appalachian State",
+        "league": "NCAAB",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/07/Appalachian_State_Mountaineers_logo-1-1.png",
+        "primaryColor": "#000000",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Wolverines",
+        "city": "Utah Valley",
+        "league": "NCAAB",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/07/Utah_Valley_Wolverines_logo-1-1.png",
+        "primaryColor": "#275D38",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Bulldogs",
+        "city": "Gonzaga",
+        "league": "NCAAB",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/07/Gonzaga_Bulldogs_logo-1-1.png",
+        "primaryColor": "#041E42",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Tigers",
+        "city": "Pacific",
+        "league": "NCAAB",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/07/Pacific_Tigers_logo-1-1.png",
+        "primaryColor": "#000000",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Ducks",
+        "city": "Anaheim",
+        "league": "NHL",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/06/Anaheim_Ducks-1-300x169.png",
+        "primaryColor": "#010101",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Coyotes",
+        "city": "Arizona",
+        "league": "NHL",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/06/Arizona_Coyotes-1.png",
+        "primaryColor": "#8C2633",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Bruins",
+        "city": "Boston",
+        "league": "NHL",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/06/Boston_Bruins-1.png",
+        "primaryColor": "#010101",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Sabres",
+        "city": "Buffalo",
+        "league": "NHL",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/06/Buffalo_Sabres_Logo-1.png",
+        "primaryColor": "#002654",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Flames",
+        "city": "Calgary",
+        "league": "NHL",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/06/Calgary_Flames_Logo-1.png",
+        "primaryColor": "#CE1126",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Hurricanes",
+        "city": "Carolina",
+        "league": "NHL",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/06/Carolina_Hurricanes-1.png",
+        "primaryColor": "#CC0000",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Blackhawks",
+        "city": "Chicago",
+        "league": "NHL",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/06/Chicago_Blackhawks_logo-1.png",
+        "primaryColor": "#CE1126",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Avalanche",
+        "city": "Colorado",
+        "league": "NHL",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/06/Colorado_Avalanche_logo-1.png",
+        "primaryColor": "#6F263D",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Blue Jackets",
+        "city": "Columbus",
+        "league": "NHL",
+        "primaryColor": "#002654",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Stars",
+        "city": "Dallas",
+        "league": "NHL",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/06/Dallas_Stars_logo_2013-1.png",
+        "primaryColor": "#006341",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Wings",
+        "city": "Detroit Red",
+        "league": "NHL",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/06/Detroit_Red_Wings_logo-1.png",
+        "primaryColor": "#C8102E",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Oilers",
+        "city": "Edmonton",
+        "league": "NHL",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/06/Logo_Edmonton_Oilers-1.png",
+        "primaryColor": "#FC4C02",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Panthers",
+        "city": "Florida",
+        "league": "NHL",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/06/Florida_Panthers_2016_logo-1.png",
+        "primaryColor": "#C8102E",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Kings",
+        "city": "Los Angeles",
+        "league": "NHL",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/06/Los_Angeles_Kings_logo-1.png",
+        "primaryColor": "#010101",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Wild",
+        "city": "Minnesota",
+        "league": "NHL",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/06/Minnesota_Wild-1.png",
+        "primaryColor": "#A6192E",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Canadiens",
+        "city": "Montreal",
+        "league": "NHL",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/06/Montreal_Canadiens-1.png",
+        "primaryColor": "#A6192E",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Predators",
+        "city": "Nashville",
+        "league": "NHL",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/06/Nashville_Predators_Logo_2011-1.png",
+        "primaryColor": "#FFB81C",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Devils",
+        "city": "New Jersey",
+        "league": "NHL",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/06/New_Jersey_Devils_logo-1.png",
+        "primaryColor": "#C8102E",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Islanders",
+        "city": "New York",
+        "league": "NHL",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/06/Logo_New_York_Islanders.png",
+        "primaryColor": "#F47D30",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Rangers",
+        "city": "New York",
+        "league": "NHL",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/06/New_York_Rangers-1.png",
+        "primaryColor": "#C8102E",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Senators",
+        "city": "Ottawa",
+        "league": "NHL",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/06/Ottawa_Senators-1.png",
+        "primaryColor": "#C8102E",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Flyers",
+        "city": "Philadelphia",
+        "league": "NHL",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/06/Philadelphia_Flyers-1.png",
+        "primaryColor": "#FA4616",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Penguins",
+        "city": "Pittsburgh",
+        "league": "NHL",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/06/Pittsburgh_Penguins_logo_2016-1.png",
+        "primaryColor": "#010101",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Sharks",
+        "city": "San Jose",
+        "league": "NHL",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/06/SanJoseSharksLogo-1.png",
+        "primaryColor": "#E57200",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Blues",
+        "city": "St. Louis",
+        "league": "NHL",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/06/St._Louis_Blues_logo-1.png",
+        "primaryColor": "#002F87",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Lightning",
+        "city": "Tampa Bay",
+        "league": "NHL",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/06/Tampa_Bay_Lightning_Logo_2011-1.png",
+        "primaryColor": "#00205B",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Maple Leafs",
+        "city": "Toronto",
+        "league": "NHL",
+        "primaryColor": "#00205B",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Canucks",
+        "city": "Vancouver",
+        "league": "NHL",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/06/Vancouver_Canucks_logo-1.png",
+        "primaryColor": "#00205B",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Golden Knights",
+        "city": "Vegas",
+        "league": "NHL",
+        "primaryColor": "#333F48",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Capitals",
+        "city": "Washington",
+        "league": "NHL",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/06/Washington_Capitals-1.png",
+        "primaryColor": "#C8102E",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Jets",
+        "city": "Winnipeg",
+        "league": "NHL",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/06/Winnipeg_Jets_Logo_2011-1.png",
+        "primaryColor": "#041E42",
+        "secondaryColor": "#FFFFFF"
     }
 ]
