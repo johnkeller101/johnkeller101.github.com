@@ -1,9 +1,811 @@
 [
     {
-    "team": "Broncos",
-    "league": "NFL",
-    "logo": "https://raw.githubusercontent.com/klunn91/team-logos/master/NFL/broncos.png",
-    "primaryColor": "#FB4F14",
-    "textStyle": "dark"
+        "team": "Hawks",
+        "city": "Atlanta",
+        "league": "NBA",
+        "primaryColor": "#E03A3E",
+        "secondaryColor": "#C1D32F",
+        "tertiaryColor": "#26282A",
+        "logo": "https://teamcolorcodes.com/wp-content/uploads/2021/08/Atlanta-Hawks-Logo-300x300.png"
+    },
+    {
+        "team": "Celtics",
+        "city": "Boston",
+        "league": "NBA",
+        "primaryColor": "#007A33",
+        "secondaryColor": "#BA9653",
+        "tertiaryColor": "#963821",
+        "logo": "https://teamcolorcodes.com/wp-content/uploads/2021/08/Boston-Celtics-Logo-270x300.png"
+    },
+    {
+        "team": "Nets",
+        "city": "Brooklyn",
+        "league": "NBA",
+        "primaryColor": "#000000",
+        "secondaryColor": "#FFFFFF",
+        "logo": "https://teamcolorcodes.com/wp-content/uploads/2021/08/Brooklyn-Nets-Logo-227x300.png"
+    },
+    {
+        "team": "Hornets",
+        "city": "Charlotte",
+        "league": "NBA",
+        "primaryColor": "#1D1160",
+        "secondaryColor": "#00788C",
+        "tertiaryColor": "#A1A1A4",
+        "logo": "https://teamcolorcodes.com/wp-content/uploads/2021/08/Charlotte-Hornets-Logo-300x291.png"
+    },
+    {
+        "team": "Bulls",
+        "city": "Chicago",
+        "league": "NBA",
+        "primaryColor": "#CE1141",
+        "secondaryColor": "#000000",
+        "logo": "https://teamcolorcodes.com/wp-content/uploads/2021/08/Chicago-Bulls-Logo-298x300.png"
+    },
+    {
+        "team": "Cavaliers",
+        "city": "Cleveland",
+        "league": "NBA",
+        "primaryColor": "#860038",
+        "secondaryColor": "#041E42",
+        "tertiaryColor": "#FDBB30",
+        "logo": "https://teamcolorcodes.com/wp-content/uploads/2021/08/Cleveland-Cavaliers-Logo-300x300.png"
+    },
+    {
+        "team": "Mavericks",
+        "city": "Dallas",
+        "league": "NBA",
+        "primaryColor": "#00538C",
+        "secondaryColor": "#002B5E",
+        "tertiaryColor": "#B8C4CA",
+        "logo": "https://teamcolorcodes.com/wp-content/uploads/2021/08/Dallas-Mavericks-Logo-288x300.png"
+    },
+    {
+        "team": "Nuggets",
+        "city": "Denver",
+        "league": "NBA",
+        "primaryColor": "#0E2240",
+        "secondaryColor": "#FEC524",
+        "tertiaryColor": "#8B2131",
+        "logo": "https://teamcolorcodes.com/wp-content/uploads/2021/08/Denver-Nuggets-Logo-300x300.png"
+    },
+    {
+        "team": "Pistons",
+        "city": "Detroit",
+        "league": "NBA",
+        "primaryColor": "#C8102E",
+        "secondaryColor": "#1D42BA",
+        "tertiaryColor": "#BEC0C2",
+        "logo": "https://teamcolorcodes.com/wp-content/uploads/2021/08/Detroit-Pistons-Logo-300x300.png"
+    },
+    {
+        "team": "Warriors",
+        "city": "Golden State",
+        "league": "NBA",
+        "primaryColor": "#1D428A",
+        "secondaryColor": "#FFC72C",
+        "logo": "https://teamcolorcodes.com/wp-content/uploads/2021/08/Golden-State-Warriors-Logo-248x300.png"
+    },
+    {
+        "team": "Rockets",
+        "city": "Houston",
+        "league": "NBA",
+        "primaryColor": "#CE1141",
+        "secondaryColor": "#000000",
+        "tertiaryColor": "#C4CED4",
+        "logo": "https://teamcolorcodes.com/wp-content/uploads/2021/08/Houston-Rockets-Logo-226x300.png"
+    },
+    {
+        "team": "Pacers",
+        "city": "Indiana",
+        "league": "NBA",
+        "primaryColor": "#002D62",
+        "secondaryColor": "#FDBB30",
+        "tertiaryColor": "#BEC0C2",
+        "logo": "https://teamcolorcodes.com/wp-content/uploads/2021/08/Indiana-Pacers-Logo-300x300.png"
+    },
+    {
+        "team": "Clippers",
+        "city": "Los Angeles",
+        "league": "NBA",
+        "primaryColor": "#C8102E",
+        "secondaryColor": "#1D428A",
+        "tertiaryColor": "#BEC0C2",
+        "logo": "https://teamcolorcodes.com/wp-content/uploads/2021/08/Los-Angeles-Clippers-Logo-300x228.png"
+    },
+    {
+        "team": "Lakers",
+        "city": "Los Angeles",
+        "league": "NBA",
+        "primaryColor": "#552583",
+        "secondaryColor": "#FDB927",
+        "tertiaryColor": "#000000",
+        "logo": "https://teamcolorcodes.com/wp-content/uploads/2021/08/Los-Angeles-Lakers-Logo-300x186.png"
+    },
+    {
+        "team": "Grizzlies",
+        "city": "Memphis",
+        "league": "NBA",
+        "primaryColor": "#5D76A9",
+        "secondaryColor": "#12173F",
+        "tertiaryColor": "#F5B112",
+        "logo": "https://teamcolorcodes.com/wp-content/uploads/2021/08/Memphis-Grizzlies-Logo-248x300.png"
+    },
+    {
+        "team": "Heat",
+        "city": "Miami",
+        "league": "NBA",
+        "primaryColor": "#98002E",
+        "secondaryColor": "#F9A01B",
+        "tertiaryColor": "#000000",
+        "logo": "https://teamcolorcodes.com/wp-content/uploads/2021/08/Miami-Heat-Logo-217x300.png"
+    },
+    {
+        "team": "Bucks",
+        "city": "Milwaukee",
+        "league": "NBA",
+        "primaryColor": "#00471B",
+        "secondaryColor": "#EEE1C6",
+        "tertiaryColor": "#0077C0",
+        "logo": "https://teamcolorcodes.com/wp-content/uploads/2021/08/Milwaukee-Bucks-Logo-242x300.png"
+    },
+    {
+        "team": "Timberwolves",
+        "city": "Minnesota",
+        "league": "NBA",
+        "primaryColor": "#0C2340",
+        "secondaryColor": "#236192",
+        "tertiaryColor": "#9EA2A2",
+        "logo": "https://teamcolorcodes.com/wp-content/uploads/2021/08/Minnesota-Timberwolves-Logo-300x300.png"
+    },
+    {
+        "team": "Pelicans",
+        "city": "New Orleans",
+        "league": "NBA",
+        "primaryColor": "#0C2340",
+        "secondaryColor": "#C8102E",
+        "tertiaryColor": "#85714D",
+        "logo": "https://teamcolorcodes.com/wp-content/uploads/2021/08/New-Orleans-Pelicans-Logo-300x224.png"
+    },
+    {
+        "team": "Knicks",
+        "city": "New York",
+        "league": "NBA",
+        "primaryColor": "#006BB6",
+        "secondaryColor": "#F58426",
+        "tertiaryColor": "#BEC0C2",
+        "logo": "https://teamcolorcodes.com/wp-content/uploads/2021/08/New-York-Knicks-Logo-300x244.png"
+    },
+    {
+        "team": "Thunder",
+        "city": "Oklahoma City",
+        "league": "NBA",
+        "primaryColor": "#007AC1",
+        "secondaryColor": "#EF3B24",
+        "tertiaryColor": "#002D62",
+        "logo": "https://teamcolorcodes.com/wp-content/uploads/2021/08/Oklahoma-City-Thunder-Logo-300x276.png"
+    },
+    {
+        "team": "Magic",
+        "city": "Orlando",
+        "league": "NBA",
+        "primaryColor": "#0077C0",
+        "secondaryColor": "#C4CED4",
+        "tertiaryColor": "#000000",
+        "logo": "https://teamcolorcodes.com/wp-content/uploads/2021/08/Orlando-Magic-Logo-300x218.png"
+    },
+    {
+        "team": "76ers",
+        "city": "Philadelphia",
+        "league": "NBA",
+        "primaryColor": "#006BB6",
+        "secondaryColor": "#ED174C",
+        "tertiaryColor": "#002B5C",
+        "logo": "https://teamcolorcodes.com/wp-content/uploads/2021/08/Philadelphia-76ers-Logo-300x300.png"
+    },
+    {
+        "team": "Suns",
+        "city": "Phoenix",
+        "league": "NBA",
+        "primaryColor": "#1D1160",
+        "secondaryColor": "#E56020",
+        "tertiaryColor": "#000000",
+        "logo": "https://teamcolorcodes.com/wp-content/uploads/2021/08/Phoenix-Suns-Logo-297x300.png"
+    },
+    {
+        "team": "Blazers",
+        "city": "Portland Trail",
+        "league": "NBA",
+        "primaryColor": "#E03A3E",
+        "secondaryColor": "#000000",
+        "logo": "https://teamcolorcodes.com/wp-content/uploads/2021/08/Portland-Trail-Blazers-Logo-300x256.png"
+    },
+    {
+        "team": "Kings",
+        "city": "Sacramento",
+        "league": "NBA",
+        "primaryColor": "#5A2D81",
+        "secondaryColor": "#63727A",
+        "tertiaryColor": "#000000",
+        "logo": "https://teamcolorcodes.com/wp-content/uploads/2021/08/Sacramento-Kings-Logo-263x300.png"
+    },
+    {
+        "team": "Spurs",
+        "city": "San Antonio",
+        "league": "NBA",
+        "primaryColor": "#C4CED4",
+        "secondaryColor": "#000000",
+        "logo": "https://teamcolorcodes.com/wp-content/uploads/2021/08/San-Antonio-Spurs-Logo-300x136.png"
+    },
+    {
+        "team": "Raptors",
+        "city": "Toronto",
+        "league": "NBA",
+        "primaryColor": "#CE1141",
+        "secondaryColor": "#000000",
+        "tertiaryColor": "#A1A1A4",
+        "logo": "https://teamcolorcodes.com/wp-content/uploads/2021/08/Toronto-Raptors-Logo-300x300.png"
+    },
+    {
+        "team": "Jazz",
+        "city": "Utah",
+        "league": "NBA",
+        "primaryColor": "#002B5C",
+        "secondaryColor": "#00471B",
+        "tertiaryColor": "#F9A01B",
+        "logo": "https://teamcolorcodes.com/wp-content/uploads/2021/08/Utah-Jazz-Logo-300x130.png"
+    },
+    {
+        "team": "Wizards",
+        "city": "Washington",
+        "league": "NBA",
+        "primaryColor": "#002B5C",
+        "secondaryColor": "#E31837",
+        "tertiaryColor": "#C4CED4",
+        "logo": "https://teamcolorcodes.com/wp-content/uploads/2021/08/Washington-Wizards-Logo-300x300.png"
+    },
+    {
+        "team": "Ravens",
+        "city": "Baltimore",
+        "league": "NFL",
+        "primaryColor": "#241773",
+        "secondaryColor": "#000000",
+        "tertiaryColor": "#9E7C0C",
+        "logo": "https://teamcolorcodes.com/wp-content/uploads/2021/12/Baltimore-Ravens-Logo-300x145.png"
+    },
+    {
+        "team": "Bengals",
+        "city": "Cincinnati",
+        "league": "NFL",
+        "primaryColor": "#FB4F14",
+        "secondaryColor": "#000000",
+        "logo": "https://teamcolorcodes.com/wp-content/uploads/2021/12/Cincinnati-Bengals-Logo-300x211.png"
+    },
+    {
+        "team": "Browns",
+        "city": "Cleveland",
+        "league": "NFL",
+        "primaryColor": "#311D00",
+        "secondaryColor": "#FF3C00",
+        "logo": "https://teamcolorcodes.com/wp-content/uploads/2021/12/Cleveland-Browns-Logo-300x228.png"
+    },
+    {
+        "team": "Steelers",
+        "city": "Pittsburgh",
+        "league": "NFL",
+        "primaryColor": "#FFB612",
+        "secondaryColor": "#101820",
+        "tertiaryColor": "#003087",
+        "logo": "https://teamcolorcodes.com/wp-content/uploads/2021/12/Pittsburgh-Steelers-Logo-300x300.png"
+    },
+    {
+        "team": "Bills",
+        "city": "Buffalo",
+        "league": "NFL",
+        "primaryColor": "#00338D",
+        "secondaryColor": "#C60C30",
+        "logo": "https://teamcolorcodes.com/wp-content/uploads/2021/12/Buffalo-Bills-Logo-300x200.png"
+    },
+    {
+        "team": "Dolphins",
+        "city": "Miami",
+        "league": "NFL",
+        "primaryColor": "#008E97",
+        "secondaryColor": "#FC4C02",
+        "tertiaryColor": "#005778",
+        "logo": "https://teamcolorcodes.com/wp-content/uploads/2021/12/Miami-Dolphins-Logo-300x238.png"
+    },
+    {
+        "team": "Patriots",
+        "city": "New England",
+        "league": "NFL",
+        "primaryColor": "#002244",
+        "secondaryColor": "#C60C30",
+        "tertiaryColor": "#B0B7BC",
+        "logo": "https://teamcolorcodes.com/wp-content/uploads/2021/12/New-England-Patriots-Logo-300x146.png"
+    },
+    {
+        "team": "Jets",
+        "city": "New York",
+        "league": "NFL",
+        "primaryColor": "#125740",
+        "secondaryColor": "#000000",
+        "tertiaryColor": "#FFFFFF",
+        "logo": "https://teamcolorcodes.com/wp-content/uploads/2021/12/New-York-Jets-Logo-300x179.png"
+    },
+    {
+        "team": "Texans",
+        "city": "Houston",
+        "league": "NFL",
+        "primaryColor": "#03202F",
+        "secondaryColor": "#A71930",
+        "logo": "https://teamcolorcodes.com/wp-content/uploads/2021/12/Houston-Texans-Logo-300x275.png"
+    },
+    {
+        "team": "Colts",
+        "city": "Indianapolis",
+        "league": "NFL",
+        "primaryColor": "#002C5F",
+        "secondaryColor": "#A2AAAD",
+        "logo": "https://teamcolorcodes.com/wp-content/uploads/2021/12/Indianapolis-Colts-Logo-285x300.png"
+    },
+    {
+        "team": "Jaguars",
+        "city": "Jacksonville",
+        "league": "NFL",
+        "primaryColor": "#101820",
+        "secondaryColor": "#D7A22A",
+        "tertiaryColor": "#9F792C",
+        "logo": "https://teamcolorcodes.com/wp-content/uploads/2021/12/Jacksonville-Jaguars-Logo-300x225.png"
+    },
+    {
+        "team": "Titans",
+        "city": "Tennessee",
+        "league": "NFL",
+        "primaryColor": "#0C2340",
+        "secondaryColor": "#4B92DB",
+        "tertiaryColor": "#C8102E",
+        "logo": "https://teamcolorcodes.com/wp-content/uploads/2021/12/Tennessee-Titans-Logo-300x213.png"
+    },
+    {
+        "team": "Broncos",
+        "city": "Denver",
+        "league": "NFL",
+        "primaryColor": "#FB4F14",
+        "secondaryColor": "#002244",
+        "logo": "https://teamcolorcodes.com/wp-content/uploads/2021/12/Denver-Broncos-Logo-300x176.png"
+    },
+    {
+        "team": "Chiefs",
+        "city": "Kansas City",
+        "league": "NFL",
+        "primaryColor": "#E31837",
+        "secondaryColor": "#FFB81C",
+        "logo": "https://teamcolorcodes.com/wp-content/uploads/2021/12/Kansas-City-Chiefs-Logo-300x192.png"
+    },
+    {
+        "team": "Raiders",
+        "city": "Las Vegas",
+        "league": "NFL",
+        "primaryColor": "#000000",
+        "secondaryColor": "#A5ACAF",
+        "logo": "https://teamcolorcodes.com/wp-content/uploads/2021/12/Las-Vegas-Raiders-Logo-282x300.png"
+    },
+    {
+        "team": "Chargers",
+        "city": "Los Angeles",
+        "league": "NFL",
+        "primaryColor": "#0080C6",
+        "secondaryColor": "#FFC20E",
+        "tertiaryColor": "#FFFFFF",
+        "logo": "https://teamcolorcodes.com/wp-content/uploads/2021/12/Los-Angeles-Chargers-Logo-300x132.png"
+    },
+    {
+        "team": "Bears",
+        "city": "Chicago",
+        "league": "NFL",
+        "primaryColor": "#0B162A",
+        "secondaryColor": "#C83803",
+        "logo": "https://teamcolorcodes.com/wp-content/uploads/2021/12/Chicago-Bears-Logo-300x200.png"
+    },
+    {
+        "team": "Lions",
+        "city": "Detroit",
+        "league": "NFL",
+        "primaryColor": "#0076B6",
+        "secondaryColor": "#B0B7BC",
+        "tertiaryColor": "#000000",
+        "logo": "https://teamcolorcodes.com/wp-content/uploads/2021/12/Detroit-Lions-Logo-300x229.png"
+    },
+    {
+        "team": "Packers",
+        "city": "Green Bay",
+        "league": "NFL",
+        "primaryColor": "#203731",
+        "secondaryColor": "#FFB612",
+        "logo": "https://teamcolorcodes.com/wp-content/uploads/2021/12/Green-Bay-Packers-Logo-300x198.png"
+    },
+    {
+        "team": "Vikings",
+        "city": "Minnesota",
+        "league": "NFL",
+        "primaryColor": "#4F2683",
+        "secondaryColor": "#FFC62F",
+        "logo": "https://teamcolorcodes.com/wp-content/uploads/2021/12/Minnesota-Vikings-Logo-244x300.png"
+    },
+    {
+        "team": "Cowboys",
+        "city": "Dallas",
+        "league": "NFL",
+        "primaryColor": "#003594",
+        "secondaryColor": "#041E42",
+        "tertiaryColor": "#869397",
+        "logo": "https://teamcolorcodes.com/wp-content/uploads/2021/12/Dallas-Cowboys-Logo-300x285.png"
+    },
+    {
+        "team": "Giants",
+        "city": "New York",
+        "league": "NFL",
+        "primaryColor": "#0B2265",
+        "secondaryColor": "#A71930",
+        "tertiaryColor": "#A5ACAF",
+        "logo": "https://teamcolorcodes.com/wp-content/uploads/2021/12/New-York-Giants-Logo-300x233.png"
+    },
+    {
+        "team": "Eagles",
+        "city": "Philadelphia",
+        "league": "NFL",
+        "primaryColor": "#004C54",
+        "secondaryColor": "#A5ACAF",
+        "tertiaryColor": "#ACC0C6",
+        "logo": "https://teamcolorcodes.com/wp-content/uploads/2021/12/Philadelphia-Eagles-Logo-300x207.png"
+    },
+    {
+        "team": "Commanders",
+        "city": "Washington",
+        "league": "NFL",
+        "primaryColor": "#5A1414",
+        "secondaryColor": "#FFB612",
+        "logo": "https://teamcolorcodes.com/wp-content/uploads/2022/05/Washington-Commanders-Logo-300x164.png"
+    },
+    {
+        "team": "Falcons",
+        "city": "Atlanta",
+        "league": "NFL",
+        "primaryColor": "#A71930",
+        "secondaryColor": "#000000",
+        "tertiaryColor": "#A5ACAF",
+        "logo": "https://teamcolorcodes.com/wp-content/uploads/2021/12/Atlanta-Falcons-Logo-300x284.png"
+    },
+    {
+        "team": "Panthers",
+        "city": "Carolina",
+        "league": "NFL",
+        "primaryColor": "#0085CA",
+        "secondaryColor": "#101820",
+        "tertiaryColor": "#BFC0BF",
+        "logo": "https://teamcolorcodes.com/wp-content/uploads/2021/12/Carolina-Panthers-Logo-300x163.png"
+    },
+    {
+        "team": "Saints",
+        "city": "New Orleans",
+        "league": "NFL",
+        "primaryColor": "#D3BC8D",
+        "secondaryColor": "#101820",
+        "logo": "https://teamcolorcodes.com/wp-content/uploads/2021/12/New-Orleans-Saints-Logo-246x300.png"
+    },
+    {
+        "team": "Buccaneers",
+        "city": "Tampa Bay",
+        "league": "NFL",
+        "primaryColor": "#D50A0A",
+        "secondaryColor": "#FF7900",
+        "tertiaryColor": "#FF7900",
+        "logo": "https://teamcolorcodes.com/wp-content/uploads/2021/12/Tampa-Bay-Buccaneers-Logo-300x267.png"
+    },
+    {
+        "team": "Cardinals",
+        "city": "Arizona",
+        "league": "NFL",
+        "primaryColor": "#97233F",
+        "secondaryColor": "#000000",
+        "tertiaryColor": "#FFB612",
+        "logo": "https://teamcolorcodes.com/wp-content/uploads/2021/12/Arizona-Cardinals-Logo-300x270.png"
+    },
+    {
+        "team": "Rams",
+        "city": "Los Angeles",
+        "league": "NFL",
+        "primaryColor": "#003594",
+        "secondaryColor": "#FFA300",
+        "tertiaryColor": "#FF8200",
+        "logo": "https://teamcolorcodes.com/wp-content/uploads/2021/12/Los-Angeles-Rams-Logo-300x215.png"
+    },
+    {
+        "team": "49ers",
+        "city": "San Francisco",
+        "league": "NFL",
+        "primaryColor": "#AA0000",
+        "secondaryColor": "#B3995D",
+        "logo": "https://teamcolorcodes.com/wp-content/uploads/2021/12/San-Francisco-49ers-Logo-300x177.png"
+    },
+    {
+        "team": "Seahawks",
+        "city": "Seattle",
+        "league": "NFL",
+        "primaryColor": "#002244",
+        "secondaryColor": "#69BE28",
+        "tertiaryColor": "#A5ACAF",
+        "logo": "https://teamcolorcodes.com/wp-content/uploads/2021/12/Seattle-Seahawks-Logo-300x133.png"
+    },
+    {
+        "team": "Diamondbacks",
+        "city": "Arizona",
+        "league": "MLB",
+        "primaryColor": "#A71930",
+        "secondaryColor": "#E3D4AD",
+        "tertiaryColor": "#000000",
+        "logo": "https://teamcolorcodes.com/wp-content/uploads/2022/05/Arizona-Diamondbacks-Logo-300x258.png"
+    },
+    {
+        "team": "Braves",
+        "city": "Atlanta",
+        "league": "MLB",
+        "primaryColor": "#CE1141",
+        "secondaryColor": "#13274F",
+        "tertiaryColor": "#EAAA00",
+        "logo": "https://teamcolorcodes.com/wp-content/uploads/2022/05/Atlanta-Braves-Logo-300x113.png"
+    },
+    {
+        "team": "Orioles",
+        "city": "Baltimore",
+        "league": "MLB",
+        "primaryColor": "#DF4601",
+        "secondaryColor": "#000000",
+        "tertiaryColor": "#FFFFFF",
+        "logo": "https://teamcolorcodes.com/wp-content/uploads/2022/05/Baltimore-Orioles-Logo-300x285.png"
+    },
+    {
+        "team": "Sox",
+        "city": "Boston Red",
+        "league": "MLB",
+        "primaryColor": "#BD3039",
+        "secondaryColor": "#0C2340",
+        "tertiaryColor": "#FFFFFF",
+        "logo": "https://teamcolorcodes.com/wp-content/uploads/2022/05/Boston-Red-Sox-Logo-300x294.png"
+    },
+    {
+        "team": "Cubs",
+        "city": "Chicago",
+        "league": "MLB",
+        "primaryColor": "#0E3386",
+        "secondaryColor": "#CC3433",
+        "tertiaryColor": "#FFFFFF",
+        "logo": "https://teamcolorcodes.com/wp-content/uploads/2022/05/Chicago-Cubs-Logo-298x300.png"
+    },
+    {
+        "team": "Sox",
+        "city": "Chicago White",
+        "league": "MLB",
+        "primaryColor": "#27251F",
+        "secondaryColor": "#C4CED4",
+        "tertiaryColor": "#FFFFFF",
+        "logo": "https://teamcolorcodes.com/wp-content/uploads/2022/05/Chicago-White-Sox-Logo-217x300.png"
+    },
+    {
+        "team": "Reds",
+        "city": "Cincinnati",
+        "league": "MLB",
+        "primaryColor": "#C6011F",
+        "secondaryColor": "#000000",
+        "tertiaryColor": "#FFFFFF",
+        "logo": "https://teamcolorcodes.com/wp-content/uploads/2022/05/Cincinnati-Reds-Logo-300x204.png"
+    },
+    {
+        "team": "Guardians",
+        "city": "Cleveland",
+        "league": "MLB",
+        "primaryColor": "#00385D",
+        "secondaryColor": "#E50022",
+        "tertiaryColor": "#FFFFFF",
+        "logo": "https://teamcolorcodes.com/wp-content/uploads/2022/05/Cleveland-Guardians-Logo-300x253.png"
+    },
+    {
+        "team": "Rockies",
+        "city": "Colorado",
+        "league": "MLB",
+        "primaryColor": "#333366",
+        "secondaryColor": "#C4CED4",
+        "tertiaryColor": "#131413",
+        "logo": "https://teamcolorcodes.com/wp-content/uploads/2022/05/Colorado-Rockies-Logo-249x300.png"
+    },
+    {
+        "team": "Tigers",
+        "city": "Detroit",
+        "league": "MLB",
+        "primaryColor": "#0C2340",
+        "secondaryColor": "#FA4616",
+        "tertiaryColor": "#FFFFFF",
+        "logo": "https://teamcolorcodes.com/wp-content/uploads/2022/05/Detroit-Tigers-Logo-207x300.png"
+    },
+    {
+        "team": "Astros",
+        "city": "Houston",
+        "league": "MLB",
+        "primaryColor": "#002D62",
+        "secondaryColor": "#EB6E1F",
+        "tertiaryColor": "#F4911E",
+        "logo": "https://teamcolorcodes.com/wp-content/uploads/2022/05/Houston-Astros-Logo-300x300.png"
+    },
+    {
+        "team": "Royals",
+        "city": "Kansas City",
+        "league": "MLB",
+        "primaryColor": "#004687",
+        "secondaryColor": "#BD9B60",
+        "tertiaryColor": "#FFFFFF",
+        "logo": "https://teamcolorcodes.com/wp-content/uploads/2022/05/Kansas-City-Royals-Logo-259x300.png"
+    },
+    {
+        "team": "Angels",
+        "city": "Los Angeles",
+        "league": "MLB",
+        "primaryColor": "#003263",
+        "secondaryColor": "#BA0021",
+        "tertiaryColor": "#862633",
+        "logo": "https://teamcolorcodes.com/wp-content/uploads/2022/05/Los-Angeles-Angels-Logo-224x300.png"
+    },
+    {
+        "team": "Dodgers",
+        "city": "Los Angeles",
+        "league": "MLB",
+        "primaryColor": "#005A9C",
+        "secondaryColor": "#EF3E42",
+        "tertiaryColor": "#A5ACAF",
+        "logo": "https://teamcolorcodes.com/wp-content/uploads/2022/05/Los-Angeles-Dodgers-Logo-290x300.png"
+    },
+    {
+        "team": "Marlins",
+        "city": "Miami",
+        "league": "MLB",
+        "primaryColor": "#00A3E0",
+        "secondaryColor": "#EF3340",
+        "tertiaryColor": "#41748D",
+        "logo": "https://teamcolorcodes.com/wp-content/uploads/2022/05/Miami-Marlins-Logo-300x292.png"
+    },
+    {
+        "team": "Brewers",
+        "city": "Milwaukee",
+        "league": "MLB",
+        "primaryColor": "#12284B",
+        "secondaryColor": "#FFC52F",
+        "tertiaryColor": "#FFFFFF",
+        "logo": "https://teamcolorcodes.com/wp-content/uploads/2022/05/Milwaukee-Brewers-Logo-300x300.png"
+    },
+    {
+        "team": "Twins",
+        "city": "Minnesota",
+        "league": "MLB",
+        "primaryColor": "#002B5C",
+        "secondaryColor": "#D31145",
+        "tertiaryColor": "#B9975B",
+        "logo": "https://teamcolorcodes.com/wp-content/uploads/2022/05/Minnesota-Twins-Logo-300x300.png"
+    },
+    {
+        "team": "Mets",
+        "city": "New York",
+        "league": "MLB",
+        "primaryColor": "#002D72",
+        "secondaryColor": "#FF5910",
+        "tertiaryColor": "#FFFFFF",
+        "logo": "https://teamcolorcodes.com/wp-content/uploads/2022/05/New-York-Mets-Logo-300x300.png"
+    },
+    {
+        "team": "Yankees",
+        "city": "New York",
+        "league": "MLB",
+        "primaryColor": "#003087",
+        "secondaryColor": "#E4002C",
+        "tertiaryColor": "#0C2340",
+        "logo": "https://teamcolorcodes.com/wp-content/uploads/2022/05/New-York-Yankees-Logo-271x300.png"
+    },
+    {
+        "team": "Athletics",
+        "city": "Oakland",
+        "league": "MLB",
+        "primaryColor": "#003831",
+        "secondaryColor": "#EFB21E",
+        "tertiaryColor": "#A2AAAD",
+        "logo": "https://teamcolorcodes.com/wp-content/uploads/2022/05/Oakland-Athletics-Logo-300x300.png"
+    },
+    {
+        "team": "Phillies",
+        "city": "Philadelphia",
+        "league": "MLB",
+        "primaryColor": "#E81828",
+        "secondaryColor": "#002D72",
+        "tertiaryColor": "#FFFFFF",
+        "logo": "https://teamcolorcodes.com/wp-content/uploads/2022/05/Philadelphia-Phillies-Logo-300x266.png"
+    },
+    {
+        "team": "Pirates",
+        "city": "Pittsburgh",
+        "league": "MLB",
+        "primaryColor": "#27251F",
+        "secondaryColor": "#FDB827",
+        "tertiaryColor": "#FFFFFF",
+        "logo": "https://teamcolorcodes.com/wp-content/uploads/2022/05/Pittsburgh-Pirates-Logo-214x300.png"
+    },
+    {
+        "team": "Padres",
+        "city": "San Diego",
+        "league": "MLB",
+        "primaryColor": "#2F241D",
+        "secondaryColor": "#FFC425",
+        "tertiaryColor": "#FFFFFF",
+        "logo": "https://teamcolorcodes.com/wp-content/uploads/2022/05/San-Diego-Padres-Logo-239x300.png"
+    },
+    {
+        "team": "Giants",
+        "city": "San Francisco",
+        "league": "MLB",
+        "primaryColor": "#FD5A1E",
+        "secondaryColor": "#27251F",
+        "tertiaryColor": "#EFD19F",
+        "logo": "https://teamcolorcodes.com/wp-content/uploads/2022/05/San-Francisco-Giants-Logo-300x160.png"
+    },
+    {
+        "team": "Mariners",
+        "city": "Seattle",
+        "league": "MLB",
+        "primaryColor": "#0C2C56",
+        "secondaryColor": "#005C5C",
+        "tertiaryColor": "#C4CED4",
+        "logo": "https://teamcolorcodes.com/wp-content/uploads/2022/05/Seattle-Mariners-Logo-300x300.png"
+    },
+    {
+        "team": "Cardinals",
+        "city": "St. Louis",
+        "league": "MLB",
+        "primaryColor": "#C41E3A",
+        "secondaryColor": "#0C2340",
+        "tertiaryColor": "#FEDB00",
+        "logo": "https://teamcolorcodes.com/wp-content/uploads/2022/05/St.-Louis-Cardinals-Logo-300x286.png"
+    },
+    {
+        "team": "Rays",
+        "city": "Tampa Bay",
+        "league": "MLB",
+        "primaryColor": "#092C5C",
+        "secondaryColor": "#8FBCE6",
+        "tertiaryColor": "#F5D130",
+        "logo": "https://teamcolorcodes.com/wp-content/uploads/2022/05/Tampa-Bay-Rays-Logo-300x152.png"
+    },
+    {
+        "team": "Rangers",
+        "city": "Texas",
+        "league": "MLB",
+        "primaryColor": "#003278",
+        "secondaryColor": "#C0111F",
+        "tertiaryColor": "#FFFFFF",
+        "logo": "https://teamcolorcodes.com/wp-content/uploads/2022/05/Texas-Rangers-Logo-300x300.png"
+    },
+    {
+        "team": "Jays",
+        "city": "Toronto Blue",
+        "league": "MLB",
+        "primaryColor": "#134A8E",
+        "secondaryColor": "#1D2D5C",
+        "tertiaryColor": "#E8291C",
+        "logo": "https://teamcolorcodes.com/wp-content/uploads/2022/05/Toronto-Blue-Jays-Logo-300x239.png"
+    },
+    {
+        "team": "Nationals",
+        "city": "Washington",
+        "league": "MLB",
+        "primaryColor": "#AB0003",
+        "secondaryColor": "#14225A",
+        "tertiaryColor": "#FFFFFF",
+        "logo": "https://teamcolorcodes.com/wp-content/uploads/2022/05/Washington-Nationals-Logo-300x300.png"
     }
 ]
