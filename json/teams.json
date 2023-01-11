@@ -1988,7 +1988,7 @@
     {
         "team": "Norwich City",
         "city": "",
-        "league": "EPL",
+        "league": "EFL",
         "logo": "https://sportsfancovers.com/wp-content/uploads/2020/04/Norwich_City-268x300.png",
         "primaryColor": "#00A650",
         "secondaryColor": "#FFFFFF"
@@ -2039,6 +2039,164 @@
         "league": "EPL",
         "logo": "https://sportsfancovers.com/wp-content/uploads/2020/04/Wolverhampton_Wanderers-300x300.png",
         "primaryColor": "#FDB913",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Fire",
+        "city": "Chicago",
+        "league": "MLS",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/07/Chicago_Fire_FC_logo_2019-1-1.png",
+        "primaryColor": "C2002F",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Rapids",
+        "city": "Colorado",
+        "league": "MLS",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/07/Colorado_Rapids_logo-1-1.png",
+        "primaryColor": "#862633",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "United",
+        "city": "D.C.",
+        "league": "MLS",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/07/D.C._United_logo_2016-1-1.png",
+        "primaryColor": "#231F20",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "FC Dallas",
+        "city": "",
+        "league": "MLS",
+        "primaryColor": "#D11241",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Dynamo",
+        "city": "Houston",
+        "league": "MLS",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/07/Houston_Dynamo_logo-1.png",
+        "primaryColor": "#F4911E",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Galaxy",
+        "city": "LA",
+        "league": "MLS",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/07/Los_Angeles_Galaxy_logo-1.png",
+        "primaryColor": "#00245D",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Impact",
+        "city": "Montreal",
+        "league": "MLS",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/07/Montreal_Impact_MLS_logo-1.png",
+        "primaryColor": "#2B63AD",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Revolution",
+        "city": "New England",
+        "league": "MLS",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/07/New_England_Revolution_logo-1-300x197.png",
+        "primaryColor": "#E51938",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Bulls",
+        "city": "New York Red",
+        "league": "MLS",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/07/New_York_Red_Bulls_logo-1.png",
+        "primaryColor": "#E31351",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Union",
+        "city": "Philadelphia",
+        "league": "MLS",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/03/http___pluspng.com_img-png_logo-philadelphia-union-png-philadelphia-union-2010-svg-1024-300x300.png",
+        "primaryColor": "#002D55",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Timbers",
+        "city": "Portland",
+        "league": "MLS",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/07/Portland_Timbers_logo-1-1.png",
+        "primaryColor": "#00482B",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Lake",
+        "city": "Real Salt",
+        "league": "MLS",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/07/Real_Salt_Lake_2010-1-1.png",
+        "primaryColor": "#B30838",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Earthquakes",
+        "city": "San Jose",
+        "league": "MLS",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/07/San_Jose_Earthquakes_2014-1-1.png",
+        "primaryColor": "#221F1F",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "City",
+        "city": "Sporting Kansas",
+        "league": "MLS",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/07/Sporting_Kansas_City_logo-1-1.png",
+        "primaryColor": "#93B1D7",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Toronto FC",
+        "city": "",
+        "league": "MLS",
+        "primaryColor": "#AB1E2D",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Milan",
+        "city": "A.C.",
+        "league": "SA",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/04/Logo_of_AC_Milan-186x300.png",
+        "primaryColor": "#FB090B",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Roma",
+        "city": "A.S.",
+        "league": "SA",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/04/AS_Roma_logo_2017-231x300.png",
+        "primaryColor": "#970A2C",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Milan",
+        "city": "Inter",
+        "league": "SA",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/04/FC_Internazionale_Milano_2014.png",
+        "primaryColor": "#0267AB",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Celtic",
+        "city": "",
+        "league": "SP",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/05/Celtic_FC-300x300.png",
+        "primaryColor": "#018749",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Rangers",
+        "city": "",
+        "league": "SP",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/05/Rangers_FC-300x300.png",
+        "primaryColor": "#1B458F",
         "secondaryColor": "#FFFFFF"
     }
 ]
