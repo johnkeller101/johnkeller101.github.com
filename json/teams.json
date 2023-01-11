@@ -4,7 +4,7 @@
         "city": "Atlanta",
         "league": "NBA",
         "primaryColor": "#E03A3E",
-        "secondaryColor": "#C1D32F",
+        "secondaryColor": "#ffffff",
         "tertiaryColor": "#26282A",
         "logo": "https://teamcolorcodes.com/wp-content/uploads/2021/08/Atlanta-Hawks-Logo-300x300.png",
         "about": "The Atlanta Hawks logo symbolizes the nickname of the team (Hawks)."
@@ -62,7 +62,7 @@
         "city": "Dallas",
         "league": "NBA",
         "primaryColor": "#00538C",
-        "secondaryColor": "#002B5E",
+        "secondaryColor": "#ffffff",
         "tertiaryColor": "#B8C4CA",
         "logo": "https://teamcolorcodes.com/wp-content/uploads/2021/08/Dallas-Mavericks-Logo-288x300.png",
         "about": "The Dallas Mavericks logo symbolizes the state of Texas (The Lone Star State) and its history of horse rearing."
@@ -82,7 +82,7 @@
         "city": "Detroit",
         "league": "NBA",
         "primaryColor": "#C8102E",
-        "secondaryColor": "#1D42BA",
+        "secondaryColor": "#ffffff",
         "tertiaryColor": "#BEC0C2",
         "logo": "https://teamcolorcodes.com/wp-content/uploads/2021/08/Detroit-Pistons-Logo-300x300.png",
         "about": "The Detroit Pistons logo symbolizes basketball as well as the team name."
@@ -103,7 +103,7 @@
         "primaryColor": "#CE1141",
         "secondaryColor": "#000000",
         "tertiaryColor": "#C4CED4",
-        "logo": "https://teamcolorcodes.com/wp-content/uploads/2021/08/Houston-Rockets-Logo-226x300.png",
+        "logo": "https://cdn.bleacherreport.net/images/team_logos/328x328/houston_rockets.png",
         "about": "The Houston Rockets logo symbolizes a stylized rocket with the team name next to it."
     },
     {
@@ -121,7 +121,7 @@
         "city": "Los Angeles",
         "league": "NBA",
         "primaryColor": "#C8102E",
-        "secondaryColor": "#1D428A",
+        "secondaryColor": "#000000",
         "tertiaryColor": "#BEC0C2",
         "logo": "https://teamcolorcodes.com/wp-content/uploads/2021/08/Los-Angeles-Clippers-Logo-300x228.png",
         "about": "The Los Angeles Clippers logo symbolizes the team name with a basketball on top of it."
@@ -151,7 +151,7 @@
         "city": "Miami",
         "league": "NBA",
         "primaryColor": "#98002E",
-        "secondaryColor": "#F9A01B",
+        "secondaryColor": "#000000",
         "tertiaryColor": "#000000",
         "logo": "https://teamcolorcodes.com/wp-content/uploads/2021/08/Miami-Heat-Logo-217x300.png",
         "about": "The Miami Heat logo symbolizes a basketball on fire (red color), going through a hoop."
@@ -221,7 +221,7 @@
         "city": "Philadelphia",
         "league": "NBA",
         "primaryColor": "#006BB6",
-        "secondaryColor": "#ED174C",
+        "secondaryColor": "#002B5C",
         "tertiaryColor": "#002B5C",
         "logo": "https://teamcolorcodes.com/wp-content/uploads/2021/08/Philadelphia-76ers-Logo-300x300.png",
         "about": "The Philadelphia 76ers logo symbolizes the team name as well as the 13 colonies that signed the Declaration of Independence."
@@ -250,7 +250,7 @@
         "city": "Sacramento",
         "league": "NBA",
         "primaryColor": "#5A2D81",
-        "secondaryColor": "#63727A",
+        "secondaryColor": "#ffffff",
         "tertiaryColor": "#000000",
         "logo": "https://teamcolorcodes.com/wp-content/uploads/2021/08/Sacramento-Kings-Logo-263x300.png",
         "about": "The Sacramento Kings logo symbolizes a visual representation of the team name (a crown) with the team name at the center and a basketball on the bottom."
@@ -269,7 +269,7 @@
         "city": "Toronto",
         "league": "NBA",
         "primaryColor": "#CE1141",
-        "secondaryColor": "#000000",
+        "secondaryColor": "#ffffff",
         "tertiaryColor": "#A1A1A4",
         "logo": "https://teamcolorcodes.com/wp-content/uploads/2021/08/Toronto-Raptors-Logo-300x300.png",
         "about": "The Toronto Raptors logo symbolizes a raptor claw mark and the sport of basketball."
@@ -279,7 +279,7 @@
         "city": "Utah",
         "league": "NBA",
         "primaryColor": "#002B5C",
-        "secondaryColor": "#00471B",
+        "secondaryColor": "#ffffff",
         "tertiaryColor": "#F9A01B",
         "logo": "https://teamcolorcodes.com/wp-content/uploads/2021/08/Utah-Jazz-Logo-300x130.png",
         "about": "The Utah Jazz logo symbolizes the team name and a music note replacing the letter J."
@@ -299,7 +299,7 @@
         "city": "Baltimore",
         "league": "NFL",
         "primaryColor": "#241773",
-        "secondaryColor": "#000000",
+        "secondaryColor": "#ffffff",
         "tertiaryColor": "#9E7C0C",
         "logo": "https://teamcolorcodes.com/wp-content/uploads/2021/12/Baltimore-Ravens-Logo-300x145.png",
         "about": "The Baltimore Ravens logo symbolizes the raven bird which is the inspiration for the team name."
@@ -337,7 +337,7 @@
         "city": "Buffalo",
         "league": "NFL",
         "primaryColor": "#00338D",
-        "secondaryColor": "#C60C30",
+        "secondaryColor": "#000000",
         "logo": "https://teamcolorcodes.com/wp-content/uploads/2021/12/Buffalo-Bills-Logo-300x200.png",
         "about": "The Buffalo Bills logo symbolizes a buffalo which is the namesake of the city that the team plays in."
     },
@@ -366,7 +366,7 @@
         "city": "New York",
         "league": "NFL",
         "primaryColor": "#125740",
-        "secondaryColor": "#000000",
+        "secondaryColor": "#ffffff",
         "tertiaryColor": "#FFFFFF",
         "logo": "https://teamcolorcodes.com/wp-content/uploads/2021/12/New-York-Jets-Logo-300x179.png",
         "about": "The New York Jets logo symbolizes the team name and the sport of football."
@@ -488,7 +488,7 @@
         "city": "Dallas",
         "league": "NFL",
         "primaryColor": "#003594",
-        "secondaryColor": "#041E42",
+        "secondaryColor": "#ffffff",
         "tertiaryColor": "#869397",
         "logo": "https://teamcolorcodes.com/wp-content/uploads/2021/12/Dallas-Cowboys-Logo-300x285.png",
         "about": "The Dallas Cowboys logo symbolizes the state of Texas (the Lone Star State)."
@@ -527,7 +527,7 @@
         "city": "Atlanta",
         "league": "NFL",
         "primaryColor": "#A71930",
-        "secondaryColor": "#000000",
+        "secondaryColor": "#ffffff",
         "tertiaryColor": "#A5ACAF",
         "logo": "https://teamcolorcodes.com/wp-content/uploads/2021/12/Atlanta-Falcons-Logo-300x284.png",
         "about": "The Atlanta Falcons logo symbolizes a charging falcon, the inspiration for the team name."
@@ -556,7 +556,7 @@
         "city": "Tampa Bay",
         "league": "NFL",
         "primaryColor": "#D50A0A",
-        "secondaryColor": "#FF7900",
+        "secondaryColor": "#FFFFFF",
         "tertiaryColor": "#FF7900",
         "logo": "https://teamcolorcodes.com/wp-content/uploads/2021/12/Tampa-Bay-Buccaneers-Logo-300x267.png",
         "about": "The Tampa Bay Buccaneers logo symbolizes a pirate skull, swords, flag, and the sport of football."
@@ -635,7 +635,7 @@
         "city": "Boston",
         "league": "MLB",
         "primaryColor": "#BD3039",
-        "secondaryColor": "#0C2340",
+        "secondaryColor": "#FFFFFF",
         "tertiaryColor": "#FFFFFF",
         "logo": "https://teamcolorcodes.com/wp-content/uploads/2022/05/Boston-Red-Sox-Logo-300x294.png",
         "about": "The Boston Red Sox logo symbolizes a pair of red socks which are the inspiration for the team name."
@@ -645,7 +645,7 @@
         "city": "Chicago",
         "league": "MLB",
         "primaryColor": "#0E3386",
-        "secondaryColor": "#CC3433",
+        "secondaryColor": "#ffffff",
         "tertiaryColor": "#FFFFFF",
         "logo": "https://teamcolorcodes.com/wp-content/uploads/2022/05/Chicago-Cubs-Logo-298x300.png",
         "about": "The Chicago Cubs logo symbolizes the stylized team name (Cubs) in a white circle with a thick blue outline."
@@ -665,7 +665,7 @@
         "city": "Cincinnati",
         "league": "MLB",
         "primaryColor": "#C6011F",
-        "secondaryColor": "#000000",
+        "secondaryColor": "#ffffff",
         "tertiaryColor": "#FFFFFF",
         "logo": "https://teamcolorcodes.com/wp-content/uploads/2022/05/Cincinnati-Reds-Logo-300x204.png",
         "about": "The Cincinnati Reds logo symbolizes a wishbone C that pays tribute to Cincinnati as well as the team name (Reds) written inside it."
@@ -687,7 +687,7 @@
         "primaryColor": "#333366",
         "secondaryColor": "#C4CED4",
         "tertiaryColor": "#131413",
-        "logo": "https://teamcolorcodes.com/wp-content/uploads/2022/05/Colorado-Rockies-Logo-249x300.png",
+        "logo": "https://purepng.com/public/uploads/large/colorado-rockies-logo-f9k.png",
         "about": "The Colorado Rockies logo symbolizes a monogram consisting of the Colorado Rockies name initials (C and R)."
     },
     {
@@ -707,7 +707,7 @@
         "primaryColor": "#002D62",
         "secondaryColor": "#EB6E1F",
         "tertiaryColor": "#F4911E",
-        "logo": "https://teamcolorcodes.com/wp-content/uploads/2022/05/Houston-Astros-Logo-300x300.png",
+        "logo": "https://cdn.bleacherreport.net/images/team_logos/328x328/kansas_city_royals.png",
         "about": "The Houston Astros logo symbolizes the initial of the team\u2019s home city (Houston) placed on a star that pays tribute to the city flag."
     },
     {
@@ -745,7 +745,7 @@
         "city": "Miami",
         "league": "MLB",
         "primaryColor": "#00A3E0",
-        "secondaryColor": "#EF3340",
+        "secondaryColor": "#000000",
         "tertiaryColor": "#41748D",
         "logo": "https://teamcolorcodes.com/wp-content/uploads/2022/05/Miami-Marlins-Logo-300x292.png",
         "about": "The Miami Marlins logo symbolizes the marlin fish which inspired the team name."
@@ -824,10 +824,10 @@
         "team": "Padres",
         "city": "San Diego",
         "league": "MLB",
-        "primaryColor": "#2F241D",
-        "secondaryColor": "#FFC425",
+        "primaryColor": "#FFC425",
+        "secondaryColor": "#2F241D",
         "tertiaryColor": "#FFFFFF",
-        "logo": "https://teamcolorcodes.com/wp-content/uploads/2022/05/San-Diego-Padres-Logo-239x300.png",
+        "logo": "https://b.fssta.com/uploads/application/mlb/team-logos/Padres-alternate.vresize.350.350.medium.1.png",
         "about": "The San Diego Padres logo symbolizes a monogram consisting of San Diego city initials (S and D)."
     },
     {
@@ -845,7 +845,7 @@
         "city": "Seattle",
         "league": "MLB",
         "primaryColor": "#0C2C56",
-        "secondaryColor": "#005C5C",
+        "secondaryColor": "#ffffff",
         "tertiaryColor": "#C4CED4",
         "logo": "https://teamcolorcodes.com/wp-content/uploads/2022/05/Seattle-Mariners-Logo-300x300.png",
         "about": "The Seattle Mariners logo symbolizes a baseball and a compass which is a well-known instrument used by mariners (sailors)."
@@ -875,7 +875,7 @@
         "city": "Texas",
         "league": "MLB",
         "primaryColor": "#003278",
-        "secondaryColor": "#C0111F",
+        "secondaryColor": "#FFFFFF",
         "tertiaryColor": "#FFFFFF",
         "logo": "https://teamcolorcodes.com/wp-content/uploads/2022/05/Texas-Rangers-Logo-300x300.png",
         "about": "The Texas Rangers logo symbolizes the state\u2019s initial (capital letter T) on a baseball."
@@ -885,7 +885,7 @@
         "city": "Toronto",
         "league": "MLB",
         "primaryColor": "#134A8E",
-        "secondaryColor": "#1D2D5C",
+        "secondaryColor": "#ffffff",
         "tertiaryColor": "#E8291C",
         "logo": "https://teamcolorcodes.com/wp-content/uploads/2022/05/Toronto-Blue-Jays-Logo-300x239.png",
         "about": "The Toronto Blue Jays logo symbolizes the head of a blue jay which inspired the team name, as well as a red maple leaf, the symbol of Canada."
@@ -895,7 +895,7 @@
         "city": "Washington",
         "league": "MLB",
         "primaryColor": "#AB0003",
-        "secondaryColor": "#14225A",
+        "secondaryColor": "#ffffff",
         "tertiaryColor": "#FFFFFF",
         "logo": "https://teamcolorcodes.com/wp-content/uploads/2022/05/Washington-Nationals-Logo-300x300.png",
         "about": "The Washington Nationals logo symbolizes Washington D.C., the home city of the team (capital letter W)."
@@ -1016,8 +1016,8 @@
         "city": "Wisconsin",
         "league": "NCAAF",
         "logo": "https://sportsfancovers.com/wp-content/uploads/2020/07/Wisconsin_Badgers_logo-1-1.png",
-        "primaryColor": "#C4012F",
-        "secondaryColor": "#FFFFFF"
+        "secondaryColor": "#C4012F",
+        "primaryColor": "#FFFFFF"
     },
     {
         "team": "Sooners",
@@ -1165,7 +1165,7 @@
         "team": "Volunteers",
         "city": "Tennessee",
         "league": "NCAAF",
-        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/07/Tennessee_Volunteers_logo-1-1.png",
+        "logo": "https://content.sportslogos.net/logos/34/861/full/tennessee_volunteers_logo_wordmark_2020_sportslogosnet-6857.png",
         "primaryColor": "#FF8200",
         "secondaryColor": "#FFFFFF"
     },
@@ -1347,7 +1347,7 @@
         "team": "Hoosiers",
         "city": "Indiana",
         "league": "NCAAB",
-        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/07/Indiana_Hoosiers_logo-1-1.png",
+        "logo": "https://cdn.bleacherreport.net/images/team_logos/328x328/indiana_hoosiers_basketball.png",
         "primaryColor": "#990000",
         "secondaryColor": "#FFFFFF"
     },
@@ -1396,14 +1396,21 @@
         "league": "NCAAB",
         "logo": "https://sportsfancovers.com/wp-content/uploads/2020/07/Purdue_Boilermakers_logo-1-1-300x160.png",
         "primaryColor": "#CEB888",
-        "secondaryColor": "#FFFFFF"
+        "secondaryColor": "#000000"
     },
     {
         "team": "Badgers",
         "city": "Wisconsin",
         "league": "NCAAB",
         "logo": "https://sportsfancovers.com/wp-content/uploads/2020/07/Wisconsin_Badgers_logo-1-1.png",
-        "primaryColor": "#C4012F",
+        "secondaryColor": "#C4012F",
+        "primaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Blue Devils",
+        "city": "Duke",
+        "league": "NCAAF",
+        "primaryColor": "#003087",
         "secondaryColor": "#FFFFFF"
     },
     {
@@ -1694,6 +1701,7 @@
         "team": "Blue Jackets",
         "city": "Columbus",
         "league": "NHL",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/06/Columbus_Blue_Jackets_logo-1.png",
         "primaryColor": "#002654",
         "secondaryColor": "#FFFFFF"
     },
@@ -1837,7 +1845,7 @@
         "team": "Lightning",
         "city": "Tampa Bay",
         "league": "NHL",
-        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/06/Tampa_Bay_Lightning_Logo_2011-1.png",
+        "logo": "https://s.yimg.com/cv/apiv2/default/nhl/20210312/500x500/tampa-bay-lightning_wbg.png",
         "primaryColor": "#00205B",
         "secondaryColor": "#FFFFFF"
     },
@@ -1890,8 +1898,8 @@
         "secondaryColor": "#FFFFFF"
     },
     {
-        "team": "Villa",
-        "city": "Aston",
+        "team": "Aston Villa",
+        "city": "",
         "league": "EPL",
         "logo": "https://sportsfancovers.com/wp-content/uploads/2020/04/aston_villa_fc-221x300-1.png",
         "primaryColor": "#670E36",
@@ -1906,8 +1914,8 @@
         "secondaryColor": "#FFFFFF"
     },
     {
-        "team": "Albion",
-        "city": "Brighton & Hove",
+        "team": "Brighton & Hove Albion",
+        "city": "",
         "league": "EPL",
         "logo": "https://sportsfancovers.com/wp-content/uploads/2020/04/Brighton__Hove_Albion_logo.png",
         "primaryColor": "#005DAA",
@@ -1983,7 +1991,7 @@
         "league": "EPL",
         "logo": "https://sportsfancovers.com/wp-content/uploads/2020/04/Newcastle_United_Logo-298x300.png",
         "primaryColor": "#00B6F1",
-        "secondaryColor": "#FFFFFF"
+        "secondaryColor": "#000000"
     },
     {
         "team": "Norwich City",
@@ -2069,6 +2077,7 @@
         "team": "FC Dallas",
         "city": "",
         "league": "MLS",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/07/FC_Dallas_logo-1.png",
         "primaryColor": "#D11241",
         "secondaryColor": "#FFFFFF"
     },
@@ -2105,8 +2114,8 @@
         "secondaryColor": "#FFFFFF"
     },
     {
-        "team": "Bulls",
-        "city": "New York Red",
+        "team": "Red Bulls",
+        "city": "New York",
         "league": "MLS",
         "logo": "https://sportsfancovers.com/wp-content/uploads/2020/07/New_York_Red_Bulls_logo-1.png",
         "primaryColor": "#E31351",
@@ -2129,8 +2138,8 @@
         "secondaryColor": "#FFFFFF"
     },
     {
-        "team": "Lake",
-        "city": "Real Salt",
+        "team": "Real Salt Lake",
+        "city": "",
         "league": "MLS",
         "logo": "https://sportsfancovers.com/wp-content/uploads/2020/07/Real_Salt_Lake_2010-1-1.png",
         "primaryColor": "#B30838",
@@ -2145,8 +2154,32 @@
         "secondaryColor": "#FFFFFF"
     },
     {
-        "team": "City",
-        "city": "Sporting Kansas",
+        "team": "City SC",
+        "city": "Columbus",
+        "league": "MLS",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/07/Orlando_City_2014-1.png",
+        "primaryColor": "#61259E",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Crew SC",
+        "city": "Orlando",
+        "league": "MLS",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/07/Columbus_Crew_SC_Logo-1-1.png",
+        "primaryColor": "#000000",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "FC Cincinnati",
+        "city": "",
+        "league": "MLS",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/04/FC_Cincinnati_primary_logo_2018-290x300.png",
+        "primaryColor": "#f05323",
+        "secondaryColor": "#000000"
+    },
+    {
+        "team": "Sporting KC",
+        "city": "",
         "league": "MLS",
         "logo": "https://sportsfancovers.com/wp-content/uploads/2020/07/Sporting_Kansas_City_logo-1-1.png",
         "primaryColor": "#93B1D7",
@@ -2184,7 +2217,7 @@
         "secondaryColor": "#FFFFFF"
     },
     {
-        "team": "Celtic",
+        "team": "Celtic F.C",
         "city": "",
         "league": "SP",
         "logo": "https://sportsfancovers.com/wp-content/uploads/2020/05/Celtic_FC-300x300.png",
@@ -2192,11 +2225,59 @@
         "secondaryColor": "#FFFFFF"
     },
     {
-        "team": "Rangers",
+        "team": "Rangers F.C",
         "city": "",
         "league": "SP",
         "logo": "https://sportsfancovers.com/wp-content/uploads/2020/05/Rangers_FC-300x300.png",
         "primaryColor": "#1B458F",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Tar Heels",
+        "city": "North Carolina",
+        "league": "NCAAF",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/07/North_Carolina_Tar_Heels_logo-1-1.png",
+        "primaryColor": "#7BAFD4",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Tar Heels",
+        "city": "North Carolina",
+        "league": "NCAAB",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/07/North_Carolina_Tar_Heels_logo-1-1.png",
+        "primaryColor": "#7BAFD4",
+        "secondaryColor": "#FFFFFF"
+    }
+    {
+        "team": "Sun Devils",
+        "city": "Arizona State",
+        "league": "NCAAF",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/07/Arizona_State_Sun_Devils_logo-1-1.png",
+        "primaryColor": "#8E0C3A",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Sun Devils",
+        "city": "Arizona State",
+        "league": "NCAAB",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/07/Arizona_State_Sun_Devils_logo-1-1.png",
+        "primaryColor": "#8E0C3A",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Yellow Jackets",
+        "city": "Georgia Tech",
+        "league": "NCAAF",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/07/Georgia_Tech_Yellow_Jackets_logo-1-1.png",
+        "primaryColor": "#B3A369",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Yellow Jackets",
+        "city": "Georgia Tech",
+        "league": "NCAAB",
+        "logo": "https://sportsfancovers.com/wp-content/uploads/2020/07/Georgia_Tech_Yellow_Jackets_logo-1-1.png",
+        "primaryColor": "#B3A369",
         "secondaryColor": "#FFFFFF"
     }
 ]
