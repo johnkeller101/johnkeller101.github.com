@@ -337,7 +337,7 @@
         "city": "Buffalo",
         "league": "NFL",
         "primaryColor": "#00338D",
-        "secondaryColor": "#000000",
+        "secondaryColor": "#ffffff",
         "logo": "https://teamcolorcodes.com/wp-content/uploads/2021/12/Buffalo-Bills-Logo-300x200.png",
         "about": "The Buffalo Bills logo symbolizes a buffalo which is the namesake of the city that the team plays in."
     },
@@ -893,7 +893,7 @@
         "city": "Toronto",
         "league": "MLB",
         "primaryColor": "#134A8E",
-        "secondaryColor": "#ffffff",
+        "secondaryColor": "#FFFFFF",
         "tertiaryColor": "#E8291C",
         "logo": "https://teamcolorcodes.com/wp-content/uploads/2022/05/Toronto-Blue-Jays-Logo-300x239.png",
         "about": "The Toronto Blue Jays logo symbolizes the head of a blue jay which inspired the team name, as well as a red maple leaf, the symbol of Canada."
@@ -1024,8 +1024,8 @@
         "city": "Wisconsin",
         "league": "NCAAF",
         "logo": "https://sportsfancovers.com/wp-content/uploads/2020/07/Wisconsin_Badgers_logo-1-1.png",
-        "secondaryColor": "#C4012F",
-        "primaryColor": "#FFFFFF"
+        "secondaryColor": "#FFFFFF",
+        "primaryColor": "#C4012F"
     },
     {
         "team": "Sooners",
@@ -1411,15 +1411,24 @@
         "city": "Wisconsin",
         "league": "NCAAB",
         "logo": "https://sportsfancovers.com/wp-content/uploads/2020/07/Wisconsin_Badgers_logo-1-1.png",
-        "secondaryColor": "#C4012F",
-        "primaryColor": "#FFFFFF"
+        "secondaryColor": "#FFFFFF",
+        "primaryColor": "#C4012F"
     },
     {
         "team": "Blue Devils",
         "city": "Duke",
         "league": "NCAAF",
         "primaryColor": "#003087",
-        "secondaryColor": "#FFFFFF"
+        "secondaryColor": "#FFFFFF",
+        "logo": "https://teamcolorcodes.com/wp-content/uploads/2016/11/duke_blue_devils_logo-1-300x268.png?ezimgfmt=ng:webp/ngcb9"
+    },
+    {
+        "team": "Blue Devils",
+        "city": "Duke",
+        "league": "NCAAB",
+        "primaryColor": "#003087",
+        "secondaryColor": "#FFFFFF",
+        "logo": "https://teamcolorcodes.com/wp-content/uploads/2016/11/duke_blue_devils_logo-1-300x268.png?ezimgfmt=ng:webp/ngcb9"
     },
     {
         "team": "Wildcats",
@@ -1916,7 +1925,7 @@
     {
         "team": "Bournemouth",
         "city": "",
-        "league": "EPL",
+        "league": "EFL",
         "logo": "https://sportsfancovers.com/wp-content/uploads/2020/04/AFC_Bournemouth_logo_crest-copy-228x300.png",
         "primaryColor": "#BA0F13",
         "secondaryColor": "#FFFFFF"
@@ -2255,7 +2264,7 @@
         "logo": "https://sportsfancovers.com/wp-content/uploads/2020/07/North_Carolina_Tar_Heels_logo-1-1.png",
         "primaryColor": "#7BAFD4",
         "secondaryColor": "#FFFFFF"
-    }
+    },
     {
         "team": "Sun Devils",
         "city": "Arizona State",
@@ -2287,5 +2296,29 @@
         "logo": "https://sportsfancovers.com/wp-content/uploads/2020/07/Georgia_Tech_Yellow_Jackets_logo-1-1.png",
         "primaryColor": "#B3A369",
         "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Juventus",
+        "city": "",
+        "league": "SA",
+        "logo": "https://teamcolorcodes.com/wp-content/uploads/2018/05/juventus_color_codes-154x300.png?ezimgfmt=ngcb9/notWebP",
+        "primaryColor": "#000000",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Atlético Madrid",
+        "city": "",
+        "league": "LALIGA",
+        "logo": "https://teamcolorcodes.com/wp-content/uploads/2017/12/athletico_madrid_logo_colors.jpg?ezimgfmt=ng:webp/ngcb9",
+        "primaryColor": "#CB3524",
+        "secondaryColor": "#FFFFFF"
+    },
+    {
+        "team": "Crimson Tide",
+        "city": "Alabama",
+        "league": "NCAAF",
+        "primaryColor": "#9E1B32",
+        "secondaryColor": "#FFFFFF",
+        "logo": "https://cdn.bleacherreport.net/images/team_logos/328x328/alabama_crimson_tide_football.png"
     }
 ]
