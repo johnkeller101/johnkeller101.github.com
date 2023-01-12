@@ -171,7 +171,7 @@
         "city": "Minnesota",
         "league": "NBA",
         "primaryColor": "#0C2340",
-        "secondaryColor": "#236192",
+        "secondaryColor": "#ffffff",
         "tertiaryColor": "#9EA2A2",
         "logo": "https://teamcolorcodes.com/wp-content/uploads/2021/08/Minnesota-Timberwolves-Logo-300x300.png",
         "about": "The Minnesota Timberwolves logo symbolizes a howling wolf with a basketball behind it and the team name above it."
@@ -406,7 +406,7 @@
         "primaryColor": "#0C2340",
         "secondaryColor": "#4B92DB",
         "tertiaryColor": "#C8102E",
-        "logo": "https://teamcolorcodes.com/wp-content/uploads/2021/12/Tennessee-Titans-Logo-300x213.png",
+        "logo": "https://1000logos.net/wp-content/uploads/2018/07/Tennessee-Titans-Logo-640x400.png",
         "about": "The Tennessee Titans logo symbolizes a shield, a sword, and a comet."
     },
     {
@@ -460,7 +460,7 @@
         "city": "Detroit",
         "league": "NFL",
         "primaryColor": "#0076B6",
-        "secondaryColor": "#B0B7BC",
+        "secondaryColor": "#FFFFFF",
         "tertiaryColor": "#000000",
         "logo": "https://teamcolorcodes.com/wp-content/uploads/2021/12/Detroit-Lions-Logo-300x229.png",
         "about": "The Detroit Lions logo symbolizes a charging lion\u2019s silhouette (inspired by the team name)."
@@ -599,6 +599,14 @@
         "tertiaryColor": "#A5ACAF",
         "logo": "https://teamcolorcodes.com/wp-content/uploads/2021/12/Seattle-Seahawks-Logo-300x133.png",
         "about": "The Seattle Seahawks logo symbolizes a fierce-looking osprey (sea hawk), the inspiration for the team name."
+    },
+    {
+        "team": "Seahawks",
+        "city": "Kraken",
+        "league": "NHL",
+        "primaryColor": "#001628",
+        "secondaryColor": "#99D9D9",
+        "logo": "https://teamcolorcodes.com/wp-content/uploads/2020/07/Seattle-Kraken-Logo.png?ezimgfmt=rs:363x456/rscb9/ngcb9/notWebP"
     },
     {
         "team": "Diamondbacks",
